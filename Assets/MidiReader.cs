@@ -20,7 +20,7 @@ public class MidiReader : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string midiFilePath = Application.dataPath + "/midi.midi";
+        string midiFilePath = Application.dataPath + "/ssgrl.mid";
         ReadMidi2(midiFilePath);
     }
 
@@ -110,6 +110,7 @@ public class MidiReader : MonoBehaviour
         Console.WriteLine("MIDI data successfully written to " + jsonOutputPath);
     }
 
+    //写出的json格式和python的一样
     static void ReadMidi2(string midiFilePath)
     {
         var midiFile = new MidiFile(midiFilePath, false);
@@ -117,6 +118,9 @@ public class MidiReader : MonoBehaviour
         CustomTrack customTrack = new CustomTrack();
         JsonSong jSong = new JsonSong();
         jSong.Name = Path.GetFileNameWithoutExtension(midiFilePath);
+
+        Debug.Log("TrackCount: "+midiFile.Events.Tracks);
+
         foreach (var track in midiFile.Events)
         {
             List<CustomNote> notes = new List<CustomNote>();
@@ -201,11 +205,11 @@ public class MidiReader : MonoBehaviour
 
 public class CustomNote
 {
-    //[JsonProperty(Order = 2)]
+    [JsonProperty(Order = 2)]
     public int NoteNumber = 0;
-    //[JsonProperty(Order = 3)]
+    [JsonProperty(Order = 3)]
     public long Start = 0;
-    //[JsonProperty(Order = 1)]
+    [JsonProperty(Order = 1)]
     public long End = 0;
 
     public CustomNote(int _noteNum, long _start, long _end)
