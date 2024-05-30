@@ -1,4 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -123,7 +128,32 @@ public class MidiPlayer : MonoBehaviour
 		MidiNotes = _midi.GetNotes();
 		_noteIndex = 0;
 
-		OnPlayTrack.Invoke();
+        List<MidiNote> noteList = MidiNotes.ToList();
+        noteList.Sort((a, b) => a.StartTime.CompareTo(b.StartTime));
+
+		List<CustomNote> cNotes = GetComponent<MidiReader>().GetNotes();
+
+		{
+            Debug.Log($"Count :{cNotes.Count},{noteList.Count}");
+            for (int i = 0; i < cNotes.Count; i++)
+			{
+				if (cNotes[i].StartTime != noteList[i].StartTime && cNotes[i].EndTime != noteList[i].EndTime &&
+
+					cNotes[i].NoteNumber != noteList[i].NoteNumber)
+				{
+					Debug.Log("not same note id: " + i);
+				}
+				else
+					Debug.Log("same");
+			}
+			Debug.Log("compare end");
+		}
+
+        //string jsonOutputPath = Path.Combine(Application.dataPath, "midi2.json");
+        //Directory.CreateDirectory(Path.GetDirectoryName(jsonOutputPath));
+        //File.WriteAllText(jsonOutputPath, JsonConvert.SerializeObject(noteList, Formatting.Indented));
+
+        OnPlayTrack.Invoke();
 	}
 
 	[ContextMenu("Preset MIDI")]
@@ -136,8 +166,7 @@ public class MidiPlayer : MonoBehaviour
 #endif
 		_midi = new MidiFileInspector(_path);
 		MidiNotes = _midi.GetNotes();
-		
-		_preset = true;
+        _preset = true;
 	}
 
 	[ContextMenu("Clear MIDI")]

@@ -17,11 +17,11 @@ using Formatting = Newtonsoft.Json.Formatting;
 
 public class MidiReader : MonoBehaviour
 {
+    public JsonSong jSong;
     // Start is called before the first frame update
     void Start()
     {
-        string midiFilePath = Application.dataPath + "/ssgrl.mid";
-        ReadMidi2(midiFilePath);
+        
     }
 
     // Update is called once per frame
@@ -30,9 +30,22 @@ public class MidiReader : MonoBehaviour
         
     }
 
+    public List<CustomNote> GetNotes()
+    {
+        string midiFilePath = Application.streamingAssetsPath + "/MIDI/midi.mid";
+        ReadMidi2(midiFilePath);
+        List<CustomNote> noteList = new List<CustomNote>();
+        foreach (var item in jSong.Tracks)
+        {
+            noteList.AddRange(item.Notes);
+        }
+        noteList.Sort((a, b) => a.StartTime.CompareTo(b.StartTime));
+        return noteList;
+    }
+
     //下面两个方案读取结果一样
-    
-    static void ReadMidi(string midiFilePath)
+
+    void ReadMidi(string midiFilePath)
     {
         var midiFile = new MidiFile(midiFilePath, false);
         var tracks = new List<Dictionary<string, object>>();
@@ -111,12 +124,12 @@ public class MidiReader : MonoBehaviour
     }
 
     //写出的json格式和python的一样
-    static void ReadMidi2(string midiFilePath)
+    void ReadMidi2(string midiFilePath)
     {
         var midiFile = new MidiFile(midiFilePath, false);
         //var tracks = new List<Dictionary<string, object>>();
         CustomTrack customTrack = new CustomTrack();
-        JsonSong jSong = new JsonSong();
+        jSong = new JsonSong();
         jSong.Name = Path.GetFileNameWithoutExtension(midiFilePath);
 
         Debug.Log("TrackCount: "+midiFile.Events.Tracks);
@@ -153,7 +166,6 @@ public class MidiReader : MonoBehaviour
                 else if (midiEvent.CommandCode == MidiCommandCode.NoteOff)
                 {
                     NoteEvent noteOff = (NoteEvent)midiEvent;
-
                     if (openNotes.TryGetValue(noteOff.NoteNumber, out int startTime))
                     {
                         notes.Add(new CustomNote(noteOff.NoteNumber, startTime, (int)noteOff.AbsoluteTime));
@@ -171,7 +183,7 @@ public class MidiReader : MonoBehaviour
 
             if (notes.Count > 0)
             {
-                notes.Sort((a, b) => a.Start.CompareTo(b.Start));
+                notes.Sort((a, b) => a.StartTime.CompareTo(b.StartTime));
                 customTrack.Notes = notes;
                 jSong.Tracks.Add(customTrack);
                 //tracks.Add(new Dictionary<string, object> { { "notes", notes } });
@@ -208,15 +220,14 @@ public class CustomNote
     [JsonProperty(Order = 2)]
     public int NoteNumber = 0;
     [JsonProperty(Order = 3)]
-    public long Start = 0;
+    public long StartTime = 0;
     [JsonProperty(Order = 1)]
-    public long End = 0;
-
+    public long EndTime = 0;
     public CustomNote(int _noteNum, long _start, long _end)
     {
         NoteNumber = _noteNum;
-        Start = _start;
-        End = _end;
+        StartTime = _start;
+        EndTime = _end;
     }
 }
 
@@ -230,4 +241,5 @@ public class JsonSong
     public string Name = "";
     public List<CustomTrack> Tracks = new List<CustomTrack>();
     public int Tempo = 0;
+
 }

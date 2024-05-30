@@ -1,0 +1,4762 @@
+[
+  {
+    "StartTime": 480,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 941,
+    "Length": 2.13448763,
+    "Velocity": 37,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 484,
+    "Channel": 0,
+    "Note": "E4",
+    "NoteNumber": 52,
+    "EndTime": 944,
+    "Length": 2.12985754,
+    "Velocity": 35,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 498,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 933,
+    "Length": 2.01410437,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 512,
+    "Channel": 0,
+    "Note": "A4",
+    "NoteNumber": 57,
+    "EndTime": 941,
+    "Length": 1.98632371,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 524,
+    "Channel": 0,
+    "Note": "A7",
+    "NoteNumber": 93,
+    "EndTime": 985,
+    "Length": 2.13448763,
+    "Velocity": 75,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 525,
+    "Channel": 0,
+    "Note": "A6",
+    "NoteNumber": 81,
+    "EndTime": 969,
+    "Length": 2.05577564,
+    "Velocity": 56,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 1113,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 1705,
+    "Length": 2.741034,
+    "Velocity": 24,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 1125,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 1690,
+    "Length": 2.61602068,
+    "Velocity": 37,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 1140,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 1672,
+    "Length": 2.46322656,
+    "Velocity": 49,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 1154,
+    "Channel": 0,
+    "Note": "B4",
+    "NoteNumber": 59,
+    "EndTime": 1668,
+    "Length": 2.37988424,
+    "Velocity": 57,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 1169,
+    "Channel": 0,
+    "Note": "B7",
+    "NoteNumber": 95,
+    "EndTime": 1594,
+    "Length": 1.96780324,
+    "Velocity": 74,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 1170,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 1617,
+    "Length": 2.069666,
+    "Velocity": 60,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 1984,
+    "Channel": 0,
+    "Note": "G5",
+    "NoteNumber": 67,
+    "EndTime": 2089,
+    "Length": 0.486163139,
+    "Velocity": 31,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2065,
+    "Channel": 0,
+    "Note": "A5",
+    "NoteNumber": 69,
+    "EndTime": 2161,
+    "Length": 0.444492,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2144,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 2545,
+    "Length": 1.85668015,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2146,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 2204,
+    "Length": 0.268547267,
+    "Velocity": 30,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2220,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 2252,
+    "Length": 0.148164,
+    "Velocity": 25,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2294,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 2343,
+    "Length": 0.22687614,
+    "Velocity": 29,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2362,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 2418,
+    "Length": 0.259287,
+    "Velocity": 32,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2442,
+    "Channel": 0,
+    "Note": "A4",
+    "NoteNumber": 57,
+    "EndTime": 2495,
+    "Length": 0.245396629,
+    "Velocity": 39,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2514,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 2573,
+    "Length": 0.2731774,
+    "Velocity": 32,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2586,
+    "Channel": 0,
+    "Note": "D6",
+    "NoteNumber": 74,
+    "EndTime": 2685,
+    "Length": 0.4583824,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2588,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 2599,
+    "Length": 0.0509313755,
+    "Velocity": 34,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2664,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 2717,
+    "Length": 0.245396629,
+    "Velocity": 35,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2664,
+    "Channel": 0,
+    "Note": "A5",
+    "NoteNumber": 69,
+    "EndTime": 3096,
+    "Length": 2.000214,
+    "Velocity": 55,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2741,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 2793,
+    "Length": 0.24076651,
+    "Velocity": 39,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2815,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 2848,
+    "Length": 0.152794138,
+    "Velocity": 30,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2885,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 2932,
+    "Length": 0.217615888,
+    "Velocity": 30,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 2963,
+    "Channel": 0,
+    "Note": "A4",
+    "NoteNumber": 57,
+    "EndTime": 3028,
+    "Length": 0.300958127,
+    "Velocity": 36,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3034,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 3118,
+    "Length": 0.3889305,
+    "Velocity": 32,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3103,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 3198,
+    "Length": 0.4398619,
+    "Velocity": 50,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3110,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 3121,
+    "Length": 0.0509313755,
+    "Velocity": 24,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3183,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 3249,
+    "Length": 0.305588275,
+    "Velocity": 37,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3186,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 3856,
+    "Length": 3.10218382,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3258,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 3316,
+    "Length": 0.268547267,
+    "Velocity": 32,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3328,
+    "Channel": 0,
+    "Note": "D#4",
+    "NoteNumber": 51,
+    "EndTime": 3379,
+    "Length": 0.236136377,
+    "Velocity": 36,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3404,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 3469,
+    "Length": 0.300958127,
+    "Velocity": 30,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3475,
+    "Channel": 0,
+    "Note": "E4",
+    "NoteNumber": 52,
+    "EndTime": 3545,
+    "Length": 0.32410875,
+    "Velocity": 32,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3551,
+    "Channel": 0,
+    "Note": "D#4",
+    "NoteNumber": 51,
+    "EndTime": 3605,
+    "Length": 0.250026762,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3619,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 3629,
+    "Length": 0.0463012531,
+    "Velocity": 37,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3691,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 3765,
+    "Length": 0.342629254,
+    "Velocity": 53,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3768,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 3827,
+    "Length": 0.2731774,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3838,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 3986,
+    "Length": 0.6852585,
+    "Velocity": 65,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3841,
+    "Channel": 0,
+    "Note": "D#4",
+    "NoteNumber": 51,
+    "EndTime": 3879,
+    "Length": 0.17594476,
+    "Velocity": 32,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3913,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 3973,
+    "Length": 0.2778075,
+    "Velocity": 38,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3982,
+    "Channel": 0,
+    "Note": "G5",
+    "NoteNumber": 67,
+    "EndTime": 4132,
+    "Length": 0.694518745,
+    "Velocity": 64,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 3984,
+    "Channel": 0,
+    "Note": "E4",
+    "NoteNumber": 52,
+    "EndTime": 4029,
+    "Length": 0.208355635,
+    "Velocity": 36,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4060,
+    "Channel": 0,
+    "Note": "D#4",
+    "NoteNumber": 51,
+    "EndTime": 4114,
+    "Length": 0.250026762,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4132,
+    "Channel": 0,
+    "Note": "A5",
+    "NoteNumber": 69,
+    "EndTime": 4228,
+    "Length": 0.444492,
+    "Velocity": 71,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4134,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 4147,
+    "Length": 0.0601916276,
+    "Velocity": 37,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4209,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 4561,
+    "Length": 1.629804,
+    "Velocity": 69,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4209,
+    "Channel": 0,
+    "Note": "G5",
+    "NoteNumber": 67,
+    "EndTime": 4573,
+    "Length": 1.68536556,
+    "Velocity": 49,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4211,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 4271,
+    "Length": 0.2778075,
+    "Velocity": 39,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4280,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 4289,
+    "Length": 0.0416711271,
+    "Velocity": 38,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4352,
+    "Channel": 0,
+    "Note": "B4",
+    "NoteNumber": 59,
+    "EndTime": 4416,
+    "Length": 0.296328,
+    "Velocity": 52,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4425,
+    "Channel": 0,
+    "Note": "E4",
+    "NoteNumber": 52,
+    "EndTime": 4497,
+    "Length": 0.333369017,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4495,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 4553,
+    "Length": 0.268547267,
+    "Velocity": 50,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4569,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 4658,
+    "Length": 0.412081152,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4640,
+    "Channel": 0,
+    "Note": "B4",
+    "NoteNumber": 59,
+    "EndTime": 4651,
+    "Length": 0.0509313755,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4643,
+    "Channel": 0,
+    "Note": "D6",
+    "NoteNumber": 74,
+    "EndTime": 4670,
+    "Length": 0.125013381,
+    "Velocity": 57,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4645,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 4655,
+    "Length": 0.0463012531,
+    "Velocity": 45,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4721,
+    "Channel": 0,
+    "Note": "A5",
+    "NoteNumber": 69,
+    "EndTime": 5092,
+    "Length": 1.71777642,
+    "Velocity": 73,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4721,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 4773,
+    "Length": 0.24076651,
+    "Velocity": 53,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4723,
+    "Channel": 0,
+    "Note": "C5",
+    "NoteNumber": 60,
+    "EndTime": 5084,
+    "Length": 1.67147517,
+    "Velocity": 58,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4796,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 4848,
+    "Length": 0.24076651,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4862,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 4894,
+    "Length": 0.148164,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 4933,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 5004,
+    "Length": 0.3287389,
+    "Velocity": 55,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5007,
+    "Channel": 0,
+    "Note": "A4",
+    "NoteNumber": 57,
+    "EndTime": 5077,
+    "Length": 0.32410875,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5076,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 5155,
+    "Length": 0.365779877,
+    "Velocity": 45,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5145,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 5169,
+    "Length": 0.111123,
+    "Velocity": 58,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5146,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 5156,
+    "Length": 0.0463012531,
+    "Velocity": 41,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5225,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 5493,
+    "Length": 1.24087358,
+    "Velocity": 70,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5225,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 5297,
+    "Length": 0.333369017,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5226,
+    "Channel": 0,
+    "Note": "B4",
+    "NoteNumber": 59,
+    "EndTime": 5441,
+    "Length": 0.9954769,
+    "Velocity": 56,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5297,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 5354,
+    "Length": 0.263917148,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5369,
+    "Channel": 0,
+    "Note": "E4",
+    "NoteNumber": 52,
+    "EndTime": 5420,
+    "Length": 0.236136377,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5438,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 5519,
+    "Length": 0.375040144,
+    "Velocity": 41,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5511,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 5612,
+    "Length": 0.467642635,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5584,
+    "Channel": 0,
+    "Note": "G5",
+    "NoteNumber": 67,
+    "EndTime": 5738,
+    "Length": 0.7130393,
+    "Velocity": 65,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5586,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 5664,
+    "Length": 0.361149758,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5657,
+    "Channel": 0,
+    "Note": "B4",
+    "NoteNumber": 59,
+    "EndTime": 5668,
+    "Length": 0.0509313755,
+    "Velocity": 35,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5726,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 5922,
+    "Length": 0.907504559,
+    "Velocity": 66,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5730,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 5773,
+    "Length": 0.199095383,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5803,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 5838,
+    "Length": 0.162054375,
+    "Velocity": 39,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5875,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 5927,
+    "Length": 0.24076651,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 5940,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 6016,
+    "Length": 0.351889521,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6019,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 6064,
+    "Length": 0.208355635,
+    "Velocity": 64,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6022,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 6091,
+    "Length": 0.319478631,
+    "Velocity": 45,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6089,
+    "Channel": 0,
+    "Note": "G5",
+    "NoteNumber": 67,
+    "EndTime": 6099,
+    "Length": 0.0463012531,
+    "Velocity": 59,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6091,
+    "Channel": 0,
+    "Note": "E4",
+    "NoteNumber": 52,
+    "EndTime": 6160,
+    "Length": 0.319478631,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6161,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 6573,
+    "Length": 1.90761161,
+    "Velocity": 74,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6163,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 6173,
+    "Length": 0.0463012531,
+    "Velocity": 34,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6232,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 6587,
+    "Length": 1.6436944,
+    "Velocity": 80,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6236,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 6302,
+    "Length": 0.305588275,
+    "Velocity": 50,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6307,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 6330,
+    "Length": 0.106492877,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6380,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 6431,
+    "Length": 0.236136377,
+    "Velocity": 46,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6450,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 6468,
+    "Length": 0.0833422542,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6524,
+    "Channel": 0,
+    "Note": "A4",
+    "NoteNumber": 57,
+    "EndTime": 6586,
+    "Length": 0.287067771,
+    "Velocity": 50,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6596,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 6670,
+    "Length": 0.342629254,
+    "Velocity": 60,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6664,
+    "Channel": 0,
+    "Note": "D7",
+    "NoteNumber": 86,
+    "EndTime": 6676,
+    "Length": 0.0555615,
+    "Velocity": 70,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6667,
+    "Channel": 0,
+    "Note": "D6",
+    "NoteNumber": 74,
+    "EndTime": 6678,
+    "Length": 0.0509313755,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6668,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 6678,
+    "Length": 0.0463012531,
+    "Velocity": 37,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6741,
+    "Channel": 0,
+    "Note": "A5",
+    "NoteNumber": 69,
+    "EndTime": 6994,
+    "Length": 1.17142165,
+    "Velocity": 70,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6741,
+    "Channel": 0,
+    "Note": "A6",
+    "NoteNumber": 81,
+    "EndTime": 7109,
+    "Length": 1.703886,
+    "Velocity": 83,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6741,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 6800,
+    "Length": 0.2731774,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6815,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 6865,
+    "Length": 0.231506258,
+    "Velocity": 55,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6883,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 6916,
+    "Length": 0.152794138,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 6954,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 7043,
+    "Length": 0.412081152,
+    "Velocity": 46,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7028,
+    "Channel": 0,
+    "Note": "A5",
+    "NoteNumber": 69,
+    "EndTime": 7048,
+    "Length": 0.09260251,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7028,
+    "Channel": 0,
+    "Note": "A4",
+    "NoteNumber": 57,
+    "EndTime": 7084,
+    "Length": 0.259287,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7096,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 7182,
+    "Length": 0.398190767,
+    "Velocity": 41,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7098,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 7176,
+    "Length": 0.361149758,
+    "Velocity": 76,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7163,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 7170,
+    "Length": 0.032410875,
+    "Velocity": 69,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7167,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 7179,
+    "Length": 0.0555615,
+    "Velocity": 37,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7210,
+    "Channel": 0,
+    "Note": "D5",
+    "NoteNumber": 62,
+    "EndTime": 7219,
+    "Length": 0.0416711271,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7249,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 7320,
+    "Length": 0.3287389,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7249,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 7829,
+    "Length": 2.68547249,
+    "Velocity": 69,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7252,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 7766,
+    "Length": 2.37988424,
+    "Velocity": 60,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7319,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 7378,
+    "Length": 0.2731774,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7386,
+    "Channel": 0,
+    "Note": "D#4",
+    "NoteNumber": 51,
+    "EndTime": 7423,
+    "Length": 0.171314627,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7456,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 7527,
+    "Length": 0.3287389,
+    "Velocity": 49,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7527,
+    "Channel": 0,
+    "Note": "E4",
+    "NoteNumber": 52,
+    "EndTime": 7595,
+    "Length": 0.3148485,
+    "Velocity": 52,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7595,
+    "Channel": 0,
+    "Note": "D#4",
+    "NoteNumber": 51,
+    "EndTime": 7668,
+    "Length": 0.337999135,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7668,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 7681,
+    "Length": 0.0601916276,
+    "Velocity": 50,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7737,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 7822,
+    "Length": 0.393560648,
+    "Velocity": 57,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7809,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 7869,
+    "Length": 0.2778075,
+    "Velocity": 58,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7877,
+    "Channel": 0,
+    "Note": "F#6",
+    "NoteNumber": 78,
+    "EndTime": 7978,
+    "Length": 0.467642635,
+    "Velocity": 77,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7879,
+    "Channel": 0,
+    "Note": "D#4",
+    "NoteNumber": 51,
+    "EndTime": 7917,
+    "Length": 0.17594476,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7880,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 7913,
+    "Length": 0.152794138,
+    "Velocity": 56,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 7952,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 7997,
+    "Length": 0.208355635,
+    "Velocity": 53,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8019,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 8106,
+    "Length": 0.4028209,
+    "Velocity": 75,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8020,
+    "Channel": 0,
+    "Note": "G5",
+    "NoteNumber": 67,
+    "EndTime": 8096,
+    "Length": 0.351889521,
+    "Velocity": 62,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8023,
+    "Channel": 0,
+    "Note": "E4",
+    "NoteNumber": 52,
+    "EndTime": 8103,
+    "Length": 0.370410025,
+    "Velocity": 56,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8091,
+    "Channel": 0,
+    "Note": "D#4",
+    "NoteNumber": 51,
+    "EndTime": 8159,
+    "Length": 0.3148485,
+    "Velocity": 65,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8163,
+    "Channel": 0,
+    "Note": "A5",
+    "NoteNumber": 69,
+    "EndTime": 8175,
+    "Length": 0.0555615,
+    "Velocity": 70,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8163,
+    "Channel": 0,
+    "Note": "A6",
+    "NoteNumber": 81,
+    "EndTime": 8185,
+    "Length": 0.101862751,
+    "Velocity": 82,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8164,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 8177,
+    "Length": 0.0601916276,
+    "Velocity": 63,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8239,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 8306,
+    "Length": 0.3102184,
+    "Velocity": 60,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8240,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 8579,
+    "Length": 1.56961238,
+    "Velocity": 80,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8240,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 8576,
+    "Length": 1.555722,
+    "Velocity": 58,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8240,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 8569,
+    "Length": 1.52331114,
+    "Velocity": 60,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8306,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 8314,
+    "Length": 0.037041,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8377,
+    "Channel": 0,
+    "Note": "B4",
+    "NoteNumber": 59,
+    "EndTime": 8435,
+    "Length": 0.268547267,
+    "Velocity": 62,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8447,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 8455,
+    "Length": 0.037041,
+    "Velocity": 59,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8518,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 8580,
+    "Length": 0.287067771,
+    "Velocity": 59,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8587,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 8676,
+    "Length": 0.412081152,
+    "Velocity": 63,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8652,
+    "Channel": 0,
+    "Note": "D7",
+    "NoteNumber": 86,
+    "EndTime": 8674,
+    "Length": 0.101862751,
+    "Velocity": 74,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8656,
+    "Channel": 0,
+    "Note": "D6",
+    "NoteNumber": 74,
+    "EndTime": 8665,
+    "Length": 0.0416711271,
+    "Velocity": 56,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8656,
+    "Channel": 0,
+    "Note": "B4",
+    "NoteNumber": 59,
+    "EndTime": 8665,
+    "Length": 0.0416711271,
+    "Velocity": 57,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8658,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 8665,
+    "Length": 0.032410875,
+    "Velocity": 58,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8732,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 8779,
+    "Length": 0.217615888,
+    "Velocity": 60,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8732,
+    "Channel": 0,
+    "Note": "A6",
+    "NoteNumber": 81,
+    "EndTime": 9069,
+    "Length": 1.56035221,
+    "Velocity": 77,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8732,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 9053,
+    "Length": 1.48627019,
+    "Velocity": 58,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8732,
+    "Channel": 0,
+    "Note": "C6",
+    "NoteNumber": 72,
+    "EndTime": 9080,
+    "Length": 1.61128354,
+    "Velocity": 62,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8808,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 8850,
+    "Length": 0.19446525,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8874,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 8906,
+    "Length": 0.148164,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 8945,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 9046,
+    "Length": 0.467642635,
+    "Velocity": 57,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9019,
+    "Channel": 0,
+    "Note": "A4",
+    "NoteNumber": 57,
+    "EndTime": 9092,
+    "Length": 0.337999135,
+    "Velocity": 63,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9086,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 9167,
+    "Length": 0.375040144,
+    "Velocity": 63,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9155,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 9188,
+    "Length": 0.152794138,
+    "Velocity": 72,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9155,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 9165,
+    "Length": 0.0463012531,
+    "Velocity": 41,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9157,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 9180,
+    "Length": 0.106492877,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9230,
+    "Channel": 0,
+    "Note": "F#6",
+    "NoteNumber": 78,
+    "EndTime": 9589,
+    "Length": 1.66221488,
+    "Velocity": 74,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9231,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 9596,
+    "Length": 1.68999565,
+    "Velocity": 67,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9232,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 9566,
+    "Length": 1.54646182,
+    "Velocity": 61,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9232,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 9304,
+    "Length": 0.333369017,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9296,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 9356,
+    "Length": 0.2778075,
+    "Velocity": 46,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9367,
+    "Channel": 0,
+    "Note": "E4",
+    "NoteNumber": 52,
+    "EndTime": 9414,
+    "Length": 0.217615888,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9436,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 9496,
+    "Length": 0.2778075,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9506,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 9606,
+    "Length": 0.463012516,
+    "Velocity": 49,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9579,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 9658,
+    "Length": 0.365779877,
+    "Velocity": 45,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9579,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 9741,
+    "Length": 0.7500803,
+    "Velocity": 67,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9652,
+    "Channel": 0,
+    "Note": "B4",
+    "NoteNumber": 59,
+    "EndTime": 9661,
+    "Length": 0.0416711271,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9723,
+    "Channel": 0,
+    "Note": "E3",
+    "NoteNumber": 40,
+    "EndTime": 9766,
+    "Length": 0.199095383,
+    "Velocity": 53,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9723,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 9909,
+    "Length": 0.861203253,
+    "Velocity": 74,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9792,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 9836,
+    "Length": 0.2037255,
+    "Velocity": 49,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9865,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 9921,
+    "Length": 0.259287,
+    "Velocity": 41,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 9935,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 10007,
+    "Length": 0.333369017,
+    "Velocity": 49,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10004,
+    "Channel": 0,
+    "Note": "F#6",
+    "NoteNumber": 78,
+    "EndTime": 10052,
+    "Length": 0.222246,
+    "Velocity": 68,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10007,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 10077,
+    "Length": 0.32410875,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10074,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 10136,
+    "Length": 0.287067771,
+    "Velocity": 73,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10076,
+    "Channel": 0,
+    "Note": "E4",
+    "NoteNumber": 52,
+    "EndTime": 10153,
+    "Length": 0.356519639,
+    "Velocity": 52,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10145,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 10161,
+    "Length": 0.074082,
+    "Velocity": 87,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10149,
+    "Channel": 0,
+    "Note": "B3",
+    "NoteNumber": 47,
+    "EndTime": 10158,
+    "Length": 0.0416711271,
+    "Velocity": 38,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10219,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 10828,
+    "Length": 2.81974626,
+    "Velocity": 89,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10221,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 10793,
+    "Length": 2.64843154,
+    "Velocity": 66,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10223,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 10291,
+    "Length": 0.3148485,
+    "Velocity": 56,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10292,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 10300,
+    "Length": 0.037041,
+    "Velocity": 46,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10362,
+    "Channel": 0,
+    "Note": "G5",
+    "NoteNumber": 67,
+    "EndTime": 10451,
+    "Length": 0.412081152,
+    "Velocity": 55,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10506,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 10580,
+    "Length": 0.342629254,
+    "Velocity": 56,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10573,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 10643,
+    "Length": 0.32410875,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10643,
+    "Channel": 0,
+    "Note": "B4",
+    "NoteNumber": 59,
+    "EndTime": 10653,
+    "Length": 0.0463012531,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10715,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 10762,
+    "Length": 0.217615888,
+    "Velocity": 70,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10786,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 10823,
+    "Length": 0.171314627,
+    "Velocity": 58,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10858,
+    "Channel": 0,
+    "Note": "D#7",
+    "NoteNumber": 87,
+    "EndTime": 11153,
+    "Length": 1.36588693,
+    "Velocity": 80,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10858,
+    "Channel": 0,
+    "Note": "D#6",
+    "NoteNumber": 75,
+    "EndTime": 11148,
+    "Length": 1.34273624,
+    "Velocity": 59,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10861,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 10892,
+    "Length": 0.143533885,
+    "Velocity": 45,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10920,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 10930,
+    "Length": 0.0463012531,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 10995,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 11066,
+    "Length": 0.3287389,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11064,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 11147,
+    "Length": 0.384300381,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11134,
+    "Channel": 0,
+    "Note": "G5",
+    "NoteNumber": 67,
+    "EndTime": 11143,
+    "Length": 0.0416711271,
+    "Velocity": 49,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11206,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 11781,
+    "Length": 2.662322,
+    "Velocity": 83,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11207,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 11743,
+    "Length": 2.48174715,
+    "Velocity": 70,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11210,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 11265,
+    "Length": 0.254656881,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11272,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 11280,
+    "Length": 0.037041,
+    "Velocity": 58,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11345,
+    "Channel": 0,
+    "Note": "G5",
+    "NoteNumber": 67,
+    "EndTime": 11403,
+    "Length": 0.268547267,
+    "Velocity": 52,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11410,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 11419,
+    "Length": 0.0416711271,
+    "Velocity": 46,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11481,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 11554,
+    "Length": 0.337999135,
+    "Velocity": 55,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11550,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 11624,
+    "Length": 0.342629254,
+    "Velocity": 52,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11620,
+    "Channel": 0,
+    "Note": "B4",
+    "NoteNumber": 59,
+    "EndTime": 11629,
+    "Length": 0.0416711271,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11692,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 11747,
+    "Length": 0.254656881,
+    "Velocity": 71,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11761,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 11831,
+    "Length": 0.32410875,
+    "Velocity": 59,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11829,
+    "Channel": 0,
+    "Note": "F#7",
+    "NoteNumber": 90,
+    "EndTime": 11963,
+    "Length": 0.6204368,
+    "Velocity": 92,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11832,
+    "Channel": 0,
+    "Note": "D#5",
+    "NoteNumber": 63,
+    "EndTime": 11868,
+    "Length": 0.166684508,
+    "Velocity": 52,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11832,
+    "Channel": 0,
+    "Note": "F#6",
+    "NoteNumber": 78,
+    "EndTime": 11966,
+    "Length": 0.6204368,
+    "Velocity": 57,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11898,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 11907,
+    "Length": 0.0416711271,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 11969,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 12042,
+    "Length": 0.337999135,
+    "Velocity": 52,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12035,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 12067,
+    "Length": 0.148164,
+    "Velocity": 80,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12036,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 12058,
+    "Length": 0.101862751,
+    "Velocity": 56,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12037,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 12117,
+    "Length": 0.370410025,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12105,
+    "Channel": 0,
+    "Note": "G5",
+    "NoteNumber": 67,
+    "EndTime": 12113,
+    "Length": 0.037041,
+    "Velocity": 46,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12107,
+    "Channel": 0,
+    "Note": "D#6",
+    "NoteNumber": 75,
+    "EndTime": 12126,
+    "Length": 0.08797238,
+    "Velocity": 57,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12107,
+    "Channel": 0,
+    "Note": "D#7",
+    "NoteNumber": 87,
+    "EndTime": 12145,
+    "Length": 0.17594476,
+    "Velocity": 73,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12178,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 12764,
+    "Length": 2.71325326,
+    "Velocity": 82,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12179,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 12738,
+    "Length": 2.58824,
+    "Velocity": 67,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12179,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 12234,
+    "Length": 0.254656881,
+    "Velocity": 50,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12240,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 12248,
+    "Length": 0.037041,
+    "Velocity": 56,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12312,
+    "Channel": 0,
+    "Note": "G5",
+    "NoteNumber": 67,
+    "EndTime": 12355,
+    "Length": 0.199095383,
+    "Velocity": 50,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12378,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 12388,
+    "Length": 0.0463012531,
+    "Velocity": 55,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12450,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 12527,
+    "Length": 0.356519639,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12518,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 12597,
+    "Length": 0.365779877,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12592,
+    "Channel": 0,
+    "Note": "B4",
+    "NoteNumber": 59,
+    "EndTime": 12601,
+    "Length": 0.0416711271,
+    "Velocity": 55,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12667,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 12716,
+    "Length": 0.22687614,
+    "Velocity": 69,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12736,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 12804,
+    "Length": 0.3148485,
+    "Velocity": 55,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12803,
+    "Channel": 0,
+    "Note": "D#7",
+    "NoteNumber": 87,
+    "EndTime": 13113,
+    "Length": 1.43533885,
+    "Velocity": 79,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12805,
+    "Channel": 0,
+    "Note": "D#6",
+    "NoteNumber": 75,
+    "EndTime": 13107,
+    "Length": 1.39829779,
+    "Velocity": 58,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12809,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 12847,
+    "Length": 0.17594476,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12871,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 12880,
+    "Length": 0.0416711271,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 12943,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 13018,
+    "Length": 0.347259372,
+    "Velocity": 50,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13013,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 13089,
+    "Length": 0.351889521,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13081,
+    "Channel": 0,
+    "Note": "G5",
+    "NoteNumber": 67,
+    "EndTime": 13091,
+    "Length": 0.0463012531,
+    "Velocity": 34,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13155,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 13707,
+    "Length": 2.555829,
+    "Velocity": 79,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13155,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 13687,
+    "Length": 2.46322656,
+    "Velocity": 62,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13157,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 13222,
+    "Length": 0.300958127,
+    "Velocity": 52,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13224,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 13233,
+    "Length": 0.0416711271,
+    "Velocity": 39,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13293,
+    "Channel": 0,
+    "Note": "G5",
+    "NoteNumber": 67,
+    "EndTime": 13351,
+    "Length": 0.268547267,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13360,
+    "Channel": 0,
+    "Note": "G4",
+    "NoteNumber": 55,
+    "EndTime": 13370,
+    "Length": 0.0463012531,
+    "Velocity": 50,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13431,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 13511,
+    "Length": 0.370410025,
+    "Velocity": 55,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13498,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 13571,
+    "Length": 0.337999135,
+    "Velocity": 57,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13567,
+    "Channel": 0,
+    "Note": "B4",
+    "NoteNumber": 59,
+    "EndTime": 13575,
+    "Length": 0.037041,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13638,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 13690,
+    "Length": 0.24076651,
+    "Velocity": 66,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13708,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 13767,
+    "Length": 0.2731774,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13771,
+    "Channel": 0,
+    "Note": "F#7",
+    "NoteNumber": 90,
+    "EndTime": 13934,
+    "Length": 0.7547104,
+    "Velocity": 87,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13774,
+    "Channel": 0,
+    "Note": "D#5",
+    "NoteNumber": 63,
+    "EndTime": 13807,
+    "Length": 0.152794138,
+    "Velocity": 50,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13774,
+    "Channel": 0,
+    "Note": "F#6",
+    "NoteNumber": 78,
+    "EndTime": 13904,
+    "Length": 0.601916254,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13839,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 13847,
+    "Length": 0.037041,
+    "Velocity": 50,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13915,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 13991,
+    "Length": 0.351889521,
+    "Velocity": 39,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13985,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 14063,
+    "Length": 0.361149758,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13985,
+    "Channel": 0,
+    "Note": "G7",
+    "NoteNumber": 91,
+    "EndTime": 14011,
+    "Length": 0.120383255,
+    "Velocity": 74,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 13987,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 14002,
+    "Length": 0.069451876,
+    "Velocity": 57,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14054,
+    "Channel": 0,
+    "Note": "G5",
+    "NoteNumber": 67,
+    "EndTime": 14064,
+    "Length": 0.0463012531,
+    "Velocity": 35,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14055,
+    "Channel": 0,
+    "Note": "A7",
+    "NoteNumber": 93,
+    "EndTime": 14063,
+    "Length": 0.037041,
+    "Velocity": 82,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14056,
+    "Channel": 0,
+    "Note": "A6",
+    "NoteNumber": 81,
+    "EndTime": 14064,
+    "Length": 0.037041,
+    "Velocity": 63,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14128,
+    "Channel": 0,
+    "Note": "B7",
+    "NoteNumber": 95,
+    "EndTime": 14363,
+    "Length": 1.08807945,
+    "Velocity": 81,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14129,
+    "Channel": 0,
+    "Note": "G7",
+    "NoteNumber": 91,
+    "EndTime": 14211,
+    "Length": 0.379670262,
+    "Velocity": 56,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14129,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 14190,
+    "Length": 0.282437623,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14132,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 14281,
+    "Length": 0.689888656,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14200,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 14212,
+    "Length": 0.0555615,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14271,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 14306,
+    "Length": 0.162054375,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14339,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 14376,
+    "Length": 0.171314627,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14408,
+    "Channel": 0,
+    "Note": "G7",
+    "NoteNumber": 91,
+    "EndTime": 14473,
+    "Length": 0.300958127,
+    "Velocity": 66,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14410,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 14458,
+    "Length": 0.222246,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14412,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 14425,
+    "Length": 0.0601916276,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14476,
+    "Channel": 0,
+    "Note": "F#7",
+    "NoteNumber": 90,
+    "EndTime": 14545,
+    "Length": 0.319478631,
+    "Velocity": 75,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14478,
+    "Channel": 0,
+    "Note": "D7",
+    "NoteNumber": 86,
+    "EndTime": 14489,
+    "Length": 0.0509313755,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14480,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 14530,
+    "Length": 0.231506258,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14546,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 14557,
+    "Length": 0.0509313755,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14546,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 14560,
+    "Length": 0.06482175,
+    "Velocity": 61,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14620,
+    "Channel": 0,
+    "Note": "B7",
+    "NoteNumber": 95,
+    "EndTime": 14867,
+    "Length": 1.14364088,
+    "Velocity": 69,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14622,
+    "Channel": 0,
+    "Note": "D#5",
+    "NoteNumber": 63,
+    "EndTime": 14681,
+    "Length": 0.2731774,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14622,
+    "Channel": 0,
+    "Note": "G7",
+    "NoteNumber": 91,
+    "EndTime": 14825,
+    "Length": 0.9399154,
+    "Velocity": 55,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14694,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 14742,
+    "Length": 0.222246,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14762,
+    "Channel": 0,
+    "Note": "F#6",
+    "NoteNumber": 78,
+    "EndTime": 14792,
+    "Length": 0.138903752,
+    "Velocity": 38,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14832,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 14868,
+    "Length": 0.166684508,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14900,
+    "Channel": 0,
+    "Note": "F#7",
+    "NoteNumber": 90,
+    "EndTime": 14982,
+    "Length": 0.379670262,
+    "Velocity": 76,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14905,
+    "Channel": 0,
+    "Note": "A6",
+    "NoteNumber": 81,
+    "EndTime": 14964,
+    "Length": 0.2731774,
+    "Velocity": 45,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14970,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 15048,
+    "Length": 0.361149758,
+    "Velocity": 67,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 14975,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 15041,
+    "Length": 0.305588275,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15041,
+    "Channel": 0,
+    "Note": "F#6",
+    "NoteNumber": 78,
+    "EndTime": 15049,
+    "Length": 0.037041,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15044,
+    "Channel": 0,
+    "Note": "D7",
+    "NoteNumber": 86,
+    "EndTime": 15134,
+    "Length": 0.416711271,
+    "Velocity": 66,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15115,
+    "Channel": 0,
+    "Note": "D5",
+    "NoteNumber": 62,
+    "EndTime": 15161,
+    "Length": 0.212985754,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15117,
+    "Channel": 0,
+    "Note": "B7",
+    "NoteNumber": 95,
+    "EndTime": 15355,
+    "Length": 1.10196984,
+    "Velocity": 59,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15186,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 15197,
+    "Length": 0.0509313755,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15256,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 15299,
+    "Length": 0.199095383,
+    "Velocity": 38,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15325,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 15358,
+    "Length": 0.152794138,
+    "Velocity": 32,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15395,
+    "Channel": 0,
+    "Note": "G7",
+    "NoteNumber": 91,
+    "EndTime": 15465,
+    "Length": 0.32410875,
+    "Velocity": 73,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15399,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 15422,
+    "Length": 0.106492877,
+    "Velocity": 38,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15463,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 15535,
+    "Length": 0.333369017,
+    "Velocity": 67,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15463,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 15522,
+    "Length": 0.2731774,
+    "Velocity": 41,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15530,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 15540,
+    "Length": 0.0463012531,
+    "Velocity": 33,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15533,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 15615,
+    "Length": 0.379670262,
+    "Velocity": 67,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15601,
+    "Channel": 0,
+    "Note": "B7",
+    "NoteNumber": 95,
+    "EndTime": 15753,
+    "Length": 0.703779042,
+    "Velocity": 73,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15606,
+    "Channel": 0,
+    "Note": "C5",
+    "NoteNumber": 60,
+    "EndTime": 15639,
+    "Length": 0.152794138,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15674,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 15713,
+    "Length": 0.180574879,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15741,
+    "Channel": 0,
+    "Note": "D#7",
+    "NoteNumber": 87,
+    "EndTime": 15885,
+    "Length": 0.666738033,
+    "Velocity": 56,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15744,
+    "Channel": 0,
+    "Note": "F#6",
+    "NoteNumber": 78,
+    "EndTime": 15779,
+    "Length": 0.162054375,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15809,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 15883,
+    "Length": 0.342629254,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15878,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 16037,
+    "Length": 0.7361899,
+    "Velocity": 78,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15881,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 15928,
+    "Length": 0.217615888,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 15952,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 15991,
+    "Length": 0.180574879,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16018,
+    "Channel": 0,
+    "Note": "F#7",
+    "NoteNumber": 90,
+    "EndTime": 16109,
+    "Length": 0.4213414,
+    "Velocity": 77,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16019,
+    "Channel": 0,
+    "Note": "F#6",
+    "NoteNumber": 78,
+    "EndTime": 16028,
+    "Length": 0.0416711271,
+    "Velocity": 39,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16091,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 16155,
+    "Length": 0.296328,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16092,
+    "Channel": 0,
+    "Note": "B7",
+    "NoteNumber": 95,
+    "EndTime": 16340,
+    "Length": 1.14827108,
+    "Velocity": 73,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16163,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 16174,
+    "Length": 0.0509313755,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16231,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 16265,
+    "Length": 0.157424256,
+    "Velocity": 46,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16304,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 16349,
+    "Length": 0.208355635,
+    "Velocity": 45,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16369,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 16416,
+    "Length": 0.217615888,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16370,
+    "Channel": 0,
+    "Note": "G7",
+    "NoteNumber": 91,
+    "EndTime": 16422,
+    "Length": 0.24076651,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16370,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 16402,
+    "Length": 0.148164,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16439,
+    "Channel": 0,
+    "Note": "F#7",
+    "NoteNumber": 90,
+    "EndTime": 16501,
+    "Length": 0.287067771,
+    "Velocity": 72,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16441,
+    "Channel": 0,
+    "Note": "D7",
+    "NoteNumber": 86,
+    "EndTime": 16457,
+    "Length": 0.074082,
+    "Velocity": 52,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16443,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 16506,
+    "Length": 0.2916979,
+    "Velocity": 46,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16508,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 16533,
+    "Length": 0.115753129,
+    "Velocity": 69,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16509,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 16520,
+    "Length": 0.0509313755,
+    "Velocity": 52,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16517,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 16530,
+    "Length": 0.0601916276,
+    "Velocity": 16,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16581,
+    "Channel": 0,
+    "Note": "G7",
+    "NoteNumber": 91,
+    "EndTime": 16797,
+    "Length": 1.000107,
+    "Velocity": 56,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16581,
+    "Channel": 0,
+    "Note": "B7",
+    "NoteNumber": 95,
+    "EndTime": 16813,
+    "Length": 1.07418907,
+    "Velocity": 72,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16584,
+    "Channel": 0,
+    "Note": "D#5",
+    "NoteNumber": 63,
+    "EndTime": 16631,
+    "Length": 0.217615888,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16653,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 16706,
+    "Length": 0.245396629,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16722,
+    "Channel": 0,
+    "Note": "F#6",
+    "NoteNumber": 78,
+    "EndTime": 16755,
+    "Length": 0.152794138,
+    "Velocity": 41,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16791,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 16828,
+    "Length": 0.171314627,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16860,
+    "Channel": 0,
+    "Note": "F#7",
+    "NoteNumber": 90,
+    "EndTime": 16941,
+    "Length": 0.375040144,
+    "Velocity": 74,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16865,
+    "Channel": 0,
+    "Note": "A6",
+    "NoteNumber": 81,
+    "EndTime": 16909,
+    "Length": 0.2037255,
+    "Velocity": 39,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16929,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 17005,
+    "Length": 0.351889521,
+    "Velocity": 75,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16933,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 16996,
+    "Length": 0.2916979,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 16999,
+    "Channel": 0,
+    "Note": "F#6",
+    "NoteNumber": 78,
+    "EndTime": 17007,
+    "Length": 0.037041,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17001,
+    "Channel": 0,
+    "Note": "D7",
+    "NoteNumber": 86,
+    "EndTime": 17090,
+    "Length": 0.412081152,
+    "Velocity": 74,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17073,
+    "Channel": 0,
+    "Note": "D5",
+    "NoteNumber": 62,
+    "EndTime": 17116,
+    "Length": 0.199095383,
+    "Velocity": 49,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17073,
+    "Channel": 0,
+    "Note": "B7",
+    "NoteNumber": 95,
+    "EndTime": 17314,
+    "Length": 1.1158601,
+    "Velocity": 74,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17146,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 17156,
+    "Length": 0.0463012531,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17217,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 17279,
+    "Length": 0.287067771,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17287,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 17325,
+    "Length": 0.17594476,
+    "Velocity": 46,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17352,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 17388,
+    "Length": 0.166684508,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17354,
+    "Channel": 0,
+    "Note": "G7",
+    "NoteNumber": 91,
+    "EndTime": 17427,
+    "Length": 0.337999135,
+    "Velocity": 73,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17422,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 17500,
+    "Length": 0.361149758,
+    "Velocity": 78,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17428,
+    "Channel": 0,
+    "Note": "G6",
+    "NoteNumber": 79,
+    "EndTime": 17481,
+    "Length": 0.245396629,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17497,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 17507,
+    "Length": 0.0463012531,
+    "Velocity": 33,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17497,
+    "Channel": 0,
+    "Note": "B6",
+    "NoteNumber": 83,
+    "EndTime": 17587,
+    "Length": 0.416711271,
+    "Velocity": 74,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17567,
+    "Channel": 0,
+    "Note": "B7",
+    "NoteNumber": 95,
+    "EndTime": 17825,
+    "Length": 1.19457233,
+    "Velocity": 74,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17567,
+    "Channel": 0,
+    "Note": "C5",
+    "NoteNumber": 60,
+    "EndTime": 17590,
+    "Length": 0.106492877,
+    "Velocity": 49,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17643,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 17687,
+    "Length": 0.2037255,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17710,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 17756,
+    "Length": 0.212985754,
+    "Velocity": 50,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17783,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 17852,
+    "Length": 0.319478631,
+    "Velocity": 41,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17848,
+    "Channel": 0,
+    "Note": "F#6",
+    "NoteNumber": 78,
+    "EndTime": 17912,
+    "Length": 0.296328,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17849,
+    "Channel": 0,
+    "Note": "A7",
+    "NoteNumber": 93,
+    "EndTime": 17930,
+    "Length": 0.375040144,
+    "Velocity": 70,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17918,
+    "Channel": 0,
+    "Note": "G7",
+    "NoteNumber": 91,
+    "EndTime": 17991,
+    "Length": 0.337999135,
+    "Velocity": 68,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17919,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 17974,
+    "Length": 0.254656881,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17984,
+    "Channel": 0,
+    "Note": "C6",
+    "NoteNumber": 72,
+    "EndTime": 17993,
+    "Length": 0.0416711271,
+    "Velocity": 35,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 17989,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 18084,
+    "Length": 0.4398619,
+    "Velocity": 60,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18056,
+    "Channel": 0,
+    "Note": "C#4",
+    "NoteNumber": 49,
+    "EndTime": 18066,
+    "Length": 0.0463012531,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18056,
+    "Channel": 0,
+    "Note": "G#4",
+    "NoteNumber": 56,
+    "EndTime": 18068,
+    "Length": 0.0555615,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18059,
+    "Channel": 0,
+    "Note": "B7",
+    "NoteNumber": 95,
+    "EndTime": 18105,
+    "Length": 0.212985754,
+    "Velocity": 72,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18130,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 18205,
+    "Length": 0.347259372,
+    "Velocity": 27,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18201,
+    "Channel": 0,
+    "Note": "D#6",
+    "NoteNumber": 75,
+    "EndTime": 18351,
+    "Length": 0.694518745,
+    "Velocity": 65,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18210,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 18263,
+    "Length": 0.245396629,
+    "Velocity": 37,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18272,
+    "Channel": 0,
+    "Note": "G#4",
+    "NoteNumber": 56,
+    "EndTime": 18338,
+    "Length": 0.305588275,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18341,
+    "Channel": 0,
+    "Note": "C#6",
+    "NoteNumber": 73,
+    "EndTime": 18480,
+    "Length": 0.6435874,
+    "Velocity": 65,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18344,
+    "Channel": 0,
+    "Note": "C#5",
+    "NoteNumber": 61,
+    "EndTime": 18387,
+    "Length": 0.199095383,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18406,
+    "Channel": 0,
+    "Note": "C#4",
+    "NoteNumber": 49,
+    "EndTime": 18450,
+    "Length": 0.2037255,
+    "Velocity": 45,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18478,
+    "Channel": 0,
+    "Note": "C5",
+    "NoteNumber": 60,
+    "EndTime": 18505,
+    "Length": 0.125013381,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18480,
+    "Channel": 0,
+    "Note": "C6",
+    "NoteNumber": 72,
+    "EndTime": 18569,
+    "Length": 0.412081152,
+    "Velocity": 62,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18550,
+    "Channel": 0,
+    "Note": "C#6",
+    "NoteNumber": 73,
+    "EndTime": 18637,
+    "Length": 0.4028209,
+    "Velocity": 68,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18550,
+    "Channel": 0,
+    "Note": "C#4",
+    "NoteNumber": 49,
+    "EndTime": 18559,
+    "Length": 0.0416711271,
+    "Velocity": 46,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18552,
+    "Channel": 0,
+    "Note": "G#4",
+    "NoteNumber": 56,
+    "EndTime": 18561,
+    "Length": 0.0416711271,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18624,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 18699,
+    "Length": 0.347259372,
+    "Velocity": 35,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18695,
+    "Channel": 0,
+    "Note": "D#6",
+    "NoteNumber": 75,
+    "EndTime": 18991,
+    "Length": 1.370517,
+    "Velocity": 53,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18695,
+    "Channel": 0,
+    "Note": "D#7",
+    "NoteNumber": 87,
+    "EndTime": 18999,
+    "Length": 1.40755808,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18699,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 18759,
+    "Length": 0.2778075,
+    "Velocity": 35,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18709,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 18722,
+    "Length": 0.0601916276,
+    "Velocity": 16,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18765,
+    "Channel": 0,
+    "Note": "C#5",
+    "NoteNumber": 61,
+    "EndTime": 18838,
+    "Length": 0.337999135,
+    "Velocity": 39,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18837,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 18880,
+    "Length": 0.199095383,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18908,
+    "Channel": 0,
+    "Note": "D#5",
+    "NoteNumber": 63,
+    "EndTime": 18991,
+    "Length": 0.384300381,
+    "Velocity": 45,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 18980,
+    "Channel": 0,
+    "Note": "A5",
+    "NoteNumber": 69,
+    "EndTime": 18993,
+    "Length": 0.0601916276,
+    "Velocity": 16,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19048,
+    "Channel": 0,
+    "Note": "E7",
+    "NoteNumber": 88,
+    "EndTime": 19105,
+    "Length": 0.263917148,
+    "Velocity": 75,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19050,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 19128,
+    "Length": 0.361149758,
+    "Velocity": 49,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19054,
+    "Channel": 0,
+    "Note": "C#4",
+    "NoteNumber": 49,
+    "EndTime": 19066,
+    "Length": 0.0555615,
+    "Velocity": 33,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19119,
+    "Channel": 0,
+    "Note": "C#5",
+    "NoteNumber": 61,
+    "EndTime": 19187,
+    "Length": 0.3148485,
+    "Velocity": 53,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19180,
+    "Channel": 0,
+    "Note": "D#6",
+    "NoteNumber": 75,
+    "EndTime": 19331,
+    "Length": 0.6991489,
+    "Velocity": 66,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19242,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 19270,
+    "Length": 0.1296435,
+    "Velocity": 14,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19267,
+    "Channel": 0,
+    "Note": "C#5",
+    "NoteNumber": 61,
+    "EndTime": 19320,
+    "Length": 0.245396629,
+    "Velocity": 28,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19324,
+    "Channel": 0,
+    "Note": "C#6",
+    "NoteNumber": 73,
+    "EndTime": 19466,
+    "Length": 0.6574778,
+    "Velocity": 56,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19334,
+    "Channel": 0,
+    "Note": "F5",
+    "NoteNumber": 65,
+    "EndTime": 19361,
+    "Length": 0.125013381,
+    "Velocity": 17,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19340,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 19358,
+    "Length": 0.0833422542,
+    "Velocity": 11,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19388,
+    "Channel": 0,
+    "Note": "C#5",
+    "NoteNumber": 61,
+    "EndTime": 19478,
+    "Length": 0.416711271,
+    "Velocity": 30,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19462,
+    "Channel": 0,
+    "Note": "C6",
+    "NoteNumber": 72,
+    "EndTime": 19554,
+    "Length": 0.4259715,
+    "Velocity": 56,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19466,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 19553,
+    "Length": 0.4028209,
+    "Velocity": 36,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19536,
+    "Channel": 0,
+    "Note": "C#6",
+    "NoteNumber": 73,
+    "EndTime": 19853,
+    "Length": 1.46774971,
+    "Velocity": 59,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19539,
+    "Channel": 0,
+    "Note": "G#4",
+    "NoteNumber": 56,
+    "EndTime": 19621,
+    "Length": 0.379670262,
+    "Velocity": 53,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19609,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 19681,
+    "Length": 0.333369017,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19682,
+    "Channel": 0,
+    "Note": "G#5",
+    "NoteNumber": 68,
+    "EndTime": 19727,
+    "Length": 0.208355635,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19748,
+    "Channel": 0,
+    "Note": "C#5",
+    "NoteNumber": 61,
+    "EndTime": 19973,
+    "Length": 1.04177821,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19814,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 19903,
+    "Length": 0.412081152,
+    "Velocity": 59,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19889,
+    "Channel": 0,
+    "Note": "D#5",
+    "NoteNumber": 63,
+    "EndTime": 19973,
+    "Length": 0.3889305,
+    "Velocity": 58,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 19959,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 19967,
+    "Length": 0.037041,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20034,
+    "Channel": 0,
+    "Note": "C#4",
+    "NoteNumber": 49,
+    "EndTime": 20058,
+    "Length": 0.111123,
+    "Velocity": 66,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20035,
+    "Channel": 0,
+    "Note": "G#7",
+    "NoteNumber": 92,
+    "EndTime": 20086,
+    "Length": 0.236136377,
+    "Velocity": 81,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20035,
+    "Channel": 0,
+    "Note": "G#4",
+    "NoteNumber": 56,
+    "EndTime": 20053,
+    "Length": 0.0833422542,
+    "Velocity": 50,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20037,
+    "Channel": 0,
+    "Note": "G#6",
+    "NoteNumber": 80,
+    "EndTime": 20102,
+    "Length": 0.300958127,
+    "Velocity": 55,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20103,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 20175,
+    "Length": 0.333369017,
+    "Velocity": 47,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20174,
+    "Channel": 0,
+    "Note": "D#6",
+    "NoteNumber": 75,
+    "EndTime": 20322,
+    "Length": 0.6852585,
+    "Velocity": 73,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20178,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 20231,
+    "Length": 0.245396629,
+    "Velocity": 38,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20244,
+    "Channel": 0,
+    "Note": "C#5",
+    "NoteNumber": 61,
+    "EndTime": 20255,
+    "Length": 0.0509313755,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20310,
+    "Channel": 0,
+    "Note": "C#6",
+    "NoteNumber": 73,
+    "EndTime": 20453,
+    "Length": 0.6621079,
+    "Velocity": 69,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20312,
+    "Channel": 0,
+    "Note": "G#4",
+    "NoteNumber": 56,
+    "EndTime": 20384,
+    "Length": 0.333369017,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20385,
+    "Channel": 0,
+    "Note": "C#4",
+    "NoteNumber": 49,
+    "EndTime": 20453,
+    "Length": 0.3148485,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20453,
+    "Channel": 0,
+    "Note": "C6",
+    "NoteNumber": 72,
+    "EndTime": 20538,
+    "Length": 0.393560648,
+    "Velocity": 57,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20453,
+    "Channel": 0,
+    "Note": "C5",
+    "NoteNumber": 60,
+    "EndTime": 20469,
+    "Length": 0.074082,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20524,
+    "Channel": 0,
+    "Note": "C#6",
+    "NoteNumber": 73,
+    "EndTime": 21180,
+    "Length": 3.037362,
+    "Velocity": 68,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20525,
+    "Channel": 0,
+    "Note": "G#4",
+    "NoteNumber": 56,
+    "EndTime": 20547,
+    "Length": 0.101862751,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20526,
+    "Channel": 0,
+    "Note": "C#4",
+    "NoteNumber": 49,
+    "EndTime": 20542,
+    "Length": 0.074082,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20600,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 20657,
+    "Length": 0.263917148,
+    "Velocity": 31,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20666,
+    "Channel": 0,
+    "Note": "G#5",
+    "NoteNumber": 68,
+    "EndTime": 20726,
+    "Length": 0.2778075,
+    "Velocity": 57,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20737,
+    "Channel": 0,
+    "Note": "A4",
+    "NoteNumber": 57,
+    "EndTime": 20809,
+    "Length": 0.333369017,
+    "Velocity": 58,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20807,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 20878,
+    "Length": 0.3287389,
+    "Velocity": 58,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20880,
+    "Channel": 0,
+    "Note": "D#5",
+    "NoteNumber": 63,
+    "EndTime": 20966,
+    "Length": 0.398190767,
+    "Velocity": 49,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 20949,
+    "Channel": 0,
+    "Note": "B5",
+    "NoteNumber": 71,
+    "EndTime": 20959,
+    "Length": 0.0463012531,
+    "Velocity": 31,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21024,
+    "Channel": 0,
+    "Note": "G#4",
+    "NoteNumber": 56,
+    "EndTime": 21053,
+    "Length": 0.134273633,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21026,
+    "Channel": 0,
+    "Note": "C#4",
+    "NoteNumber": 49,
+    "EndTime": 21051,
+    "Length": 0.115753129,
+    "Velocity": 41,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21109,
+    "Channel": 0,
+    "Note": "C#5",
+    "NoteNumber": 61,
+    "EndTime": 21169,
+    "Length": 0.2778075,
+    "Velocity": 28,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21173,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 21227,
+    "Length": 0.250026762,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21175,
+    "Channel": 0,
+    "Note": "D#6",
+    "NoteNumber": 75,
+    "EndTime": 21446,
+    "Length": 1.254764,
+    "Velocity": 69,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21240,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 21261,
+    "Length": 0.0972326249,
+    "Velocity": 34,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21308,
+    "Channel": 0,
+    "Note": "G#4",
+    "NoteNumber": 56,
+    "EndTime": 21347,
+    "Length": 0.180574879,
+    "Velocity": 49,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21377,
+    "Channel": 0,
+    "Note": "E4",
+    "NoteNumber": 52,
+    "EndTime": 21527,
+    "Length": 0.694518745,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21456,
+    "Channel": 0,
+    "Note": "C6",
+    "NoteNumber": 72,
+    "EndTime": 21784,
+    "Length": 1.518681,
+    "Velocity": 59,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21467,
+    "Channel": 0,
+    "Note": "A4",
+    "NoteNumber": 57,
+    "EndTime": 21523,
+    "Length": 0.259287,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21526,
+    "Channel": 0,
+    "Note": "C#5",
+    "NoteNumber": 61,
+    "EndTime": 21597,
+    "Length": 0.3287389,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21599,
+    "Channel": 0,
+    "Note": "G#4",
+    "NoteNumber": 56,
+    "EndTime": 21680,
+    "Length": 0.375040144,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21666,
+    "Channel": 0,
+    "Note": "C#4",
+    "NoteNumber": 49,
+    "EndTime": 21692,
+    "Length": 0.120383255,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21742,
+    "Channel": 0,
+    "Note": "F#5",
+    "NoteNumber": 66,
+    "EndTime": 21798,
+    "Length": 0.259287,
+    "Velocity": 39,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21810,
+    "Channel": 0,
+    "Note": "D#5",
+    "NoteNumber": 63,
+    "EndTime": 21834,
+    "Length": 0.111123,
+    "Velocity": 41,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21881,
+    "Channel": 0,
+    "Note": "B4",
+    "NoteNumber": 59,
+    "EndTime": 21952,
+    "Length": 0.3287389,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 21952,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 22026,
+    "Length": 0.342629254,
+    "Velocity": 46,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22029,
+    "Channel": 0,
+    "Note": "A#4",
+    "NoteNumber": 58,
+    "EndTime": 22067,
+    "Length": 0.17594476,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22103,
+    "Channel": 0,
+    "Note": "C#6",
+    "NoteNumber": 73,
+    "EndTime": 23838,
+    "Length": 8.033267,
+    "Velocity": 48,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22103,
+    "Channel": 0,
+    "Note": "G#6",
+    "NoteNumber": 80,
+    "EndTime": 23834,
+    "Length": 8.014747,
+    "Velocity": 77,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22105,
+    "Channel": 0,
+    "Note": "G#5",
+    "NoteNumber": 68,
+    "EndTime": 23833,
+    "Length": 8.000856,
+    "Velocity": 44,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22107,
+    "Channel": 0,
+    "Note": "C#4",
+    "NoteNumber": 49,
+    "EndTime": 22151,
+    "Length": 0.2037255,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22107,
+    "Channel": 0,
+    "Note": "E6",
+    "NoteNumber": 76,
+    "EndTime": 23821,
+    "Length": 7.93603468,
+    "Velocity": 45,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22184,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 22212,
+    "Length": 0.1296435,
+    "Velocity": 38,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22245,
+    "Channel": 0,
+    "Note": "D#4",
+    "NoteNumber": 51,
+    "EndTime": 22307,
+    "Length": 0.287067771,
+    "Velocity": 42,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22319,
+    "Channel": 0,
+    "Note": "C#5",
+    "NoteNumber": 61,
+    "EndTime": 22363,
+    "Length": 0.2037255,
+    "Velocity": 36,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22384,
+    "Channel": 0,
+    "Note": "C#4",
+    "NoteNumber": 49,
+    "EndTime": 22454,
+    "Length": 0.32410875,
+    "Velocity": 58,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22456,
+    "Channel": 0,
+    "Note": "C#5",
+    "NoteNumber": 61,
+    "EndTime": 22493,
+    "Length": 0.171314627,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22528,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 22605,
+    "Length": 0.356519639,
+    "Velocity": 41,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22592,
+    "Channel": 0,
+    "Note": "C#4",
+    "NoteNumber": 49,
+    "EndTime": 22624,
+    "Length": 0.148164,
+    "Velocity": 57,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22667,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 22732,
+    "Length": 0.300958127,
+    "Velocity": 46,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22738,
+    "Channel": 0,
+    "Note": "G#4",
+    "NoteNumber": 56,
+    "EndTime": 22817,
+    "Length": 0.365779877,
+    "Velocity": 59,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22805,
+    "Channel": 0,
+    "Note": "A4",
+    "NoteNumber": 57,
+    "EndTime": 22878,
+    "Length": 0.337999135,
+    "Velocity": 55,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22883,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 23029,
+    "Length": 0.6759983,
+    "Velocity": 49,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 22953,
+    "Channel": 0,
+    "Note": "D#5",
+    "NoteNumber": 63,
+    "EndTime": 23026,
+    "Length": 0.337999135,
+    "Velocity": 50,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 23022,
+    "Channel": 0,
+    "Note": "C5",
+    "NoteNumber": 60,
+    "EndTime": 23102,
+    "Length": 0.370410025,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 23094,
+    "Channel": 0,
+    "Note": "C#5",
+    "NoteNumber": 61,
+    "EndTime": 23162,
+    "Length": 0.3148485,
+    "Velocity": 61,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 23166,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 23237,
+    "Length": 0.3287389,
+    "Velocity": 41,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 23235,
+    "Channel": 0,
+    "Note": "D#5",
+    "NoteNumber": 63,
+    "EndTime": 23295,
+    "Length": 0.2778075,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 23311,
+    "Channel": 0,
+    "Note": "G#4",
+    "NoteNumber": 56,
+    "EndTime": 23368,
+    "Length": 0.263917148,
+    "Velocity": 54,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 23376,
+    "Channel": 0,
+    "Note": "E4",
+    "NoteNumber": 52,
+    "EndTime": 23434,
+    "Length": 0.268547267,
+    "Velocity": 40,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 23446,
+    "Channel": 0,
+    "Note": "A4",
+    "NoteNumber": 57,
+    "EndTime": 23513,
+    "Length": 0.3102184,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 23515,
+    "Channel": 0,
+    "Note": "C4",
+    "NoteNumber": 48,
+    "EndTime": 23594,
+    "Length": 0.365779877,
+    "Velocity": 51,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 23588,
+    "Channel": 0,
+    "Note": "C#4",
+    "NoteNumber": 49,
+    "EndTime": 23606,
+    "Length": 0.0833422542,
+    "Velocity": 50,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 23657,
+    "Channel": 0,
+    "Note": "E5",
+    "NoteNumber": 64,
+    "EndTime": 23722,
+    "Length": 0.300958127,
+    "Velocity": 37,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 23728,
+    "Channel": 0,
+    "Note": "G#4",
+    "NoteNumber": 56,
+    "EndTime": 23811,
+    "Length": 0.384300381,
+    "Velocity": 43,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 23805,
+    "Channel": 0,
+    "Note": "A4",
+    "NoteNumber": 57,
+    "EndTime": 23897,
+    "Length": 0.4259715,
+    "Velocity": 37,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 23891,
+    "Channel": 0,
+    "Note": "F#4",
+    "NoteNumber": 54,
+    "EndTime": 24146,
+    "Length": 1.180682,
+    "Velocity": 33,
+    "Tempo": 215.97689047271942
+  },
+  {
+    "StartTime": 24003,
+    "Channel": 0,
+    "Note": "D#5",
+    "NoteNumber": 63,
+    "EndTime": 24128,
+    "Length": 0.578765631,
+    "Velocity": 31,
+    "Tempo": 215.97689047271942
+  }
+]

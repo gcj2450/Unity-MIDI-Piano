@@ -58,8 +58,10 @@ public class MidiFileInspector
 						MidiNote noteOn = new MidiNote();
 
 						noteOn.Note = t_note.NoteName;
-						//noteOn.Channel = t_note.Channel;
-						noteOn.Channel = n;
+						noteOn.NoteNumber = t_note.NoteNumber;
+						noteOn.EndTime = t_note.AbsoluteTime + t_note.NoteLength;
+                        //noteOn.Channel = t_note.Channel;
+                        noteOn.Channel = n;
 						noteOn.Velocity = t_note.Velocity;
 						noteOn.StartTime = t_note.AbsoluteTime;
 
@@ -193,10 +195,13 @@ public class MidiFileInspector
 [Serializable]
 public class MidiNote
 {
-	public double StartTime;
+	public long StartTime;
 	public int Channel;
 	public string Note;
-	public float Length;
+	public int NoteNumber;
+	public long EndTime;
+
+    public float Length;
 	public int Velocity;
 	public double Tempo;
 
@@ -205,7 +210,7 @@ public class MidiNote
 
 	}
 
-	public MidiNote (double startTime, int channel, string note, int length, int velocity)
+	public MidiNote (long startTime, int channel, string note, int length, int velocity)
 	{
 		StartTime = startTime;
 		Channel = channel;

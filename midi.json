@@ -1,2390 +1,2390 @@
 {
-  "name": "midi",
-  "tracks": [
+  "Name": "midi",
+  "Tracks": [
     {
-      "notes": [
+      "Notes": [
         {
-          "notenumber": 47,
-          "start": 480,
-          "end": 941
+          "EndTime": 941,
+          "NoteNumber": 47,
+          "StartTime": 480
         },
         {
-          "notenumber": 52,
-          "start": 484,
-          "end": 944
+          "EndTime": 944,
+          "NoteNumber": 52,
+          "StartTime": 484
         },
         {
-          "notenumber": 54,
-          "start": 498,
-          "end": 933
+          "EndTime": 933,
+          "NoteNumber": 54,
+          "StartTime": 498
         },
         {
-          "notenumber": 57,
-          "start": 512,
-          "end": 941
+          "EndTime": 941,
+          "NoteNumber": 57,
+          "StartTime": 512
         },
         {
-          "notenumber": 93,
-          "start": 524,
-          "end": 985
+          "EndTime": 985,
+          "NoteNumber": 93,
+          "StartTime": 524
         },
         {
-          "notenumber": 81,
-          "start": 525,
-          "end": 969
+          "EndTime": 969,
+          "NoteNumber": 81,
+          "StartTime": 525
         },
         {
-          "notenumber": 48,
-          "start": 1113,
-          "end": 1705
+          "EndTime": 1705,
+          "NoteNumber": 48,
+          "StartTime": 1113
         },
         {
-          "notenumber": 54,
-          "start": 1125,
-          "end": 1690
+          "EndTime": 1690,
+          "NoteNumber": 54,
+          "StartTime": 1125
         },
         {
-          "notenumber": 55,
-          "start": 1140,
-          "end": 1672
+          "EndTime": 1672,
+          "NoteNumber": 55,
+          "StartTime": 1140
         },
         {
-          "notenumber": 59,
-          "start": 1154,
-          "end": 1668
+          "EndTime": 1668,
+          "NoteNumber": 59,
+          "StartTime": 1154
         },
         {
-          "notenumber": 95,
-          "start": 1169,
-          "end": 1594
+          "EndTime": 1594,
+          "NoteNumber": 95,
+          "StartTime": 1169
         },
         {
-          "notenumber": 83,
-          "start": 1170,
-          "end": 1617
+          "EndTime": 1617,
+          "NoteNumber": 83,
+          "StartTime": 1170
         },
         {
-          "notenumber": 67,
-          "start": 1984,
-          "end": 2089
+          "EndTime": 2089,
+          "NoteNumber": 67,
+          "StartTime": 1984
         },
         {
-          "notenumber": 69,
-          "start": 2065,
-          "end": 2161
+          "EndTime": 2161,
+          "NoteNumber": 69,
+          "StartTime": 2065
         },
         {
-          "notenumber": 71,
-          "start": 2144,
-          "end": 2545
+          "EndTime": 2545,
+          "NoteNumber": 71,
+          "StartTime": 2144
         },
         {
-          "notenumber": 40,
-          "start": 2146,
-          "end": 2204
+          "EndTime": 2204,
+          "NoteNumber": 40,
+          "StartTime": 2146
         },
         {
-          "notenumber": 47,
-          "start": 2220,
-          "end": 2252
+          "EndTime": 2252,
+          "NoteNumber": 47,
+          "StartTime": 2220
         },
         {
-          "notenumber": 55,
-          "start": 2294,
-          "end": 2343
+          "EndTime": 2343,
+          "NoteNumber": 55,
+          "StartTime": 2294
         },
         {
-          "notenumber": 47,
-          "start": 2362,
-          "end": 2418
+          "EndTime": 2418,
+          "NoteNumber": 47,
+          "StartTime": 2362
         },
         {
-          "notenumber": 57,
-          "start": 2442,
-          "end": 2495
+          "EndTime": 2495,
+          "NoteNumber": 57,
+          "StartTime": 2442
         },
         {
-          "notenumber": 55,
-          "start": 2514,
-          "end": 2573
+          "EndTime": 2573,
+          "NoteNumber": 55,
+          "StartTime": 2514
         },
         {
-          "notenumber": 74,
-          "start": 2586,
-          "end": 2685
+          "EndTime": 2685,
+          "NoteNumber": 74,
+          "StartTime": 2586
         },
         {
-          "notenumber": 47,
-          "start": 2588,
-          "end": 2599
+          "EndTime": 2599,
+          "NoteNumber": 47,
+          "StartTime": 2588
         },
         {
-          "notenumber": 40,
-          "start": 2664,
-          "end": 2717
+          "EndTime": 2717,
+          "NoteNumber": 40,
+          "StartTime": 2664
         },
         {
-          "notenumber": 69,
-          "start": 2664,
-          "end": 3096
+          "EndTime": 3096,
+          "NoteNumber": 69,
+          "StartTime": 2664
         },
         {
-          "notenumber": 48,
-          "start": 2741,
-          "end": 2793
+          "EndTime": 2793,
+          "NoteNumber": 48,
+          "StartTime": 2741
         },
         {
-          "notenumber": 54,
-          "start": 2815,
-          "end": 2848
+          "EndTime": 2848,
+          "NoteNumber": 54,
+          "StartTime": 2815
         },
         {
-          "notenumber": 48,
-          "start": 2885,
-          "end": 2932
+          "EndTime": 2932,
+          "NoteNumber": 48,
+          "StartTime": 2885
         },
         {
-          "notenumber": 57,
-          "start": 2963,
-          "end": 3028
+          "EndTime": 3028,
+          "NoteNumber": 57,
+          "StartTime": 2963
         },
         {
-          "notenumber": 54,
-          "start": 3034,
-          "end": 3118
+          "EndTime": 3118,
+          "NoteNumber": 54,
+          "StartTime": 3034
         },
         {
-          "notenumber": 71,
-          "start": 3103,
-          "end": 3198
+          "EndTime": 3198,
+          "NoteNumber": 71,
+          "StartTime": 3103
         },
         {
-          "notenumber": 55,
-          "start": 3110,
-          "end": 3121
+          "EndTime": 3121,
+          "NoteNumber": 55,
+          "StartTime": 3110
         },
         {
-          "notenumber": 40,
-          "start": 3183,
-          "end": 3249
+          "EndTime": 3249,
+          "NoteNumber": 40,
+          "StartTime": 3183
         },
         {
-          "notenumber": 64,
-          "start": 3186,
-          "end": 3856
+          "EndTime": 3856,
+          "NoteNumber": 64,
+          "StartTime": 3186
         },
         {
-          "notenumber": 47,
-          "start": 3258,
-          "end": 3316
+          "EndTime": 3316,
+          "NoteNumber": 47,
+          "StartTime": 3258
         },
         {
-          "notenumber": 51,
-          "start": 3328,
-          "end": 3379
+          "EndTime": 3379,
+          "NoteNumber": 51,
+          "StartTime": 3328
         },
         {
-          "notenumber": 47,
-          "start": 3404,
-          "end": 3469
+          "EndTime": 3469,
+          "NoteNumber": 47,
+          "StartTime": 3404
         },
         {
-          "notenumber": 52,
-          "start": 3475,
-          "end": 3545
+          "EndTime": 3545,
+          "NoteNumber": 52,
+          "StartTime": 3475
         },
         {
-          "notenumber": 51,
-          "start": 3551,
-          "end": 3605
+          "EndTime": 3605,
+          "NoteNumber": 51,
+          "StartTime": 3551
         },
         {
-          "notenumber": 47,
-          "start": 3619,
-          "end": 3629
+          "EndTime": 3629,
+          "NoteNumber": 47,
+          "StartTime": 3619
         },
         {
-          "notenumber": 40,
-          "start": 3691,
-          "end": 3765
+          "EndTime": 3765,
+          "NoteNumber": 40,
+          "StartTime": 3691
         },
         {
-          "notenumber": 47,
-          "start": 3768,
-          "end": 3827
+          "EndTime": 3827,
+          "NoteNumber": 47,
+          "StartTime": 3768
         },
         {
-          "notenumber": 66,
-          "start": 3838,
-          "end": 3986
+          "EndTime": 3986,
+          "NoteNumber": 66,
+          "StartTime": 3838
         },
         {
-          "notenumber": 51,
-          "start": 3841,
-          "end": 3879
+          "EndTime": 3879,
+          "NoteNumber": 51,
+          "StartTime": 3841
         },
         {
-          "notenumber": 48,
-          "start": 3913,
-          "end": 3973
+          "EndTime": 3973,
+          "NoteNumber": 48,
+          "StartTime": 3913
         },
         {
-          "notenumber": 67,
-          "start": 3982,
-          "end": 4132
+          "EndTime": 4132,
+          "NoteNumber": 67,
+          "StartTime": 3982
         },
         {
-          "notenumber": 52,
-          "start": 3984,
-          "end": 4029
+          "EndTime": 4029,
+          "NoteNumber": 52,
+          "StartTime": 3984
         },
         {
-          "notenumber": 51,
-          "start": 4060,
-          "end": 4114
+          "EndTime": 4114,
+          "NoteNumber": 51,
+          "StartTime": 4060
         },
         {
-          "notenumber": 69,
-          "start": 4132,
-          "end": 4228
+          "EndTime": 4228,
+          "NoteNumber": 69,
+          "StartTime": 4132
         },
         {
-          "notenumber": 54,
-          "start": 4134,
-          "end": 4147
+          "EndTime": 4147,
+          "NoteNumber": 54,
+          "StartTime": 4134
         },
         {
-          "notenumber": 71,
-          "start": 4209,
-          "end": 4561
+          "EndTime": 4561,
+          "NoteNumber": 71,
+          "StartTime": 4209
         },
         {
-          "notenumber": 67,
-          "start": 4209,
-          "end": 4573
+          "EndTime": 4573,
+          "NoteNumber": 67,
+          "StartTime": 4209
         },
         {
-          "notenumber": 40,
-          "start": 4211,
-          "end": 4271
+          "EndTime": 4271,
+          "NoteNumber": 40,
+          "StartTime": 4211
         },
         {
-          "notenumber": 47,
-          "start": 4280,
-          "end": 4289
+          "EndTime": 4289,
+          "NoteNumber": 47,
+          "StartTime": 4280
         },
         {
-          "notenumber": 59,
-          "start": 4352,
-          "end": 4416
+          "EndTime": 4416,
+          "NoteNumber": 59,
+          "StartTime": 4352
         },
         {
-          "notenumber": 52,
-          "start": 4425,
-          "end": 4497
+          "EndTime": 4497,
+          "NoteNumber": 52,
+          "StartTime": 4425
         },
         {
-          "notenumber": 64,
-          "start": 4495,
-          "end": 4553
+          "EndTime": 4553,
+          "NoteNumber": 64,
+          "StartTime": 4495
         },
         {
-          "notenumber": 55,
-          "start": 4569,
-          "end": 4658
+          "EndTime": 4658,
+          "NoteNumber": 55,
+          "StartTime": 4569
         },
         {
-          "notenumber": 59,
-          "start": 4640,
-          "end": 4651
+          "EndTime": 4651,
+          "NoteNumber": 59,
+          "StartTime": 4640
         },
         {
-          "notenumber": 74,
-          "start": 4643,
-          "end": 4670
+          "EndTime": 4670,
+          "NoteNumber": 74,
+          "StartTime": 4643
         },
         {
-          "notenumber": 71,
-          "start": 4645,
-          "end": 4655
+          "EndTime": 4655,
+          "NoteNumber": 71,
+          "StartTime": 4645
         },
         {
-          "notenumber": 40,
-          "start": 4721,
-          "end": 4773
+          "EndTime": 4773,
+          "NoteNumber": 40,
+          "StartTime": 4721
         },
         {
-          "notenumber": 69,
-          "start": 4721,
-          "end": 5092
+          "EndTime": 5092,
+          "NoteNumber": 69,
+          "StartTime": 4721
         },
         {
-          "notenumber": 60,
-          "start": 4723,
-          "end": 5084
+          "EndTime": 5084,
+          "NoteNumber": 60,
+          "StartTime": 4723
         },
         {
-          "notenumber": 48,
-          "start": 4796,
-          "end": 4848
+          "EndTime": 4848,
+          "NoteNumber": 48,
+          "StartTime": 4796
         },
         {
-          "notenumber": 54,
-          "start": 4862,
-          "end": 4894
+          "EndTime": 4894,
+          "NoteNumber": 54,
+          "StartTime": 4862
         },
         {
-          "notenumber": 48,
-          "start": 4933,
-          "end": 5004
+          "EndTime": 5004,
+          "NoteNumber": 48,
+          "StartTime": 4933
         },
         {
-          "notenumber": 57,
-          "start": 5007,
-          "end": 5077
+          "EndTime": 5077,
+          "NoteNumber": 57,
+          "StartTime": 5007
         },
         {
-          "notenumber": 54,
-          "start": 5076,
-          "end": 5155
+          "EndTime": 5155,
+          "NoteNumber": 54,
+          "StartTime": 5076
         },
         {
-          "notenumber": 71,
-          "start": 5145,
-          "end": 5169
+          "EndTime": 5169,
+          "NoteNumber": 71,
+          "StartTime": 5145
         },
         {
-          "notenumber": 55,
-          "start": 5146,
-          "end": 5156
+          "EndTime": 5156,
+          "NoteNumber": 55,
+          "StartTime": 5146
         },
         {
-          "notenumber": 66,
-          "start": 5225,
-          "end": 5493
+          "EndTime": 5493,
+          "NoteNumber": 66,
+          "StartTime": 5225
         },
         {
-          "notenumber": 40,
-          "start": 5225,
-          "end": 5297
+          "EndTime": 5297,
+          "NoteNumber": 40,
+          "StartTime": 5225
         },
         {
-          "notenumber": 59,
-          "start": 5226,
-          "end": 5441
+          "EndTime": 5441,
+          "NoteNumber": 59,
+          "StartTime": 5226
         },
         {
-          "notenumber": 47,
-          "start": 5297,
-          "end": 5354
+          "EndTime": 5354,
+          "NoteNumber": 47,
+          "StartTime": 5297
         },
         {
-          "notenumber": 52,
-          "start": 5369,
-          "end": 5420
+          "EndTime": 5420,
+          "NoteNumber": 52,
+          "StartTime": 5369
         },
         {
-          "notenumber": 47,
-          "start": 5438,
-          "end": 5519
+          "EndTime": 5519,
+          "NoteNumber": 47,
+          "StartTime": 5438
         },
         {
-          "notenumber": 54,
-          "start": 5511,
-          "end": 5612
+          "EndTime": 5612,
+          "NoteNumber": 54,
+          "StartTime": 5511
         },
         {
-          "notenumber": 67,
-          "start": 5584,
-          "end": 5738
+          "EndTime": 5738,
+          "NoteNumber": 67,
+          "StartTime": 5584
         },
         {
-          "notenumber": 55,
-          "start": 5586,
-          "end": 5664
+          "EndTime": 5664,
+          "NoteNumber": 55,
+          "StartTime": 5586
         },
         {
-          "notenumber": 59,
-          "start": 5657,
-          "end": 5668
+          "EndTime": 5668,
+          "NoteNumber": 59,
+          "StartTime": 5657
         },
         {
-          "notenumber": 64,
-          "start": 5726,
-          "end": 5922
+          "EndTime": 5922,
+          "NoteNumber": 64,
+          "StartTime": 5726
         },
         {
-          "notenumber": 40,
-          "start": 5730,
-          "end": 5773
+          "EndTime": 5773,
+          "NoteNumber": 40,
+          "StartTime": 5730
         },
         {
-          "notenumber": 47,
-          "start": 5803,
-          "end": 5838
+          "EndTime": 5838,
+          "NoteNumber": 47,
+          "StartTime": 5803
         },
         {
-          "notenumber": 55,
-          "start": 5875,
-          "end": 5927
+          "EndTime": 5927,
+          "NoteNumber": 55,
+          "StartTime": 5875
         },
         {
-          "notenumber": 47,
-          "start": 5940,
-          "end": 6016
+          "EndTime": 6016,
+          "NoteNumber": 47,
+          "StartTime": 5940
         },
         {
-          "notenumber": 66,
-          "start": 6019,
-          "end": 6064
+          "EndTime": 6064,
+          "NoteNumber": 66,
+          "StartTime": 6019
         },
         {
-          "notenumber": 54,
-          "start": 6022,
-          "end": 6091
+          "EndTime": 6091,
+          "NoteNumber": 54,
+          "StartTime": 6022
         },
         {
-          "notenumber": 67,
-          "start": 6089,
-          "end": 6099
+          "EndTime": 6099,
+          "NoteNumber": 67,
+          "StartTime": 6089
         },
         {
-          "notenumber": 52,
-          "start": 6091,
-          "end": 6160
+          "EndTime": 6160,
+          "NoteNumber": 52,
+          "StartTime": 6091
         },
         {
-          "notenumber": 71,
-          "start": 6161,
-          "end": 6573
+          "EndTime": 6573,
+          "NoteNumber": 71,
+          "StartTime": 6161
         },
         {
-          "notenumber": 47,
-          "start": 6163,
-          "end": 6173
+          "EndTime": 6173,
+          "NoteNumber": 47,
+          "StartTime": 6163
         },
         {
-          "notenumber": 83,
-          "start": 6232,
-          "end": 6587
+          "EndTime": 6587,
+          "NoteNumber": 83,
+          "StartTime": 6232
         },
         {
-          "notenumber": 40,
-          "start": 6236,
-          "end": 6302
+          "EndTime": 6302,
+          "NoteNumber": 40,
+          "StartTime": 6236
         },
         {
-          "notenumber": 47,
-          "start": 6307,
-          "end": 6330
+          "EndTime": 6330,
+          "NoteNumber": 47,
+          "StartTime": 6307
         },
         {
-          "notenumber": 55,
-          "start": 6380,
-          "end": 6431
+          "EndTime": 6431,
+          "NoteNumber": 55,
+          "StartTime": 6380
         },
         {
-          "notenumber": 47,
-          "start": 6450,
-          "end": 6468
+          "EndTime": 6468,
+          "NoteNumber": 47,
+          "StartTime": 6450
         },
         {
-          "notenumber": 57,
-          "start": 6524,
-          "end": 6586
+          "EndTime": 6586,
+          "NoteNumber": 57,
+          "StartTime": 6524
         },
         {
-          "notenumber": 55,
-          "start": 6596,
-          "end": 6670
+          "EndTime": 6670,
+          "NoteNumber": 55,
+          "StartTime": 6596
         },
         {
-          "notenumber": 86,
-          "start": 6664,
-          "end": 6676
+          "EndTime": 6676,
+          "NoteNumber": 86,
+          "StartTime": 6664
         },
         {
-          "notenumber": 74,
-          "start": 6667,
-          "end": 6678
+          "EndTime": 6678,
+          "NoteNumber": 74,
+          "StartTime": 6667
         },
         {
-          "notenumber": 47,
-          "start": 6668,
-          "end": 6678
+          "EndTime": 6678,
+          "NoteNumber": 47,
+          "StartTime": 6668
         },
         {
-          "notenumber": 81,
-          "start": 6741,
-          "end": 7109
+          "EndTime": 7109,
+          "NoteNumber": 81,
+          "StartTime": 6741
         },
         {
-          "notenumber": 40,
-          "start": 6741,
-          "end": 6800
+          "EndTime": 6800,
+          "NoteNumber": 40,
+          "StartTime": 6741
         },
         {
-          "notenumber": 69,
-          "start": 6741,
-          "end": 6994
+          "EndTime": 6994,
+          "NoteNumber": 69,
+          "StartTime": 6741
         },
         {
-          "notenumber": 48,
-          "start": 6815,
-          "end": 6865
+          "EndTime": 6865,
+          "NoteNumber": 48,
+          "StartTime": 6815
         },
         {
-          "notenumber": 54,
-          "start": 6883,
-          "end": 6916
+          "EndTime": 6916,
+          "NoteNumber": 54,
+          "StartTime": 6883
         },
         {
-          "notenumber": 48,
-          "start": 6954,
-          "end": 7043
+          "EndTime": 7043,
+          "NoteNumber": 48,
+          "StartTime": 6954
         },
         {
-          "notenumber": 69,
-          "start": 7028,
-          "end": 7048
+          "EndTime": 7048,
+          "NoteNumber": 69,
+          "StartTime": 7028
         },
         {
-          "notenumber": 57,
-          "start": 7028,
-          "end": 7084
+          "EndTime": 7084,
+          "NoteNumber": 57,
+          "StartTime": 7028
         },
         {
-          "notenumber": 54,
-          "start": 7096,
-          "end": 7182
+          "EndTime": 7182,
+          "NoteNumber": 54,
+          "StartTime": 7096
         },
         {
-          "notenumber": 71,
-          "start": 7098,
-          "end": 7176
+          "EndTime": 7176,
+          "NoteNumber": 71,
+          "StartTime": 7098
         },
         {
-          "notenumber": 83,
-          "start": 7163,
-          "end": 7170
+          "EndTime": 7170,
+          "NoteNumber": 83,
+          "StartTime": 7163
         },
         {
-          "notenumber": 55,
-          "start": 7167,
-          "end": 7179
+          "EndTime": 7179,
+          "NoteNumber": 55,
+          "StartTime": 7167
         },
         {
-          "notenumber": 62,
-          "start": 7210,
-          "end": 7219
+          "EndTime": 7219,
+          "NoteNumber": 62,
+          "StartTime": 7210
         },
         {
-          "notenumber": 76,
-          "start": 7249,
-          "end": 7829
+          "EndTime": 7829,
+          "NoteNumber": 76,
+          "StartTime": 7249
         },
         {
-          "notenumber": 40,
-          "start": 7249,
-          "end": 7320
+          "EndTime": 7320,
+          "NoteNumber": 40,
+          "StartTime": 7249
         },
         {
-          "notenumber": 64,
-          "start": 7252,
-          "end": 7766
+          "EndTime": 7766,
+          "NoteNumber": 64,
+          "StartTime": 7252
         },
         {
-          "notenumber": 47,
-          "start": 7319,
-          "end": 7378
+          "EndTime": 7378,
+          "NoteNumber": 47,
+          "StartTime": 7319
         },
         {
-          "notenumber": 51,
-          "start": 7386,
-          "end": 7423
+          "EndTime": 7423,
+          "NoteNumber": 51,
+          "StartTime": 7386
         },
         {
-          "notenumber": 47,
-          "start": 7456,
-          "end": 7527
+          "EndTime": 7527,
+          "NoteNumber": 47,
+          "StartTime": 7456
         },
         {
-          "notenumber": 52,
-          "start": 7527,
-          "end": 7595
+          "EndTime": 7595,
+          "NoteNumber": 52,
+          "StartTime": 7527
         },
         {
-          "notenumber": 51,
-          "start": 7595,
-          "end": 7668
+          "EndTime": 7668,
+          "NoteNumber": 51,
+          "StartTime": 7595
         },
         {
-          "notenumber": 47,
-          "start": 7668,
-          "end": 7681
+          "EndTime": 7681,
+          "NoteNumber": 47,
+          "StartTime": 7668
         },
         {
-          "notenumber": 40,
-          "start": 7737,
-          "end": 7822
+          "EndTime": 7822,
+          "NoteNumber": 40,
+          "StartTime": 7737
         },
         {
-          "notenumber": 47,
-          "start": 7809,
-          "end": 7869
+          "EndTime": 7869,
+          "NoteNumber": 47,
+          "StartTime": 7809
         },
         {
-          "notenumber": 78,
-          "start": 7877,
-          "end": 7978
+          "EndTime": 7978,
+          "NoteNumber": 78,
+          "StartTime": 7877
         },
         {
-          "notenumber": 51,
-          "start": 7879,
-          "end": 7917
+          "EndTime": 7917,
+          "NoteNumber": 51,
+          "StartTime": 7879
         },
         {
-          "notenumber": 66,
-          "start": 7880,
-          "end": 7913
+          "EndTime": 7913,
+          "NoteNumber": 66,
+          "StartTime": 7880
         },
         {
-          "notenumber": 48,
-          "start": 7952,
-          "end": 7997
+          "EndTime": 7997,
+          "NoteNumber": 48,
+          "StartTime": 7952
         },
         {
-          "notenumber": 79,
-          "start": 8019,
-          "end": 8106
+          "EndTime": 8106,
+          "NoteNumber": 79,
+          "StartTime": 8019
         },
         {
-          "notenumber": 67,
-          "start": 8020,
-          "end": 8096
+          "EndTime": 8096,
+          "NoteNumber": 67,
+          "StartTime": 8020
         },
         {
-          "notenumber": 52,
-          "start": 8023,
-          "end": 8103
+          "EndTime": 8103,
+          "NoteNumber": 52,
+          "StartTime": 8023
         },
         {
-          "notenumber": 51,
-          "start": 8091,
-          "end": 8159
+          "EndTime": 8159,
+          "NoteNumber": 51,
+          "StartTime": 8091
         },
         {
-          "notenumber": 69,
-          "start": 8163,
-          "end": 8175
+          "EndTime": 8175,
+          "NoteNumber": 69,
+          "StartTime": 8163
         },
         {
-          "notenumber": 81,
-          "start": 8163,
-          "end": 8185
+          "EndTime": 8185,
+          "NoteNumber": 81,
+          "StartTime": 8163
         },
         {
-          "notenumber": 54,
-          "start": 8164,
-          "end": 8177
+          "EndTime": 8177,
+          "NoteNumber": 54,
+          "StartTime": 8164
         },
         {
-          "notenumber": 40,
-          "start": 8239,
-          "end": 8306
+          "EndTime": 8306,
+          "NoteNumber": 40,
+          "StartTime": 8239
         },
         {
-          "notenumber": 71,
-          "start": 8240,
-          "end": 8569
+          "EndTime": 8569,
+          "NoteNumber": 71,
+          "StartTime": 8240
         },
         {
-          "notenumber": 79,
-          "start": 8240,
-          "end": 8576
+          "EndTime": 8576,
+          "NoteNumber": 79,
+          "StartTime": 8240
         },
         {
-          "notenumber": 83,
-          "start": 8240,
-          "end": 8579
+          "EndTime": 8579,
+          "NoteNumber": 83,
+          "StartTime": 8240
         },
         {
-          "notenumber": 47,
-          "start": 8306,
-          "end": 8314
+          "EndTime": 8314,
+          "NoteNumber": 47,
+          "StartTime": 8306
         },
         {
-          "notenumber": 59,
-          "start": 8377,
-          "end": 8435
+          "EndTime": 8435,
+          "NoteNumber": 59,
+          "StartTime": 8377
         },
         {
-          "notenumber": 47,
-          "start": 8447,
-          "end": 8455
+          "EndTime": 8455,
+          "NoteNumber": 47,
+          "StartTime": 8447
         },
         {
-          "notenumber": 64,
-          "start": 8518,
-          "end": 8580
+          "EndTime": 8580,
+          "NoteNumber": 64,
+          "StartTime": 8518
         },
         {
-          "notenumber": 55,
-          "start": 8587,
-          "end": 8676
+          "EndTime": 8676,
+          "NoteNumber": 55,
+          "StartTime": 8587
         },
         {
-          "notenumber": 86,
-          "start": 8652,
-          "end": 8674
+          "EndTime": 8674,
+          "NoteNumber": 86,
+          "StartTime": 8652
         },
         {
-          "notenumber": 59,
-          "start": 8656,
-          "end": 8665
+          "EndTime": 8665,
+          "NoteNumber": 59,
+          "StartTime": 8656
         },
         {
-          "notenumber": 74,
-          "start": 8656,
-          "end": 8665
+          "EndTime": 8665,
+          "NoteNumber": 74,
+          "StartTime": 8656
         },
         {
-          "notenumber": 83,
-          "start": 8658,
-          "end": 8665
+          "EndTime": 8665,
+          "NoteNumber": 83,
+          "StartTime": 8658
         },
         {
-          "notenumber": 72,
-          "start": 8732,
-          "end": 9080
+          "EndTime": 9080,
+          "NoteNumber": 72,
+          "StartTime": 8732
         },
         {
-          "notenumber": 81,
-          "start": 8732,
-          "end": 9069
+          "EndTime": 9069,
+          "NoteNumber": 81,
+          "StartTime": 8732
         },
         {
-          "notenumber": 76,
-          "start": 8732,
-          "end": 9053
+          "EndTime": 9053,
+          "NoteNumber": 76,
+          "StartTime": 8732
         },
         {
-          "notenumber": 40,
-          "start": 8732,
-          "end": 8779
+          "EndTime": 8779,
+          "NoteNumber": 40,
+          "StartTime": 8732
         },
         {
-          "notenumber": 48,
-          "start": 8808,
-          "end": 8850
+          "EndTime": 8850,
+          "NoteNumber": 48,
+          "StartTime": 8808
         },
         {
-          "notenumber": 54,
-          "start": 8874,
-          "end": 8906
+          "EndTime": 8906,
+          "NoteNumber": 54,
+          "StartTime": 8874
         },
         {
-          "notenumber": 48,
-          "start": 8945,
-          "end": 9046
+          "EndTime": 9046,
+          "NoteNumber": 48,
+          "StartTime": 8945
         },
         {
-          "notenumber": 57,
-          "start": 9019,
-          "end": 9092
+          "EndTime": 9092,
+          "NoteNumber": 57,
+          "StartTime": 9019
         },
         {
-          "notenumber": 54,
-          "start": 9086,
-          "end": 9167
+          "EndTime": 9167,
+          "NoteNumber": 54,
+          "StartTime": 9086
         },
         {
-          "notenumber": 55,
-          "start": 9155,
-          "end": 9165
+          "EndTime": 9165,
+          "NoteNumber": 55,
+          "StartTime": 9155
         },
         {
-          "notenumber": 83,
-          "start": 9155,
-          "end": 9188
+          "EndTime": 9188,
+          "NoteNumber": 83,
+          "StartTime": 9155
         },
         {
-          "notenumber": 76,
-          "start": 9157,
-          "end": 9180
+          "EndTime": 9180,
+          "NoteNumber": 76,
+          "StartTime": 9157
         },
         {
-          "notenumber": 78,
-          "start": 9230,
-          "end": 9589
+          "EndTime": 9589,
+          "NoteNumber": 78,
+          "StartTime": 9230
         },
         {
-          "notenumber": 76,
-          "start": 9231,
-          "end": 9596
+          "EndTime": 9596,
+          "NoteNumber": 76,
+          "StartTime": 9231
         },
         {
-          "notenumber": 71,
-          "start": 9232,
-          "end": 9566
+          "EndTime": 9566,
+          "NoteNumber": 71,
+          "StartTime": 9232
         },
         {
-          "notenumber": 40,
-          "start": 9232,
-          "end": 9304
+          "EndTime": 9304,
+          "NoteNumber": 40,
+          "StartTime": 9232
         },
         {
-          "notenumber": 47,
-          "start": 9296,
-          "end": 9356
+          "EndTime": 9356,
+          "NoteNumber": 47,
+          "StartTime": 9296
         },
         {
-          "notenumber": 52,
-          "start": 9367,
-          "end": 9414
+          "EndTime": 9414,
+          "NoteNumber": 52,
+          "StartTime": 9367
         },
         {
-          "notenumber": 47,
-          "start": 9436,
-          "end": 9496
+          "EndTime": 9496,
+          "NoteNumber": 47,
+          "StartTime": 9436
         },
         {
-          "notenumber": 54,
-          "start": 9506,
-          "end": 9606
+          "EndTime": 9606,
+          "NoteNumber": 54,
+          "StartTime": 9506
         },
         {
-          "notenumber": 55,
-          "start": 9579,
-          "end": 9658
+          "EndTime": 9658,
+          "NoteNumber": 55,
+          "StartTime": 9579
         },
         {
-          "notenumber": 79,
-          "start": 9579,
-          "end": 9741
+          "EndTime": 9741,
+          "NoteNumber": 79,
+          "StartTime": 9579
         },
         {
-          "notenumber": 59,
-          "start": 9652,
-          "end": 9661
+          "EndTime": 9661,
+          "NoteNumber": 59,
+          "StartTime": 9652
         },
         {
-          "notenumber": 40,
-          "start": 9723,
-          "end": 9766
+          "EndTime": 9766,
+          "NoteNumber": 40,
+          "StartTime": 9723
         },
         {
-          "notenumber": 76,
-          "start": 9723,
-          "end": 9909
+          "EndTime": 9909,
+          "NoteNumber": 76,
+          "StartTime": 9723
         },
         {
-          "notenumber": 47,
-          "start": 9792,
-          "end": 9836
+          "EndTime": 9836,
+          "NoteNumber": 47,
+          "StartTime": 9792
         },
         {
-          "notenumber": 55,
-          "start": 9865,
-          "end": 9921
+          "EndTime": 9921,
+          "NoteNumber": 55,
+          "StartTime": 9865
         },
         {
-          "notenumber": 47,
-          "start": 9935,
-          "end": 10007
+          "EndTime": 10007,
+          "NoteNumber": 47,
+          "StartTime": 9935
         },
         {
-          "notenumber": 78,
-          "start": 10004,
-          "end": 10052
+          "EndTime": 10052,
+          "NoteNumber": 78,
+          "StartTime": 10004
         },
         {
-          "notenumber": 54,
-          "start": 10007,
-          "end": 10077
+          "EndTime": 10077,
+          "NoteNumber": 54,
+          "StartTime": 10007
         },
         {
-          "notenumber": 79,
-          "start": 10074,
-          "end": 10136
+          "EndTime": 10136,
+          "NoteNumber": 79,
+          "StartTime": 10074
         },
         {
-          "notenumber": 52,
-          "start": 10076,
-          "end": 10153
+          "EndTime": 10153,
+          "NoteNumber": 52,
+          "StartTime": 10076
         },
         {
-          "notenumber": 83,
-          "start": 10145,
-          "end": 10161
+          "EndTime": 10161,
+          "NoteNumber": 83,
+          "StartTime": 10145
         },
         {
-          "notenumber": 47,
-          "start": 10149,
-          "end": 10158
+          "EndTime": 10158,
+          "NoteNumber": 47,
+          "StartTime": 10149
         },
         {
-          "notenumber": 88,
-          "start": 10219,
-          "end": 10828
+          "EndTime": 10828,
+          "NoteNumber": 88,
+          "StartTime": 10219
         },
         {
-          "notenumber": 76,
-          "start": 10221,
-          "end": 10793
+          "EndTime": 10793,
+          "NoteNumber": 76,
+          "StartTime": 10221
         },
         {
-          "notenumber": 48,
-          "start": 10223,
-          "end": 10291
+          "EndTime": 10291,
+          "NoteNumber": 48,
+          "StartTime": 10223
         },
         {
-          "notenumber": 55,
-          "start": 10292,
-          "end": 10300
+          "EndTime": 10300,
+          "NoteNumber": 55,
+          "StartTime": 10292
         },
         {
-          "notenumber": 67,
-          "start": 10362,
-          "end": 10451
+          "EndTime": 10451,
+          "NoteNumber": 67,
+          "StartTime": 10362
         },
         {
-          "notenumber": 71,
-          "start": 10506,
-          "end": 10580
+          "EndTime": 10580,
+          "NoteNumber": 71,
+          "StartTime": 10506
         },
         {
-          "notenumber": 64,
-          "start": 10573,
-          "end": 10643
+          "EndTime": 10643,
+          "NoteNumber": 64,
+          "StartTime": 10573
         },
         {
-          "notenumber": 59,
-          "start": 10643,
-          "end": 10653
+          "EndTime": 10653,
+          "NoteNumber": 59,
+          "StartTime": 10643
         },
         {
-          "notenumber": 48,
-          "start": 10715,
-          "end": 10762
+          "EndTime": 10762,
+          "NoteNumber": 48,
+          "StartTime": 10715
         },
         {
-          "notenumber": 54,
-          "start": 10786,
-          "end": 10823
+          "EndTime": 10823,
+          "NoteNumber": 54,
+          "StartTime": 10786
         },
         {
-          "notenumber": 87,
-          "start": 10858,
-          "end": 11153
+          "EndTime": 11153,
+          "NoteNumber": 87,
+          "StartTime": 10858
         },
         {
-          "notenumber": 75,
-          "start": 10858,
-          "end": 11148
+          "EndTime": 11148,
+          "NoteNumber": 75,
+          "StartTime": 10858
         },
         {
-          "notenumber": 66,
-          "start": 10861,
-          "end": 10892
+          "EndTime": 10892,
+          "NoteNumber": 66,
+          "StartTime": 10861
         },
         {
-          "notenumber": 54,
-          "start": 10920,
-          "end": 10930
+          "EndTime": 10930,
+          "NoteNumber": 54,
+          "StartTime": 10920
         },
         {
-          "notenumber": 71,
-          "start": 10995,
-          "end": 11066
+          "EndTime": 11066,
+          "NoteNumber": 71,
+          "StartTime": 10995
         },
         {
-          "notenumber": 66,
-          "start": 11064,
-          "end": 11147
+          "EndTime": 11147,
+          "NoteNumber": 66,
+          "StartTime": 11064
         },
         {
-          "notenumber": 67,
-          "start": 11134,
-          "end": 11143
+          "EndTime": 11143,
+          "NoteNumber": 67,
+          "StartTime": 11134
         },
         {
-          "notenumber": 88,
-          "start": 11206,
-          "end": 11781
+          "EndTime": 11781,
+          "NoteNumber": 88,
+          "StartTime": 11206
         },
         {
-          "notenumber": 76,
-          "start": 11207,
-          "end": 11743
+          "EndTime": 11743,
+          "NoteNumber": 76,
+          "StartTime": 11207
         },
         {
-          "notenumber": 48,
-          "start": 11210,
-          "end": 11265
+          "EndTime": 11265,
+          "NoteNumber": 48,
+          "StartTime": 11210
         },
         {
-          "notenumber": 55,
-          "start": 11272,
-          "end": 11280
+          "EndTime": 11280,
+          "NoteNumber": 55,
+          "StartTime": 11272
         },
         {
-          "notenumber": 67,
-          "start": 11345,
-          "end": 11403
+          "EndTime": 11403,
+          "NoteNumber": 67,
+          "StartTime": 11345
         },
         {
-          "notenumber": 55,
-          "start": 11410,
-          "end": 11419
+          "EndTime": 11419,
+          "NoteNumber": 55,
+          "StartTime": 11410
         },
         {
-          "notenumber": 71,
-          "start": 11481,
-          "end": 11554
+          "EndTime": 11554,
+          "NoteNumber": 71,
+          "StartTime": 11481
         },
         {
-          "notenumber": 64,
-          "start": 11550,
-          "end": 11624
+          "EndTime": 11624,
+          "NoteNumber": 64,
+          "StartTime": 11550
         },
         {
-          "notenumber": 59,
-          "start": 11620,
-          "end": 11629
+          "EndTime": 11629,
+          "NoteNumber": 59,
+          "StartTime": 11620
         },
         {
-          "notenumber": 48,
-          "start": 11692,
-          "end": 11747
+          "EndTime": 11747,
+          "NoteNumber": 48,
+          "StartTime": 11692
         },
         {
-          "notenumber": 54,
-          "start": 11761,
-          "end": 11831
+          "EndTime": 11831,
+          "NoteNumber": 54,
+          "StartTime": 11761
         },
         {
-          "notenumber": 90,
-          "start": 11829,
-          "end": 11963
+          "EndTime": 11963,
+          "NoteNumber": 90,
+          "StartTime": 11829
         },
         {
-          "notenumber": 63,
-          "start": 11832,
-          "end": 11868
+          "EndTime": 11868,
+          "NoteNumber": 63,
+          "StartTime": 11832
         },
         {
-          "notenumber": 78,
-          "start": 11832,
-          "end": 11966
+          "EndTime": 11966,
+          "NoteNumber": 78,
+          "StartTime": 11832
         },
         {
-          "notenumber": 54,
-          "start": 11898,
-          "end": 11907
+          "EndTime": 11907,
+          "NoteNumber": 54,
+          "StartTime": 11898
         },
         {
-          "notenumber": 71,
-          "start": 11969,
-          "end": 12042
+          "EndTime": 12042,
+          "NoteNumber": 71,
+          "StartTime": 11969
         },
         {
-          "notenumber": 88,
-          "start": 12035,
-          "end": 12067
+          "EndTime": 12067,
+          "NoteNumber": 88,
+          "StartTime": 12035
         },
         {
-          "notenumber": 76,
-          "start": 12036,
-          "end": 12058
+          "EndTime": 12058,
+          "NoteNumber": 76,
+          "StartTime": 12036
         },
         {
-          "notenumber": 66,
-          "start": 12037,
-          "end": 12117
+          "EndTime": 12117,
+          "NoteNumber": 66,
+          "StartTime": 12037
         },
         {
-          "notenumber": 67,
-          "start": 12105,
-          "end": 12113
+          "EndTime": 12113,
+          "NoteNumber": 67,
+          "StartTime": 12105
         },
         {
-          "notenumber": 75,
-          "start": 12107,
-          "end": 12126
+          "EndTime": 12126,
+          "NoteNumber": 75,
+          "StartTime": 12107
         },
         {
-          "notenumber": 87,
-          "start": 12107,
-          "end": 12145
+          "EndTime": 12145,
+          "NoteNumber": 87,
+          "StartTime": 12107
         },
         {
-          "notenumber": 88,
-          "start": 12178,
-          "end": 12764
+          "EndTime": 12764,
+          "NoteNumber": 88,
+          "StartTime": 12178
         },
         {
-          "notenumber": 48,
-          "start": 12179,
-          "end": 12234
+          "EndTime": 12234,
+          "NoteNumber": 48,
+          "StartTime": 12179
         },
         {
-          "notenumber": 76,
-          "start": 12179,
-          "end": 12738
+          "EndTime": 12738,
+          "NoteNumber": 76,
+          "StartTime": 12179
         },
         {
-          "notenumber": 55,
-          "start": 12240,
-          "end": 12248
+          "EndTime": 12248,
+          "NoteNumber": 55,
+          "StartTime": 12240
         },
         {
-          "notenumber": 67,
-          "start": 12312,
-          "end": 12355
+          "EndTime": 12355,
+          "NoteNumber": 67,
+          "StartTime": 12312
         },
         {
-          "notenumber": 55,
-          "start": 12378,
-          "end": 12388
+          "EndTime": 12388,
+          "NoteNumber": 55,
+          "StartTime": 12378
         },
         {
-          "notenumber": 71,
-          "start": 12450,
-          "end": 12527
+          "EndTime": 12527,
+          "NoteNumber": 71,
+          "StartTime": 12450
         },
         {
-          "notenumber": 64,
-          "start": 12518,
-          "end": 12597
+          "EndTime": 12597,
+          "NoteNumber": 64,
+          "StartTime": 12518
         },
         {
-          "notenumber": 59,
-          "start": 12592,
-          "end": 12601
+          "EndTime": 12601,
+          "NoteNumber": 59,
+          "StartTime": 12592
         },
         {
-          "notenumber": 48,
-          "start": 12667,
-          "end": 12716
+          "EndTime": 12716,
+          "NoteNumber": 48,
+          "StartTime": 12667
         },
         {
-          "notenumber": 54,
-          "start": 12736,
-          "end": 12804
+          "EndTime": 12804,
+          "NoteNumber": 54,
+          "StartTime": 12736
         },
         {
-          "notenumber": 87,
-          "start": 12803,
-          "end": 13113
+          "EndTime": 13113,
+          "NoteNumber": 87,
+          "StartTime": 12803
         },
         {
-          "notenumber": 75,
-          "start": 12805,
-          "end": 13107
+          "EndTime": 13107,
+          "NoteNumber": 75,
+          "StartTime": 12805
         },
         {
-          "notenumber": 66,
-          "start": 12809,
-          "end": 12847
+          "EndTime": 12847,
+          "NoteNumber": 66,
+          "StartTime": 12809
         },
         {
-          "notenumber": 54,
-          "start": 12871,
-          "end": 12880
+          "EndTime": 12880,
+          "NoteNumber": 54,
+          "StartTime": 12871
         },
         {
-          "notenumber": 71,
-          "start": 12943,
-          "end": 13018
+          "EndTime": 13018,
+          "NoteNumber": 71,
+          "StartTime": 12943
         },
         {
-          "notenumber": 66,
-          "start": 13013,
-          "end": 13089
+          "EndTime": 13089,
+          "NoteNumber": 66,
+          "StartTime": 13013
         },
         {
-          "notenumber": 67,
-          "start": 13081,
-          "end": 13091
+          "EndTime": 13091,
+          "NoteNumber": 67,
+          "StartTime": 13081
         },
         {
-          "notenumber": 76,
-          "start": 13155,
-          "end": 13687
+          "EndTime": 13687,
+          "NoteNumber": 76,
+          "StartTime": 13155
         },
         {
-          "notenumber": 88,
-          "start": 13155,
-          "end": 13707
+          "EndTime": 13707,
+          "NoteNumber": 88,
+          "StartTime": 13155
         },
         {
-          "notenumber": 48,
-          "start": 13157,
-          "end": 13222
+          "EndTime": 13222,
+          "NoteNumber": 48,
+          "StartTime": 13157
         },
         {
-          "notenumber": 55,
-          "start": 13224,
-          "end": 13233
+          "EndTime": 13233,
+          "NoteNumber": 55,
+          "StartTime": 13224
         },
         {
-          "notenumber": 67,
-          "start": 13293,
-          "end": 13351
+          "EndTime": 13351,
+          "NoteNumber": 67,
+          "StartTime": 13293
         },
         {
-          "notenumber": 55,
-          "start": 13360,
-          "end": 13370
+          "EndTime": 13370,
+          "NoteNumber": 55,
+          "StartTime": 13360
         },
         {
-          "notenumber": 71,
-          "start": 13431,
-          "end": 13511
+          "EndTime": 13511,
+          "NoteNumber": 71,
+          "StartTime": 13431
         },
         {
-          "notenumber": 64,
-          "start": 13498,
-          "end": 13571
+          "EndTime": 13571,
+          "NoteNumber": 64,
+          "StartTime": 13498
         },
         {
-          "notenumber": 59,
-          "start": 13567,
-          "end": 13575
+          "EndTime": 13575,
+          "NoteNumber": 59,
+          "StartTime": 13567
         },
         {
-          "notenumber": 48,
-          "start": 13638,
-          "end": 13690
+          "EndTime": 13690,
+          "NoteNumber": 48,
+          "StartTime": 13638
         },
         {
-          "notenumber": 54,
-          "start": 13708,
-          "end": 13767
+          "EndTime": 13767,
+          "NoteNumber": 54,
+          "StartTime": 13708
         },
         {
-          "notenumber": 90,
-          "start": 13771,
-          "end": 13934
+          "EndTime": 13934,
+          "NoteNumber": 90,
+          "StartTime": 13771
         },
         {
-          "notenumber": 63,
-          "start": 13774,
-          "end": 13807
+          "EndTime": 13807,
+          "NoteNumber": 63,
+          "StartTime": 13774
         },
         {
-          "notenumber": 78,
-          "start": 13774,
-          "end": 13904
+          "EndTime": 13904,
+          "NoteNumber": 78,
+          "StartTime": 13774
         },
         {
-          "notenumber": 54,
-          "start": 13839,
-          "end": 13847
+          "EndTime": 13847,
+          "NoteNumber": 54,
+          "StartTime": 13839
         },
         {
-          "notenumber": 71,
-          "start": 13915,
-          "end": 13991
+          "EndTime": 13991,
+          "NoteNumber": 71,
+          "StartTime": 13915
         },
         {
-          "notenumber": 91,
-          "start": 13985,
-          "end": 14011
+          "EndTime": 14011,
+          "NoteNumber": 91,
+          "StartTime": 13985
         },
         {
-          "notenumber": 66,
-          "start": 13985,
-          "end": 14063
+          "EndTime": 14063,
+          "NoteNumber": 66,
+          "StartTime": 13985
         },
         {
-          "notenumber": 79,
-          "start": 13987,
-          "end": 14002
+          "EndTime": 14002,
+          "NoteNumber": 79,
+          "StartTime": 13987
         },
         {
-          "notenumber": 67,
-          "start": 14054,
-          "end": 14064
+          "EndTime": 14064,
+          "NoteNumber": 67,
+          "StartTime": 14054
         },
         {
-          "notenumber": 93,
-          "start": 14055,
-          "end": 14063
+          "EndTime": 14063,
+          "NoteNumber": 93,
+          "StartTime": 14055
         },
         {
-          "notenumber": 81,
-          "start": 14056,
-          "end": 14064
+          "EndTime": 14064,
+          "NoteNumber": 81,
+          "StartTime": 14056
         },
         {
-          "notenumber": 95,
-          "start": 14128,
-          "end": 14363
+          "EndTime": 14363,
+          "NoteNumber": 95,
+          "StartTime": 14128
         },
         {
-          "notenumber": 91,
-          "start": 14129,
-          "end": 14211
+          "EndTime": 14211,
+          "NoteNumber": 91,
+          "StartTime": 14129
         },
         {
-          "notenumber": 64,
-          "start": 14129,
-          "end": 14190
+          "EndTime": 14190,
+          "NoteNumber": 64,
+          "StartTime": 14129
         },
         {
-          "notenumber": 83,
-          "start": 14132,
-          "end": 14281
+          "EndTime": 14281,
+          "NoteNumber": 83,
+          "StartTime": 14132
         },
         {
-          "notenumber": 71,
-          "start": 14200,
-          "end": 14212
+          "EndTime": 14212,
+          "NoteNumber": 71,
+          "StartTime": 14200
         },
         {
-          "notenumber": 79,
-          "start": 14271,
-          "end": 14306
+          "EndTime": 14306,
+          "NoteNumber": 79,
+          "StartTime": 14271
         },
         {
-          "notenumber": 71,
-          "start": 14339,
-          "end": 14376
+          "EndTime": 14376,
+          "NoteNumber": 71,
+          "StartTime": 14339
         },
         {
-          "notenumber": 91,
-          "start": 14408,
-          "end": 14473
+          "EndTime": 14473,
+          "NoteNumber": 91,
+          "StartTime": 14408
         },
         {
-          "notenumber": 83,
-          "start": 14410,
-          "end": 14458
+          "EndTime": 14458,
+          "NoteNumber": 83,
+          "StartTime": 14410
         },
         {
-          "notenumber": 88,
-          "start": 14412,
-          "end": 14425
+          "EndTime": 14425,
+          "NoteNumber": 88,
+          "StartTime": 14412
         },
         {
-          "notenumber": 90,
-          "start": 14476,
-          "end": 14545
+          "EndTime": 14545,
+          "NoteNumber": 90,
+          "StartTime": 14476
         },
         {
-          "notenumber": 86,
-          "start": 14478,
-          "end": 14489
+          "EndTime": 14489,
+          "NoteNumber": 86,
+          "StartTime": 14478
         },
         {
-          "notenumber": 79,
-          "start": 14480,
-          "end": 14530
+          "EndTime": 14530,
+          "NoteNumber": 79,
+          "StartTime": 14480
         },
         {
-          "notenumber": 83,
-          "start": 14546,
-          "end": 14557
+          "EndTime": 14557,
+          "NoteNumber": 83,
+          "StartTime": 14546
         },
         {
-          "notenumber": 88,
-          "start": 14546,
-          "end": 14560
+          "EndTime": 14560,
+          "NoteNumber": 88,
+          "StartTime": 14546
         },
         {
-          "notenumber": 95,
-          "start": 14620,
-          "end": 14867
+          "EndTime": 14867,
+          "NoteNumber": 95,
+          "StartTime": 14620
         },
         {
-          "notenumber": 63,
-          "start": 14622,
-          "end": 14681
+          "EndTime": 14681,
+          "NoteNumber": 63,
+          "StartTime": 14622
         },
         {
-          "notenumber": 91,
-          "start": 14622,
-          "end": 14825
+          "EndTime": 14825,
+          "NoteNumber": 91,
+          "StartTime": 14622
         },
         {
-          "notenumber": 71,
-          "start": 14694,
-          "end": 14742
+          "EndTime": 14742,
+          "NoteNumber": 71,
+          "StartTime": 14694
         },
         {
-          "notenumber": 78,
-          "start": 14762,
-          "end": 14792
+          "EndTime": 14792,
+          "NoteNumber": 78,
+          "StartTime": 14762
         },
         {
-          "notenumber": 71,
-          "start": 14832,
-          "end": 14868
+          "EndTime": 14868,
+          "NoteNumber": 71,
+          "StartTime": 14832
         },
         {
-          "notenumber": 90,
-          "start": 14900,
-          "end": 14982
+          "EndTime": 14982,
+          "NoteNumber": 90,
+          "StartTime": 14900
         },
         {
-          "notenumber": 81,
-          "start": 14905,
-          "end": 14964
+          "EndTime": 14964,
+          "NoteNumber": 81,
+          "StartTime": 14905
         },
         {
-          "notenumber": 88,
-          "start": 14970,
-          "end": 15048
+          "EndTime": 15048,
+          "NoteNumber": 88,
+          "StartTime": 14970
         },
         {
-          "notenumber": 79,
-          "start": 14975,
-          "end": 15041
+          "EndTime": 15041,
+          "NoteNumber": 79,
+          "StartTime": 14975
         },
         {
-          "notenumber": 78,
-          "start": 15041,
-          "end": 15049
+          "EndTime": 15049,
+          "NoteNumber": 78,
+          "StartTime": 15041
         },
         {
-          "notenumber": 86,
-          "start": 15044,
-          "end": 15134
+          "EndTime": 15134,
+          "NoteNumber": 86,
+          "StartTime": 15044
         },
         {
-          "notenumber": 62,
-          "start": 15115,
-          "end": 15161
+          "EndTime": 15161,
+          "NoteNumber": 62,
+          "StartTime": 15115
         },
         {
-          "notenumber": 95,
-          "start": 15117,
-          "end": 15355
+          "EndTime": 15355,
+          "NoteNumber": 95,
+          "StartTime": 15117
         },
         {
-          "notenumber": 71,
-          "start": 15186,
-          "end": 15197
+          "EndTime": 15197,
+          "NoteNumber": 71,
+          "StartTime": 15186
         },
         {
-          "notenumber": 79,
-          "start": 15256,
-          "end": 15299
+          "EndTime": 15299,
+          "NoteNumber": 79,
+          "StartTime": 15256
         },
         {
-          "notenumber": 71,
-          "start": 15325,
-          "end": 15358
+          "EndTime": 15358,
+          "NoteNumber": 71,
+          "StartTime": 15325
         },
         {
-          "notenumber": 91,
-          "start": 15395,
-          "end": 15465
+          "EndTime": 15465,
+          "NoteNumber": 91,
+          "StartTime": 15395
         },
         {
-          "notenumber": 83,
-          "start": 15399,
-          "end": 15422
+          "EndTime": 15422,
+          "NoteNumber": 83,
+          "StartTime": 15399
         },
         {
-          "notenumber": 88,
-          "start": 15463,
-          "end": 15535
+          "EndTime": 15535,
+          "NoteNumber": 88,
+          "StartTime": 15463
         },
         {
-          "notenumber": 79,
-          "start": 15463,
-          "end": 15522
+          "EndTime": 15522,
+          "NoteNumber": 79,
+          "StartTime": 15463
         },
         {
-          "notenumber": 71,
-          "start": 15530,
-          "end": 15540
+          "EndTime": 15540,
+          "NoteNumber": 71,
+          "StartTime": 15530
         },
         {
-          "notenumber": 83,
-          "start": 15533,
-          "end": 15615
+          "EndTime": 15615,
+          "NoteNumber": 83,
+          "StartTime": 15533
         },
         {
-          "notenumber": 95,
-          "start": 15601,
-          "end": 15753
+          "EndTime": 15753,
+          "NoteNumber": 95,
+          "StartTime": 15601
         },
         {
-          "notenumber": 60,
-          "start": 15606,
-          "end": 15639
+          "EndTime": 15639,
+          "NoteNumber": 60,
+          "StartTime": 15606
         },
         {
-          "notenumber": 71,
-          "start": 15674,
-          "end": 15713
+          "EndTime": 15713,
+          "NoteNumber": 71,
+          "StartTime": 15674
         },
         {
-          "notenumber": 87,
-          "start": 15741,
-          "end": 15885
+          "EndTime": 15885,
+          "NoteNumber": 87,
+          "StartTime": 15741
         },
         {
-          "notenumber": 78,
-          "start": 15744,
-          "end": 15779
+          "EndTime": 15779,
+          "NoteNumber": 78,
+          "StartTime": 15744
         },
         {
-          "notenumber": 71,
-          "start": 15809,
-          "end": 15883
+          "EndTime": 15883,
+          "NoteNumber": 71,
+          "StartTime": 15809
         },
         {
-          "notenumber": 88,
-          "start": 15878,
-          "end": 16037
+          "EndTime": 16037,
+          "NoteNumber": 88,
+          "StartTime": 15878
         },
         {
-          "notenumber": 79,
-          "start": 15881,
-          "end": 15928
+          "EndTime": 15928,
+          "NoteNumber": 79,
+          "StartTime": 15881
         },
         {
-          "notenumber": 71,
-          "start": 15952,
-          "end": 15991
+          "EndTime": 15991,
+          "NoteNumber": 71,
+          "StartTime": 15952
         },
         {
-          "notenumber": 90,
-          "start": 16018,
-          "end": 16109
+          "EndTime": 16109,
+          "NoteNumber": 90,
+          "StartTime": 16018
         },
         {
-          "notenumber": 78,
-          "start": 16019,
-          "end": 16028
+          "EndTime": 16028,
+          "NoteNumber": 78,
+          "StartTime": 16019
         },
         {
-          "notenumber": 64,
-          "start": 16091,
-          "end": 16155
+          "EndTime": 16155,
+          "NoteNumber": 64,
+          "StartTime": 16091
         },
         {
-          "notenumber": 95,
-          "start": 16092,
-          "end": 16340
+          "EndTime": 16340,
+          "NoteNumber": 95,
+          "StartTime": 16092
         },
         {
-          "notenumber": 71,
-          "start": 16163,
-          "end": 16174
+          "EndTime": 16174,
+          "NoteNumber": 71,
+          "StartTime": 16163
         },
         {
-          "notenumber": 79,
-          "start": 16231,
-          "end": 16265
+          "EndTime": 16265,
+          "NoteNumber": 79,
+          "StartTime": 16231
         },
         {
-          "notenumber": 71,
-          "start": 16304,
-          "end": 16349
+          "EndTime": 16349,
+          "NoteNumber": 71,
+          "StartTime": 16304
         },
         {
-          "notenumber": 83,
-          "start": 16369,
-          "end": 16416
+          "EndTime": 16416,
+          "NoteNumber": 83,
+          "StartTime": 16369
         },
         {
-          "notenumber": 88,
-          "start": 16370,
-          "end": 16402
+          "EndTime": 16402,
+          "NoteNumber": 88,
+          "StartTime": 16370
         },
         {
-          "notenumber": 91,
-          "start": 16370,
-          "end": 16422
+          "EndTime": 16422,
+          "NoteNumber": 91,
+          "StartTime": 16370
         },
         {
-          "notenumber": 90,
-          "start": 16439,
-          "end": 16501
+          "EndTime": 16501,
+          "NoteNumber": 90,
+          "StartTime": 16439
         },
         {
-          "notenumber": 86,
-          "start": 16441,
-          "end": 16457
+          "EndTime": 16457,
+          "NoteNumber": 86,
+          "StartTime": 16441
         },
         {
-          "notenumber": 79,
-          "start": 16443,
-          "end": 16506
+          "EndTime": 16506,
+          "NoteNumber": 79,
+          "StartTime": 16443
         },
         {
-          "notenumber": 88,
-          "start": 16508,
-          "end": 16533
+          "EndTime": 16533,
+          "NoteNumber": 88,
+          "StartTime": 16508
         },
         {
-          "notenumber": 83,
-          "start": 16509,
-          "end": 16520
+          "EndTime": 16520,
+          "NoteNumber": 83,
+          "StartTime": 16509
         },
         {
-          "notenumber": 76,
-          "start": 16517,
-          "end": 16530
+          "EndTime": 16530,
+          "NoteNumber": 76,
+          "StartTime": 16517
         },
         {
-          "notenumber": 91,
-          "start": 16581,
-          "end": 16797
+          "EndTime": 16797,
+          "NoteNumber": 91,
+          "StartTime": 16581
         },
         {
-          "notenumber": 95,
-          "start": 16581,
-          "end": 16813
+          "EndTime": 16813,
+          "NoteNumber": 95,
+          "StartTime": 16581
         },
         {
-          "notenumber": 63,
-          "start": 16584,
-          "end": 16631
+          "EndTime": 16631,
+          "NoteNumber": 63,
+          "StartTime": 16584
         },
         {
-          "notenumber": 71,
-          "start": 16653,
-          "end": 16706
+          "EndTime": 16706,
+          "NoteNumber": 71,
+          "StartTime": 16653
         },
         {
-          "notenumber": 78,
-          "start": 16722,
-          "end": 16755
+          "EndTime": 16755,
+          "NoteNumber": 78,
+          "StartTime": 16722
         },
         {
-          "notenumber": 71,
-          "start": 16791,
-          "end": 16828
+          "EndTime": 16828,
+          "NoteNumber": 71,
+          "StartTime": 16791
         },
         {
-          "notenumber": 90,
-          "start": 16860,
-          "end": 16941
+          "EndTime": 16941,
+          "NoteNumber": 90,
+          "StartTime": 16860
         },
         {
-          "notenumber": 81,
-          "start": 16865,
-          "end": 16909
+          "EndTime": 16909,
+          "NoteNumber": 81,
+          "StartTime": 16865
         },
         {
-          "notenumber": 88,
-          "start": 16929,
-          "end": 17005
+          "EndTime": 17005,
+          "NoteNumber": 88,
+          "StartTime": 16929
         },
         {
-          "notenumber": 79,
-          "start": 16933,
-          "end": 16996
+          "EndTime": 16996,
+          "NoteNumber": 79,
+          "StartTime": 16933
         },
         {
-          "notenumber": 78,
-          "start": 16999,
-          "end": 17007
+          "EndTime": 17007,
+          "NoteNumber": 78,
+          "StartTime": 16999
         },
         {
-          "notenumber": 86,
-          "start": 17001,
-          "end": 17090
+          "EndTime": 17090,
+          "NoteNumber": 86,
+          "StartTime": 17001
         },
         {
-          "notenumber": 95,
-          "start": 17073,
-          "end": 17314
+          "EndTime": 17314,
+          "NoteNumber": 95,
+          "StartTime": 17073
         },
         {
-          "notenumber": 62,
-          "start": 17073,
-          "end": 17116
+          "EndTime": 17116,
+          "NoteNumber": 62,
+          "StartTime": 17073
         },
         {
-          "notenumber": 71,
-          "start": 17146,
-          "end": 17156
+          "EndTime": 17156,
+          "NoteNumber": 71,
+          "StartTime": 17146
         },
         {
-          "notenumber": 79,
-          "start": 17217,
-          "end": 17279
+          "EndTime": 17279,
+          "NoteNumber": 79,
+          "StartTime": 17217
         },
         {
-          "notenumber": 71,
-          "start": 17287,
-          "end": 17325
+          "EndTime": 17325,
+          "NoteNumber": 71,
+          "StartTime": 17287
         },
         {
-          "notenumber": 83,
-          "start": 17352,
-          "end": 17388
+          "EndTime": 17388,
+          "NoteNumber": 83,
+          "StartTime": 17352
         },
         {
-          "notenumber": 91,
-          "start": 17354,
-          "end": 17427
+          "EndTime": 17427,
+          "NoteNumber": 91,
+          "StartTime": 17354
         },
         {
-          "notenumber": 88,
-          "start": 17422,
-          "end": 17500
+          "EndTime": 17500,
+          "NoteNumber": 88,
+          "StartTime": 17422
         },
         {
-          "notenumber": 79,
-          "start": 17428,
-          "end": 17481
+          "EndTime": 17481,
+          "NoteNumber": 79,
+          "StartTime": 17428
         },
         {
-          "notenumber": 76,
-          "start": 17497,
-          "end": 17507
+          "EndTime": 17507,
+          "NoteNumber": 76,
+          "StartTime": 17497
         },
         {
-          "notenumber": 83,
-          "start": 17497,
-          "end": 17587
+          "EndTime": 17587,
+          "NoteNumber": 83,
+          "StartTime": 17497
         },
         {
-          "notenumber": 60,
-          "start": 17567,
-          "end": 17590
+          "EndTime": 17590,
+          "NoteNumber": 60,
+          "StartTime": 17567
         },
         {
-          "notenumber": 95,
-          "start": 17567,
-          "end": 17825
+          "EndTime": 17825,
+          "NoteNumber": 95,
+          "StartTime": 17567
         },
         {
-          "notenumber": 71,
-          "start": 17643,
-          "end": 17687
+          "EndTime": 17687,
+          "NoteNumber": 71,
+          "StartTime": 17643
         },
         {
-          "notenumber": 76,
-          "start": 17710,
-          "end": 17756
+          "EndTime": 17756,
+          "NoteNumber": 76,
+          "StartTime": 17710
         },
         {
-          "notenumber": 71,
-          "start": 17783,
-          "end": 17852
+          "EndTime": 17852,
+          "NoteNumber": 71,
+          "StartTime": 17783
         },
         {
-          "notenumber": 78,
-          "start": 17848,
-          "end": 17912
+          "EndTime": 17912,
+          "NoteNumber": 78,
+          "StartTime": 17848
         },
         {
-          "notenumber": 93,
-          "start": 17849,
-          "end": 17930
+          "EndTime": 17930,
+          "NoteNumber": 93,
+          "StartTime": 17849
         },
         {
-          "notenumber": 91,
-          "start": 17918,
-          "end": 17991
+          "EndTime": 17991,
+          "NoteNumber": 91,
+          "StartTime": 17918
         },
         {
-          "notenumber": 76,
-          "start": 17919,
-          "end": 17974
+          "EndTime": 17974,
+          "NoteNumber": 76,
+          "StartTime": 17919
         },
         {
-          "notenumber": 72,
-          "start": 17984,
-          "end": 17993
+          "EndTime": 17993,
+          "NoteNumber": 72,
+          "StartTime": 17984
         },
         {
-          "notenumber": 88,
-          "start": 17989,
-          "end": 18084
+          "EndTime": 18084,
+          "NoteNumber": 88,
+          "StartTime": 17989
         },
         {
-          "notenumber": 49,
-          "start": 18056,
-          "end": 18066
+          "EndTime": 18066,
+          "NoteNumber": 49,
+          "StartTime": 18056
         },
         {
-          "notenumber": 56,
-          "start": 18056,
-          "end": 18068
+          "EndTime": 18068,
+          "NoteNumber": 56,
+          "StartTime": 18056
         },
         {
-          "notenumber": 95,
-          "start": 18059,
-          "end": 18105
+          "EndTime": 18105,
+          "NoteNumber": 95,
+          "StartTime": 18059
         },
         {
-          "notenumber": 64,
-          "start": 18130,
-          "end": 18205
+          "EndTime": 18205,
+          "NoteNumber": 64,
+          "StartTime": 18130
         },
         {
-          "notenumber": 75,
-          "start": 18201,
-          "end": 18351
+          "EndTime": 18351,
+          "NoteNumber": 75,
+          "StartTime": 18201
         },
         {
-          "notenumber": 66,
-          "start": 18210,
-          "end": 18263
+          "EndTime": 18263,
+          "NoteNumber": 66,
+          "StartTime": 18210
         },
         {
-          "notenumber": 56,
-          "start": 18272,
-          "end": 18338
+          "EndTime": 18338,
+          "NoteNumber": 56,
+          "StartTime": 18272
         },
         {
-          "notenumber": 73,
-          "start": 18341,
-          "end": 18480
+          "EndTime": 18480,
+          "NoteNumber": 73,
+          "StartTime": 18341
         },
         {
-          "notenumber": 61,
-          "start": 18344,
-          "end": 18387
+          "EndTime": 18387,
+          "NoteNumber": 61,
+          "StartTime": 18344
         },
         {
-          "notenumber": 49,
-          "start": 18406,
-          "end": 18450
+          "EndTime": 18450,
+          "NoteNumber": 49,
+          "StartTime": 18406
         },
         {
-          "notenumber": 60,
-          "start": 18478,
-          "end": 18505
+          "EndTime": 18505,
+          "NoteNumber": 60,
+          "StartTime": 18478
         },
         {
-          "notenumber": 72,
-          "start": 18480,
-          "end": 18569
+          "EndTime": 18569,
+          "NoteNumber": 72,
+          "StartTime": 18480
         },
         {
-          "notenumber": 73,
-          "start": 18550,
-          "end": 18637
+          "EndTime": 18637,
+          "NoteNumber": 73,
+          "StartTime": 18550
         },
         {
-          "notenumber": 49,
-          "start": 18550,
-          "end": 18559
+          "EndTime": 18559,
+          "NoteNumber": 49,
+          "StartTime": 18550
         },
         {
-          "notenumber": 56,
-          "start": 18552,
-          "end": 18561
+          "EndTime": 18561,
+          "NoteNumber": 56,
+          "StartTime": 18552
         },
         {
-          "notenumber": 64,
-          "start": 18624,
-          "end": 18699
+          "EndTime": 18699,
+          "NoteNumber": 64,
+          "StartTime": 18624
         },
         {
-          "notenumber": 87,
-          "start": 18695,
-          "end": 18999
+          "EndTime": 18999,
+          "NoteNumber": 87,
+          "StartTime": 18695
         },
         {
-          "notenumber": 75,
-          "start": 18695,
-          "end": 18991
+          "EndTime": 18991,
+          "NoteNumber": 75,
+          "StartTime": 18695
         },
         {
-          "notenumber": 66,
-          "start": 18699,
-          "end": 18759
+          "EndTime": 18759,
+          "NoteNumber": 66,
+          "StartTime": 18699
         },
         {
-          "notenumber": 88,
-          "start": 18709,
-          "end": 18722
+          "EndTime": 18722,
+          "NoteNumber": 88,
+          "StartTime": 18709
         },
         {
-          "notenumber": 61,
-          "start": 18765,
-          "end": 18838
+          "EndTime": 18838,
+          "NoteNumber": 61,
+          "StartTime": 18765
         },
         {
-          "notenumber": 66,
-          "start": 18837,
-          "end": 18880
+          "EndTime": 18880,
+          "NoteNumber": 66,
+          "StartTime": 18837
         },
         {
-          "notenumber": 63,
-          "start": 18908,
-          "end": 18991
+          "EndTime": 18991,
+          "NoteNumber": 63,
+          "StartTime": 18908
         },
         {
-          "notenumber": 69,
-          "start": 18980,
-          "end": 18993
+          "EndTime": 18993,
+          "NoteNumber": 69,
+          "StartTime": 18980
         },
         {
-          "notenumber": 88,
-          "start": 19048,
-          "end": 19105
+          "EndTime": 19105,
+          "NoteNumber": 88,
+          "StartTime": 19048
         },
         {
-          "notenumber": 76,
-          "start": 19050,
-          "end": 19128
+          "EndTime": 19128,
+          "NoteNumber": 76,
+          "StartTime": 19050
         },
         {
-          "notenumber": 49,
-          "start": 19054,
-          "end": 19066
+          "EndTime": 19066,
+          "NoteNumber": 49,
+          "StartTime": 19054
         },
         {
-          "notenumber": 61,
-          "start": 19119,
-          "end": 19187
+          "EndTime": 19187,
+          "NoteNumber": 61,
+          "StartTime": 19119
         },
         {
-          "notenumber": 75,
-          "start": 19180,
-          "end": 19331
+          "EndTime": 19331,
+          "NoteNumber": 75,
+          "StartTime": 19180
         },
         {
-          "notenumber": 64,
-          "start": 19242,
-          "end": 19270
+          "EndTime": 19270,
+          "NoteNumber": 64,
+          "StartTime": 19242
         },
         {
-          "notenumber": 61,
-          "start": 19267,
-          "end": 19320
+          "EndTime": 19320,
+          "NoteNumber": 61,
+          "StartTime": 19267
         },
         {
-          "notenumber": 73,
-          "start": 19324,
-          "end": 19466
+          "EndTime": 19466,
+          "NoteNumber": 73,
+          "StartTime": 19324
         },
         {
-          "notenumber": 65,
-          "start": 19334,
-          "end": 19361
+          "EndTime": 19361,
+          "NoteNumber": 65,
+          "StartTime": 19334
         },
         {
-          "notenumber": 64,
-          "start": 19340,
-          "end": 19358
+          "EndTime": 19358,
+          "NoteNumber": 64,
+          "StartTime": 19340
         },
         {
-          "notenumber": 61,
-          "start": 19388,
-          "end": 19478
+          "EndTime": 19478,
+          "NoteNumber": 61,
+          "StartTime": 19388
         },
         {
-          "notenumber": 72,
-          "start": 19462,
-          "end": 19554
+          "EndTime": 19554,
+          "NoteNumber": 72,
+          "StartTime": 19462
         },
         {
-          "notenumber": 54,
-          "start": 19466,
-          "end": 19553
+          "EndTime": 19553,
+          "NoteNumber": 54,
+          "StartTime": 19466
         },
         {
-          "notenumber": 73,
-          "start": 19536,
-          "end": 19853
+          "EndTime": 19853,
+          "NoteNumber": 73,
+          "StartTime": 19536
         },
         {
-          "notenumber": 56,
-          "start": 19539,
-          "end": 19621
+          "EndTime": 19621,
+          "NoteNumber": 56,
+          "StartTime": 19539
         },
         {
-          "notenumber": 64,
-          "start": 19609,
-          "end": 19681
+          "EndTime": 19681,
+          "NoteNumber": 64,
+          "StartTime": 19609
         },
         {
-          "notenumber": 68,
-          "start": 19682,
-          "end": 19727
+          "EndTime": 19727,
+          "NoteNumber": 68,
+          "StartTime": 19682
         },
         {
-          "notenumber": 61,
-          "start": 19748,
-          "end": 19973
+          "EndTime": 19973,
+          "NoteNumber": 61,
+          "StartTime": 19748
         },
         {
-          "notenumber": 66,
-          "start": 19814,
-          "end": 19903
+          "EndTime": 19903,
+          "NoteNumber": 66,
+          "StartTime": 19814
         },
         {
-          "notenumber": 63,
-          "start": 19889,
-          "end": 19973
+          "EndTime": 19973,
+          "NoteNumber": 63,
+          "StartTime": 19889
         },
         {
-          "notenumber": 71,
-          "start": 19959,
-          "end": 19967
+          "EndTime": 19967,
+          "NoteNumber": 71,
+          "StartTime": 19959
         },
         {
-          "notenumber": 49,
-          "start": 20034,
-          "end": 20058
+          "EndTime": 20058,
+          "NoteNumber": 49,
+          "StartTime": 20034
         },
         {
-          "notenumber": 56,
-          "start": 20035,
-          "end": 20053
+          "EndTime": 20053,
+          "NoteNumber": 56,
+          "StartTime": 20035
         },
         {
-          "notenumber": 92,
-          "start": 20035,
-          "end": 20086
+          "EndTime": 20086,
+          "NoteNumber": 92,
+          "StartTime": 20035
         },
         {
-          "notenumber": 80,
-          "start": 20037,
-          "end": 20102
+          "EndTime": 20102,
+          "NoteNumber": 80,
+          "StartTime": 20037
         },
         {
-          "notenumber": 64,
-          "start": 20103,
-          "end": 20175
+          "EndTime": 20175,
+          "NoteNumber": 64,
+          "StartTime": 20103
         },
         {
-          "notenumber": 75,
-          "start": 20174,
-          "end": 20322
+          "EndTime": 20322,
+          "NoteNumber": 75,
+          "StartTime": 20174
         },
         {
-          "notenumber": 66,
-          "start": 20178,
-          "end": 20231
+          "EndTime": 20231,
+          "NoteNumber": 66,
+          "StartTime": 20178
         },
         {
-          "notenumber": 61,
-          "start": 20244,
-          "end": 20255
+          "EndTime": 20255,
+          "NoteNumber": 61,
+          "StartTime": 20244
         },
         {
-          "notenumber": 73,
-          "start": 20310,
-          "end": 20453
+          "EndTime": 20453,
+          "NoteNumber": 73,
+          "StartTime": 20310
         },
         {
-          "notenumber": 56,
-          "start": 20312,
-          "end": 20384
+          "EndTime": 20384,
+          "NoteNumber": 56,
+          "StartTime": 20312
         },
         {
-          "notenumber": 49,
-          "start": 20385,
-          "end": 20453
+          "EndTime": 20453,
+          "NoteNumber": 49,
+          "StartTime": 20385
         },
         {
-          "notenumber": 60,
-          "start": 20453,
-          "end": 20469
+          "EndTime": 20469,
+          "NoteNumber": 60,
+          "StartTime": 20453
         },
         {
-          "notenumber": 72,
-          "start": 20453,
-          "end": 20538
+          "EndTime": 20538,
+          "NoteNumber": 72,
+          "StartTime": 20453
         },
         {
-          "notenumber": 73,
-          "start": 20524,
-          "end": 21180
+          "EndTime": 21180,
+          "NoteNumber": 73,
+          "StartTime": 20524
         },
         {
-          "notenumber": 56,
-          "start": 20525,
-          "end": 20547
+          "EndTime": 20547,
+          "NoteNumber": 56,
+          "StartTime": 20525
         },
         {
-          "notenumber": 49,
-          "start": 20526,
-          "end": 20542
+          "EndTime": 20542,
+          "NoteNumber": 49,
+          "StartTime": 20526
         },
         {
-          "notenumber": 64,
-          "start": 20600,
-          "end": 20657
+          "EndTime": 20657,
+          "NoteNumber": 64,
+          "StartTime": 20600
         },
         {
-          "notenumber": 68,
-          "start": 20666,
-          "end": 20726
+          "EndTime": 20726,
+          "NoteNumber": 68,
+          "StartTime": 20666
         },
         {
-          "notenumber": 57,
-          "start": 20737,
-          "end": 20809
+          "EndTime": 20809,
+          "NoteNumber": 57,
+          "StartTime": 20737
         },
         {
-          "notenumber": 66,
-          "start": 20807,
-          "end": 20878
+          "EndTime": 20878,
+          "NoteNumber": 66,
+          "StartTime": 20807
         },
         {
-          "notenumber": 63,
-          "start": 20880,
-          "end": 20966
+          "EndTime": 20966,
+          "NoteNumber": 63,
+          "StartTime": 20880
         },
         {
-          "notenumber": 71,
-          "start": 20949,
-          "end": 20959
+          "EndTime": 20959,
+          "NoteNumber": 71,
+          "StartTime": 20949
         },
         {
-          "notenumber": 56,
-          "start": 21024,
-          "end": 21053
+          "EndTime": 21053,
+          "NoteNumber": 56,
+          "StartTime": 21024
         },
         {
-          "notenumber": 49,
-          "start": 21026,
-          "end": 21051
+          "EndTime": 21051,
+          "NoteNumber": 49,
+          "StartTime": 21026
         },
         {
-          "notenumber": 61,
-          "start": 21109,
-          "end": 21169
+          "EndTime": 21169,
+          "NoteNumber": 61,
+          "StartTime": 21109
         },
         {
-          "notenumber": 64,
-          "start": 21173,
-          "end": 21227
+          "EndTime": 21227,
+          "NoteNumber": 64,
+          "StartTime": 21173
         },
         {
-          "notenumber": 75,
-          "start": 21175,
-          "end": 21446
+          "EndTime": 21446,
+          "NoteNumber": 75,
+          "StartTime": 21175
         },
         {
-          "notenumber": 66,
-          "start": 21240,
-          "end": 21261
+          "EndTime": 21261,
+          "NoteNumber": 66,
+          "StartTime": 21240
         },
         {
-          "notenumber": 56,
-          "start": 21308,
-          "end": 21347
+          "EndTime": 21347,
+          "NoteNumber": 56,
+          "StartTime": 21308
         },
         {
-          "notenumber": 52,
-          "start": 21377,
-          "end": 21527
+          "EndTime": 21527,
+          "NoteNumber": 52,
+          "StartTime": 21377
         },
         {
-          "notenumber": 72,
-          "start": 21456,
-          "end": 21784
+          "EndTime": 21784,
+          "NoteNumber": 72,
+          "StartTime": 21456
         },
         {
-          "notenumber": 57,
-          "start": 21467,
-          "end": 21523
+          "EndTime": 21523,
+          "NoteNumber": 57,
+          "StartTime": 21467
         },
         {
-          "notenumber": 61,
-          "start": 21526,
-          "end": 21597
+          "EndTime": 21597,
+          "NoteNumber": 61,
+          "StartTime": 21526
         },
         {
-          "notenumber": 56,
-          "start": 21599,
-          "end": 21680
+          "EndTime": 21680,
+          "NoteNumber": 56,
+          "StartTime": 21599
         },
         {
-          "notenumber": 49,
-          "start": 21666,
-          "end": 21692
+          "EndTime": 21692,
+          "NoteNumber": 49,
+          "StartTime": 21666
         },
         {
-          "notenumber": 66,
-          "start": 21742,
-          "end": 21798
+          "EndTime": 21798,
+          "NoteNumber": 66,
+          "StartTime": 21742
         },
         {
-          "notenumber": 63,
-          "start": 21810,
-          "end": 21834
+          "EndTime": 21834,
+          "NoteNumber": 63,
+          "StartTime": 21810
         },
         {
-          "notenumber": 59,
-          "start": 21881,
-          "end": 21952
+          "EndTime": 21952,
+          "NoteNumber": 59,
+          "StartTime": 21881
         },
         {
-          "notenumber": 54,
-          "start": 21952,
-          "end": 22026
+          "EndTime": 22026,
+          "NoteNumber": 54,
+          "StartTime": 21952
         },
         {
-          "notenumber": 58,
-          "start": 22029,
-          "end": 22067
+          "EndTime": 22067,
+          "NoteNumber": 58,
+          "StartTime": 22029
         },
         {
-          "notenumber": 80,
-          "start": 22103,
-          "end": 23834
+          "EndTime": 23834,
+          "NoteNumber": 80,
+          "StartTime": 22103
         },
         {
-          "notenumber": 73,
-          "start": 22103,
-          "end": 23838
+          "EndTime": 23838,
+          "NoteNumber": 73,
+          "StartTime": 22103
         },
         {
-          "notenumber": 68,
-          "start": 22105,
-          "end": 23833
+          "EndTime": 23833,
+          "NoteNumber": 68,
+          "StartTime": 22105
         },
         {
-          "notenumber": 49,
-          "start": 22107,
-          "end": 22151
+          "EndTime": 22151,
+          "NoteNumber": 49,
+          "StartTime": 22107
         },
         {
-          "notenumber": 76,
-          "start": 22107,
-          "end": 23821
+          "EndTime": 23821,
+          "NoteNumber": 76,
+          "StartTime": 22107
         },
         {
-          "notenumber": 64,
-          "start": 22184,
-          "end": 22212
+          "EndTime": 22212,
+          "NoteNumber": 64,
+          "StartTime": 22184
         },
         {
-          "notenumber": 51,
-          "start": 22245,
-          "end": 22307
+          "EndTime": 22307,
+          "NoteNumber": 51,
+          "StartTime": 22245
         },
         {
-          "notenumber": 61,
-          "start": 22319,
-          "end": 22363
+          "EndTime": 22363,
+          "NoteNumber": 61,
+          "StartTime": 22319
         },
         {
-          "notenumber": 49,
-          "start": 22384,
-          "end": 22454
+          "EndTime": 22454,
+          "NoteNumber": 49,
+          "StartTime": 22384
         },
         {
-          "notenumber": 61,
-          "start": 22456,
-          "end": 22493
+          "EndTime": 22493,
+          "NoteNumber": 61,
+          "StartTime": 22456
         },
         {
-          "notenumber": 48,
-          "start": 22528,
-          "end": 22605
+          "EndTime": 22605,
+          "NoteNumber": 48,
+          "StartTime": 22528
         },
         {
-          "notenumber": 49,
-          "start": 22592,
-          "end": 22624
+          "EndTime": 22624,
+          "NoteNumber": 49,
+          "StartTime": 22592
         },
         {
-          "notenumber": 64,
-          "start": 22667,
-          "end": 22732
+          "EndTime": 22732,
+          "NoteNumber": 64,
+          "StartTime": 22667
         },
         {
-          "notenumber": 56,
-          "start": 22738,
-          "end": 22817
+          "EndTime": 22817,
+          "NoteNumber": 56,
+          "StartTime": 22738
         },
         {
-          "notenumber": 57,
-          "start": 22805,
-          "end": 22878
+          "EndTime": 22878,
+          "NoteNumber": 57,
+          "StartTime": 22805
         },
         {
-          "notenumber": 54,
-          "start": 22883,
-          "end": 23029
+          "EndTime": 23029,
+          "NoteNumber": 54,
+          "StartTime": 22883
         },
         {
-          "notenumber": 63,
-          "start": 22953,
-          "end": 23026
+          "EndTime": 23026,
+          "NoteNumber": 63,
+          "StartTime": 22953
         },
         {
-          "notenumber": 60,
-          "start": 23022,
-          "end": 23102
+          "EndTime": 23102,
+          "NoteNumber": 60,
+          "StartTime": 23022
         },
         {
-          "notenumber": 61,
-          "start": 23094,
-          "end": 23162
+          "EndTime": 23162,
+          "NoteNumber": 61,
+          "StartTime": 23094
         },
         {
-          "notenumber": 64,
-          "start": 23166,
-          "end": 23237
+          "EndTime": 23237,
+          "NoteNumber": 64,
+          "StartTime": 23166
         },
         {
-          "notenumber": 63,
-          "start": 23235,
-          "end": 23295
+          "EndTime": 23295,
+          "NoteNumber": 63,
+          "StartTime": 23235
         },
         {
-          "notenumber": 56,
-          "start": 23311,
-          "end": 23368
+          "EndTime": 23368,
+          "NoteNumber": 56,
+          "StartTime": 23311
         },
         {
-          "notenumber": 52,
-          "start": 23376,
-          "end": 23434
+          "EndTime": 23434,
+          "NoteNumber": 52,
+          "StartTime": 23376
         },
         {
-          "notenumber": 57,
-          "start": 23446,
-          "end": 23513
+          "EndTime": 23513,
+          "NoteNumber": 57,
+          "StartTime": 23446
         },
         {
-          "notenumber": 48,
-          "start": 23515,
-          "end": 23594
+          "EndTime": 23594,
+          "NoteNumber": 48,
+          "StartTime": 23515
         },
         {
-          "notenumber": 49,
-          "start": 23588,
-          "end": 23606
+          "EndTime": 23606,
+          "NoteNumber": 49,
+          "StartTime": 23588
         },
         {
-          "notenumber": 64,
-          "start": 23657,
-          "end": 23722
+          "EndTime": 23722,
+          "NoteNumber": 64,
+          "StartTime": 23657
         },
         {
-          "notenumber": 56,
-          "start": 23728,
-          "end": 23811
+          "EndTime": 23811,
+          "NoteNumber": 56,
+          "StartTime": 23728
         },
         {
-          "notenumber": 57,
-          "start": 23805,
-          "end": 23897
+          "EndTime": 23897,
+          "NoteNumber": 57,
+          "StartTime": 23805
         },
         {
-          "notenumber": 54,
-          "start": 23891,
-          "end": 24146
+          "EndTime": 24146,
+          "NoteNumber": 54,
+          "StartTime": 23891
         },
         {
-          "notenumber": 63,
-          "start": 24003,
-          "end": 24128
+          "EndTime": 24128,
+          "NoteNumber": 63,
+          "StartTime": 24003
         }
       ]
     }
   ],
-  "tempo": 107
+  "Tempo": 107
 }
