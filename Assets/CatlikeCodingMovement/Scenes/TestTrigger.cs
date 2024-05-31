@@ -25,18 +25,57 @@ public class TestTrigger : MonoBehaviour
         
     }
 
-    //private void OnCollisionEnter(Collision collision)
-    //{
-    //    Debug.Log(collision.gameObject.name);
-    //    collision.rigidbody.velocity = Vector3.Reflect(collision.rigidbody.velocity, collision.contacts[0].normal);
-    //    Debug.Log(collision.contacts[0].normal);
-    //}
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.name);
+        Vector3 velocity= collision.rigidbody.velocity;
+        float time;
+        Debug.Log(collision.contacts[0].normal);
+        float acc = collision.gameObject.GetComponent<MovingSphere>().maxAcceleration;
+        CalculateToStop(collision.gameObject, velocity.x, acc);
+    }
+
+    public GameObject go;
+    float timeToStop = 0;
+    void CalculateToStop(GameObject targetGo,float initialVelocity,float deceleration)
+    {
+        // 计算减速到0时的时间和距离
+        timeToStop = CalculateTimeToStop(initialVelocity, deceleration);
+        float distanceToStop = CalculateDistanceToStop(initialVelocity, deceleration);
+
+        Debug.Log($"timeToStop: {timeToStop}, distanceToStop: {distanceToStop}");
+        go = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+        go.GetComponent<Collider>().enabled = false;
+        go.transform.position = targetGo.gameObject.transform.position -new Vector3( distanceToStop,0,0);
+        go.GetComponent<MeshRenderer>().enabled = false;
+
+        StartCoroutine("EnableGo");
+    }
+
+    IEnumerator EnableGo()
+    {
+        yield return new WaitForSeconds(timeToStop);
+        go.GetComponent<MeshRenderer>().enabled = true;
+    }
+
+    float CalculateTimeToStop(float initialVelocity, float deceleration)
+    {
+        // 使用公式 t = v0 / a 计算时间
+        return initialVelocity / deceleration;
+    }
+
+    float CalculateDistanceToStop(float initialVelocity, float deceleration)
+    {
+        // 使用公式 d = v0^2 / (2 * a) 计算距离
+        return (initialVelocity * initialVelocity) / (2 * deceleration);
+    }
+
 
     private void OnTriggerEnter(Collider other)
     {
         if (isRoll)
         {
-            //other.gameObject.GetComponent<Rigidbody>().velocity
+            other.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
         }
         else
         {

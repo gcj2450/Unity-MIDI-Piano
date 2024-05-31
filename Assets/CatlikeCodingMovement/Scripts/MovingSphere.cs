@@ -9,7 +9,7 @@ public class MovingSphere : MonoBehaviour {
 	float maxSpeed = 10f, maxClimbSpeed = 4f, maxSwimSpeed = 5f;
 
 	[SerializeField, Range(0f, 100f)]
-	float
+	public float
 		maxAcceleration = 10f,
 		maxAirAcceleration = 1f,
 		maxClimbAcceleration = 40f,

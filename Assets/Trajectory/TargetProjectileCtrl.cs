@@ -11,21 +11,22 @@ using UnityEngine;
 using System.Collections;
 public class TargetProjectileCtrl : MonoBehaviour
 {
+    public GameObject Sphere;
     /// <summary>射击的目标
     /// </summary>
     public Transform target;
 
-    /// <summary>箭头预制
-    /// </summary>
-    public GameObject grenadePrefab;
+    ///// <summary>箭头预制
+    ///// </summary>
+    //public GameObject grenadePrefab;
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            GameObject grenade = Instantiate(grenadePrefab, transform.position, Quaternion.identity);
-            Vector3 throwForce = calculateBestThrowSpeed(transform.position, target.transform.position, 2);
-            grenade.GetComponent<Rigidbody>().AddForce(throwForce, ForceMode.VelocityChange);
+            //GameObject grenade = Instantiate(grenadePrefab, transform.position, Quaternion.identity);
+            Vector3 throwForce = calculateBestThrowSpeed(Sphere.transform.position, target.transform.position, 2);
+            Sphere.GetComponent<Rigidbody>().AddForce(throwForce, ForceMode.VelocityChange);
         }
     }
 
@@ -60,16 +61,16 @@ public class TargetProjectileCtrl : MonoBehaviour
     }
 
     //==================以下代码是另外一个计算的方法，不是很好用，需要限制射击的目标不能太近并且高度也需要和目标高度一致
-    void shoot()
-    {
-        var ang = ElevationAngle(target);
-        var shootAng = ang + 15; // shoot 15 degree higher
-        // limit the shoot angle to a convenient range:
-        shootAng = Mathf.Clamp(shootAng, 15, 85);
-        // and shoot:
-        GameObject grenade = Instantiate(grenadePrefab, transform.position, Quaternion.identity) as GameObject;
-        grenade.GetComponent<Rigidbody>().velocity = BallisticVel(target, shootAng);
-    }
+    //void shoot()
+    //{
+    //    var ang = ElevationAngle(target);
+    //    var shootAng = ang + 15; // shoot 15 degree higher
+    //    // limit the shoot angle to a convenient range:
+    //    shootAng = Mathf.Clamp(shootAng, 15, 85);
+    //    // and shoot:
+    //    GameObject grenade = Instantiate(grenadePrefab, transform.position, Quaternion.identity) as GameObject;
+    //    grenade.GetComponent<Rigidbody>().velocity = BallisticVel(target, shootAng);
+    //}
 
     /// <summary>计算射击速度。
     /// </summary>
