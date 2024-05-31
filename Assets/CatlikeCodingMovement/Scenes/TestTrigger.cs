@@ -12,7 +12,7 @@ using UnityEngine;
 public class TestTrigger : MonoBehaviour
 {
     public Transform nextTarget;
-
+    public bool isRoll = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,11 +34,18 @@ public class TestTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        other.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
-        if (nextTarget != null)
+        if (isRoll)
         {
-            Vector3 throwForce = MoveUtils.CalculateBestThrowSpeed(other.gameObject.transform.position, nextTarget.transform.position, 2);
-            other.GetComponent<Rigidbody>().AddForce(throwForce, ForceMode.VelocityChange);
+            //other.gameObject.GetComponent<Rigidbody>().velocity
+        }
+        else
+        {
+            other.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            if (nextTarget != null)
+            {
+                Vector3 throwForce = MoveUtils.CalculateBestThrowSpeed(other.gameObject.transform.position, nextTarget.transform.position, 2);
+                other.GetComponent<Rigidbody>().AddForce(throwForce, ForceMode.VelocityChange);
+            }
         }
     }
 
