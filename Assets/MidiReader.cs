@@ -15,231 +15,234 @@ using System.Xml;
 using UnityEngine;
 using Formatting = Newtonsoft.Json.Formatting;
 
-public class MidiReader : MonoBehaviour
+namespace CustomMidiReader
 {
-    public JsonSong jSong;
-    // Start is called before the first frame update
-    void Start()
+    public class MidiReader : MonoBehaviour
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public List<CustomNote> GetNotes()
-    {
-        string midiFilePath = Application.streamingAssetsPath + "/MIDI/midi.mid";
-        ReadMidi2(midiFilePath);
-        List<CustomNote> noteList = new List<CustomNote>();
-        foreach (var item in jSong.Tracks)
+        public JsonSong jSong;
+        // Start is called before the first frame update
+        void Start()
         {
-            noteList.AddRange(item.Notes);
+
         }
-        noteList.Sort((a, b) => a.StartTime.CompareTo(b.StartTime));
-        return noteList;
-    }
 
-    //下面两个方案读取结果一样
-
-    void ReadMidi(string midiFilePath)
-    {
-        var midiFile = new MidiFile(midiFilePath, false);
-        var tracks = new List<Dictionary<string, object>>();
-        Dictionary<int, int> openNotes = new Dictionary<int, int>();
-
-        foreach (var track in midiFile.Events)
+        // Update is called once per frame
+        void Update()
         {
-            var notes = new List<Dictionary<string, int>>();
 
-            foreach (var midiEvent in track)
+        }
+
+        public List<CustomNote> GetNotes()
+        {
+            string midiFilePath = Application.streamingAssetsPath + "/MIDI/midi.mid";
+            ReadMidi2(midiFilePath);
+            List<CustomNote> noteList = new List<CustomNote>();
+            foreach (var item in jSong.Tracks)
             {
-                if (midiEvent.CommandCode == MidiCommandCode.NoteOn)
+                noteList.AddRange(item.Notes);
+            }
+            noteList.Sort((a, b) => a.StartTime.CompareTo(b.StartTime));
+            return noteList;
+        }
+
+        //下面两个方案读取结果一样
+
+        void ReadMidi(string midiFilePath)
+        {
+            var midiFile = new MidiFile(midiFilePath, false);
+            var tracks = new List<Dictionary<string, object>>();
+            Dictionary<int, int> openNotes = new Dictionary<int, int>();
+
+            foreach (var track in midiFile.Events)
+            {
+                var notes = new List<Dictionary<string, int>>();
+
+                foreach (var midiEvent in track)
                 {
-                    var noteOn = (NoteOnEvent)midiEvent;
-                    if (noteOn.Velocity > 0)
+                    if (midiEvent.CommandCode == MidiCommandCode.NoteOn)
                     {
-                        openNotes[noteOn.NoteNumber] = (int)noteOn.AbsoluteTime;
-                    }
-                    else
-                    {
-                        if (openNotes.TryGetValue(noteOn.NoteNumber, out int startTime))
+                        var noteOn = (NoteOnEvent)midiEvent;
+                        if (noteOn.Velocity > 0)
                         {
-                            notes.Add(new Dictionary<string, int>
+                            openNotes[noteOn.NoteNumber] = (int)noteOn.AbsoluteTime;
+                        }
+                        else
+                        {
+                            if (openNotes.TryGetValue(noteOn.NoteNumber, out int startTime))
+                            {
+                                notes.Add(new Dictionary<string, int>
                             {
                                 { "notenumber", noteOn.NoteNumber },
                                 { "start", startTime },
                                 { "end", (int)noteOn.AbsoluteTime }
                             });
-                            openNotes.Remove(noteOn.NoteNumber);
+                                openNotes.Remove(noteOn.NoteNumber);
+                            }
                         }
                     }
-                }
-                else if (midiEvent.CommandCode == MidiCommandCode.NoteOff)
-                {
-                    var noteOff = (NoteEvent)midiEvent;
-                    if (openNotes.TryGetValue(noteOff.NoteNumber, out int startTime))
+                    else if (midiEvent.CommandCode == MidiCommandCode.NoteOff)
                     {
-                        notes.Add(new Dictionary<string, int>
+                        var noteOff = (NoteEvent)midiEvent;
+                        if (openNotes.TryGetValue(noteOff.NoteNumber, out int startTime))
+                        {
+                            notes.Add(new Dictionary<string, int>
                         {
                             { "notenumber", noteOff.NoteNumber },
                             { "start", startTime },
                             { "end", (int)noteOff.AbsoluteTime }
                         });
-                        openNotes.Remove(noteOff.NoteNumber);
+                            openNotes.Remove(noteOff.NoteNumber);
+                        }
                     }
+                }
+
+                if (notes.Count > 0)
+                {
+                    notes.Sort((a, b) => a["start"].CompareTo(b["start"]));
+                    tracks.Add(new Dictionary<string, object> { { "notes", notes } });
                 }
             }
 
-            if (notes.Count > 0)
-            {
-                notes.Sort((a, b) => a["start"].CompareTo(b["start"]));
-                tracks.Add(new Dictionary<string, object> { { "notes", notes } });
-            }
-        }
-
-        var jsonSong = new Dictionary<string, object>
+            var jsonSong = new Dictionary<string, object>
         {
             { "name", Path.GetFileNameWithoutExtension(midiFilePath) },
             { "tracks", tracks }
         };
 
-        foreach (var midiEvent in midiFile.Events[0])
-        {
-            if (midiEvent is TempoEvent tempoEvent)
+            foreach (var midiEvent in midiFile.Events[0])
             {
-                jsonSong["tempo"] = (int)tempoEvent.Tempo;
-                break;
+                if (midiEvent is TempoEvent tempoEvent)
+                {
+                    jsonSong["tempo"] = (int)tempoEvent.Tempo;
+                    break;
+                }
             }
+
+            string jsonOutputPath = Path.Combine("./", Path.GetFileNameWithoutExtension(midiFilePath) + ".json");
+            Directory.CreateDirectory(Path.GetDirectoryName(jsonOutputPath));
+            File.WriteAllText(jsonOutputPath, JsonConvert.SerializeObject(jsonSong, Newtonsoft.Json.Formatting.Indented));
+
+            Console.WriteLine("MIDI data successfully written to " + jsonOutputPath);
         }
 
-        string jsonOutputPath = Path.Combine("./", Path.GetFileNameWithoutExtension(midiFilePath) + ".json");
-        Directory.CreateDirectory(Path.GetDirectoryName(jsonOutputPath));
-        File.WriteAllText(jsonOutputPath, JsonConvert.SerializeObject(jsonSong, Newtonsoft.Json.Formatting.Indented));
-
-        Console.WriteLine("MIDI data successfully written to " + jsonOutputPath);
-    }
-
-    //写出的json格式和python的一样
-    void ReadMidi2(string midiFilePath)
-    {
-        var midiFile = new MidiFile(midiFilePath, false);
-        //var tracks = new List<Dictionary<string, object>>();
-        CustomTrack customTrack = new CustomTrack();
-        jSong = new JsonSong();
-        jSong.Name = Path.GetFileNameWithoutExtension(midiFilePath);
-
-        Debug.Log("TrackCount: "+midiFile.Events.Tracks);
-
-        foreach (var track in midiFile.Events)
+        //写出的json格式和python的一样
+        void ReadMidi2(string midiFilePath)
         {
-            List<CustomNote> notes = new List<CustomNote>();
-            Dictionary<int, int> openNotes = new Dictionary<int, int>();
+            var midiFile = new MidiFile(midiFilePath, false);
+            //var tracks = new List<Dictionary<string, object>>();
+            CustomTrack customTrack = new CustomTrack();
+            jSong = new JsonSong();
+            jSong.Name = Path.GetFileNameWithoutExtension(midiFilePath);
 
-            foreach (var midiEvent in track)
+            Debug.Log("TrackCount: " + midiFile.Events.Tracks);
+
+            foreach (var track in midiFile.Events)
             {
-                if (midiEvent.CommandCode == MidiCommandCode.NoteOn)
+                List<CustomNote> notes = new List<CustomNote>();
+                Dictionary<int, int> openNotes = new Dictionary<int, int>();
+
+                foreach (var midiEvent in track)
                 {
-                    var noteOn = (NoteOnEvent)midiEvent;
-                    if (noteOn.Velocity > 0)
+                    if (midiEvent.CommandCode == MidiCommandCode.NoteOn)
                     {
-                        openNotes[noteOn.NoteNumber] = (int)noteOn.AbsoluteTime;
-                    }
-                    else
-                    {
-                        if (openNotes.TryGetValue(noteOn.NoteNumber, out int startTime))
+                        var noteOn = (NoteOnEvent)midiEvent;
+                        if (noteOn.Velocity > 0)
                         {
-                            notes.Add(new CustomNote(noteOn.NoteNumber, startTime, (int)noteOn.AbsoluteTime));
+                            openNotes[noteOn.NoteNumber] = (int)noteOn.AbsoluteTime;
+                        }
+                        else
+                        {
+                            if (openNotes.TryGetValue(noteOn.NoteNumber, out int startTime))
+                            {
+                                notes.Add(new CustomNote(noteOn.NoteNumber, startTime, (int)noteOn.AbsoluteTime));
+                                //    notes.Add(new Dictionary<string, int>
+                                //{
+                                //    { "notenumber", noteOn.NoteNumber },
+                                //    { "start", startTime },
+                                //    { "end", (int)noteOn.AbsoluteTime }
+                                //});
+                                openNotes.Remove(noteOn.NoteNumber);
+                            }
+                        }
+                    }
+                    else if (midiEvent.CommandCode == MidiCommandCode.NoteOff)
+                    {
+                        NoteEvent noteOff = (NoteEvent)midiEvent;
+                        if (openNotes.TryGetValue(noteOff.NoteNumber, out int startTime))
+                        {
+                            notes.Add(new CustomNote(noteOff.NoteNumber, startTime, (int)noteOff.AbsoluteTime));
+
                             //    notes.Add(new Dictionary<string, int>
                             //{
-                            //    { "notenumber", noteOn.NoteNumber },
+                            //    { "notenumber", noteOff.NoteNumber },
                             //    { "start", startTime },
-                            //    { "end", (int)noteOn.AbsoluteTime }
+                            //    { "end", (int)noteOff.AbsoluteTime }
                             //});
-                            openNotes.Remove(noteOn.NoteNumber);
+                            openNotes.Remove(noteOff.NoteNumber);
                         }
                     }
                 }
-                else if (midiEvent.CommandCode == MidiCommandCode.NoteOff)
-                {
-                    NoteEvent noteOff = (NoteEvent)midiEvent;
-                    if (openNotes.TryGetValue(noteOff.NoteNumber, out int startTime))
-                    {
-                        notes.Add(new CustomNote(noteOff.NoteNumber, startTime, (int)noteOff.AbsoluteTime));
 
-                        //    notes.Add(new Dictionary<string, int>
-                        //{
-                        //    { "notenumber", noteOff.NoteNumber },
-                        //    { "start", startTime },
-                        //    { "end", (int)noteOff.AbsoluteTime }
-                        //});
-                        openNotes.Remove(noteOff.NoteNumber);
-                    }
+                if (notes.Count > 0)
+                {
+                    notes.Sort((a, b) => a.StartTime.CompareTo(b.StartTime));
+                    customTrack.Notes = notes;
+                    jSong.Tracks.Add(customTrack);
+                    //tracks.Add(new Dictionary<string, object> { { "notes", notes } });
                 }
             }
 
-            if (notes.Count > 0)
+            //    var jsonSong = new Dictionary<string, object>
+            //{
+            //    { "name", Path.GetFileNameWithoutExtension(midiFilePath) },
+            //    { "tracks", tracks }
+            //};
+
+            foreach (var midiEvent in midiFile.Events[0])
             {
-                notes.Sort((a, b) => a.StartTime.CompareTo(b.StartTime));
-                customTrack.Notes = notes;
-                jSong.Tracks.Add(customTrack);
-                //tracks.Add(new Dictionary<string, object> { { "notes", notes } });
+                if (midiEvent is TempoEvent tempoEvent)
+                {
+                    //jsonSong["tempo"] = (int)tempoEvent.Tempo;
+                    jSong.Tempo = (int)tempoEvent.Tempo;
+                    break;
+                }
             }
+
+            string jsonOutputPath = Path.Combine("./", Path.GetFileNameWithoutExtension(midiFilePath) + ".json");
+            Directory.CreateDirectory(Path.GetDirectoryName(jsonOutputPath));
+            File.WriteAllText(jsonOutputPath, JsonConvert.SerializeObject(jSong, Formatting.Indented));
+
+            Console.WriteLine("MIDI data successfully written to " + jsonOutputPath);
         }
 
-        //    var jsonSong = new Dictionary<string, object>
-        //{
-        //    { "name", Path.GetFileNameWithoutExtension(midiFilePath) },
-        //    { "tracks", tracks }
-        //};
-
-        foreach (var midiEvent in midiFile.Events[0])
-        {
-            if (midiEvent is TempoEvent tempoEvent)
-            {
-                //jsonSong["tempo"] = (int)tempoEvent.Tempo;
-                jSong.Tempo = (int)tempoEvent.Tempo;
-                break;
-            }
-        }
-
-        string jsonOutputPath = Path.Combine("./", Path.GetFileNameWithoutExtension(midiFilePath) + ".json");
-        Directory.CreateDirectory(Path.GetDirectoryName(jsonOutputPath));
-        File.WriteAllText(jsonOutputPath, JsonConvert.SerializeObject(jSong, Formatting.Indented));
-
-        Console.WriteLine("MIDI data successfully written to " + jsonOutputPath);
     }
 
-}
-
-public class CustomNote
-{
-    [JsonProperty(Order = 2)]
-    public int NoteNumber = 0;
-    [JsonProperty(Order = 3)]
-    public long StartTime = 0;
-    [JsonProperty(Order = 1)]
-    public long EndTime = 0;
-    public CustomNote(int _noteNum, long _start, long _end)
+    public class CustomNote
     {
-        NoteNumber = _noteNum;
-        StartTime = _start;
-        EndTime = _end;
+        [JsonProperty(Order = 2)]
+        public int NoteNumber = 0;
+        [JsonProperty(Order = 3)]
+        public long StartTime = 0;
+        [JsonProperty(Order = 1)]
+        public long EndTime = 0;
+        public CustomNote(int _noteNum, long _start, long _end)
+        {
+            NoteNumber = _noteNum;
+            StartTime = _start;
+            EndTime = _end;
+        }
     }
-}
 
-public class CustomTrack
-{
-    public List<CustomNote> Notes = new List<CustomNote>();
-}
+    public class CustomTrack
+    {
+        public List<CustomNote> Notes = new List<CustomNote>();
+    }
 
-public class JsonSong
-{
-    public string Name = "";
-    public List<CustomTrack> Tracks = new List<CustomTrack>();
-    public int Tempo = 0;
+    public class JsonSong
+    {
+        public string Name = "";
+        public List<CustomTrack> Tracks = new List<CustomTrack>();
+        public int Tempo = 0;
 
+    }
 }
