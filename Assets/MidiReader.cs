@@ -215,6 +215,46 @@ namespace CustomMidiReader
             Console.WriteLine("MIDI data successfully written to " + jsonOutputPath);
         }
 
+        // 基础时值，假设四分音符的时值为1.0
+        private const float BaseDuration = 1.0f;
+
+         void ReadJianPu()
+        {
+            string jianpu = "1- 2 3. 4 5 6- 7";
+            List<float> durations = GetDurationsFromJianpu(jianpu);
+
+            // 打印每个音符的时值
+            for (int i = 0; i < durations.Count; i++)
+            {
+                Console.WriteLine($"音符 {i + 1} 的时值: {durations[i]}");
+            }
+        }
+
+        public static List<float> GetDurationsFromJianpu(string jianpu)
+        {
+            List<float> durations = new List<float>();
+            string[] notes = jianpu.Split(' ');
+
+            foreach (var note in notes)
+            {
+                float duration = BaseDuration;
+
+                // 检查是否有延长符号
+                if (note.Contains('-'))
+                {
+                    duration *= 2;
+                }
+                if (note.Contains('.'))
+                {
+                    duration *= 1.5f;
+                }
+
+                durations.Add(duration);
+            }
+
+            return durations;
+        }
+
     }
 
     public class CustomNote

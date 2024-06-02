@@ -92,7 +92,10 @@ public class PianoKeyController : MonoBehaviour
 				PianoKey pianoKey = PianoKeysParent.GetChild(i).GetComponent<PianoKey>();
 				
 				keyAudioSource.clip = Notes[count];
-				PianoNotes.Add(KeyString(count + Array.IndexOf(_keyIndex, StartKey)), pianoKey);
+				string keyName = KeyString(count + Array.IndexOf(_keyIndex, StartKey));
+                //keyName: B8, pianoKey:PianoKey.087
+                Debug.Log($"keyName: {keyName}, pianoKey:{pianoKey.gameObject.name}");
+				PianoNotes.Add(keyName, pianoKey);
 				pianoKey.PianoKeyController = this;
 				
 				count++;

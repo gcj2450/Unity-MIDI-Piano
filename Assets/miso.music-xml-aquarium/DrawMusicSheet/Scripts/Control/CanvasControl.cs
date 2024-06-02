@@ -9,7 +9,7 @@ namespace control
 {
     public class CanvasControl : MonoBehaviour
     {
-        private string fileName = "Assets/miso.music-xml-aquarium/Materials/MusicXml/青蛙和蜜蜂.xml";
+        private string fileName = "Assets/miso.music-xml-aquarium/Materials/MusicXml/上春山完整版.xml";
         private CommonParams _commonParams = CommonParams.GetInstance();
 
         private GameObject _prefabSymbol;
@@ -52,7 +52,11 @@ namespace control
             ScoreGenerator scoreGenerator =
                 new ScoreGenerator(xmlFacade.GetBeat().GetBeats(), xmlFacade.GetBeat().GetBeatType());
             List<List<Measure>> scoreList = scoreGenerator.Generate(xmlFacade.GetMeasureList(), Screen.width - 67);
-
+            Debug.Log($"scoreList: {scoreList.Count}");
+            foreach (var item in scoreList)
+            {
+                Debug.Log($"item.Count: {item.Count}");
+            }
             // 准备绘制乐谱对象及其他参数
             GameObject parentObject = GameObject.Find("Canvas_Score");
             List<float> screenSize = new List<float>();
