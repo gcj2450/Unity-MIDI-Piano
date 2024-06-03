@@ -93,8 +93,8 @@ public class PianoKeyController : MonoBehaviour
 				
 				keyAudioSource.clip = Notes[count];
 				string keyName = KeyString(count + Array.IndexOf(_keyIndex, StartKey));
-                //keyName: B8, pianoKey:PianoKey.087
-                Debug.Log($"keyName: {keyName}, pianoKey:{pianoKey.gameObject.name}");
+				//keyName: B8, pianoKey:PianoKey.087
+                Debug.Log($"count:{count}, keyName: {keyName}, pianoKey:{pianoKey.gameObject.name}");
 				PianoNotes.Add(keyName, pianoKey);
 				pianoKey.PianoKeyController = this;
 				
@@ -121,6 +121,17 @@ public class PianoKeyController : MonoBehaviour
 		else
 			SustainPedal.localRotation = Quaternion.Lerp(Quaternion.Euler(PedalPressedAngle, 0, 0), Quaternion.Euler(PedalReleasedAngle, 0, 0), _sustainPedalLerp);
 	}
+
+    /// <summary>
+    /// 根据钢琴从左到右0-87的键位索引, 获取键名: A1, A#1,C9……
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
+    public string GetKeyName(int id)
+	{
+        string keyName = KeyString(id + Array.IndexOf(_keyIndex, StartKey));
+		return keyName;
+    }
 
 	string KeyString (int count)
 	{
