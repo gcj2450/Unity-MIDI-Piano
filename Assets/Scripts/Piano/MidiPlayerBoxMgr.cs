@@ -75,11 +75,12 @@ public class MidiPlayerBoxMgr : MonoBehaviour
         {
             if (PianoKeyCtrller.PianoNotes.ContainsKey(mNote.Note))
             {
-                float xcoord = 0;
-                float ycoord = startPos + (mNote.StartTime / 60);
+                float xcoord =0.12f*PianoKeyCtrller.GetKeyIndex(mNote.Note);
+                float ycoord = startPos - (mNote.StartTime / 60);
                 float zcoord = 0;
-                float len = mNote.Length; //(mNote.EndTime - mNote.StartTime) / 60;
-                Debug.Log($"len: {len}");
+                float len = mNote.Length; 
+                float timeL =(mNote.EndTime - mNote.StartTime) / 60;
+                Debug.Log($"len: {len},time: {timeL}, {len==timeL}");
 
                 if (len < 50 && len > 0)
                 {
