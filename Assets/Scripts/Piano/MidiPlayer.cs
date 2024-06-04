@@ -65,7 +65,7 @@ public class MidiPlayer : MonoBehaviour
 
             while (_noteIndex < MidiNotes.Length && MidiNotes[_noteIndex].StartTime < _timer)
             {
-                if (PianoKeyDetector.PianoNotes.ContainsKey(MidiNotes[_noteIndex].Note))
+                if (PianoKeyDetector.PianoNotes.ContainsKey(MidiNotes[_noteIndex].NoteName))
                 {
                     if (ShowMIDIChannelColours)
                     {
@@ -74,13 +74,13 @@ public class MidiPlayer : MonoBehaviour
                         {
                             color = MIDIChannelColours[MidiNotes[_noteIndex].Channel];
                         }
-                        PianoKeyDetector.PianoNotes[MidiNotes[_noteIndex].Note].Play(color,
+                        PianoKeyDetector.PianoNotes[MidiNotes[_noteIndex].NoteName].Play(color,
                                                                                 MidiNotes[_noteIndex].Velocity,
                                                                                 MidiNotes[_noteIndex].Length,
                                                                                 PianoKeyDetector.MidiPlayer.GlobalSpeed * MIDISongs[_midiIndex].Speed);
                     }
                     else
-                        PianoKeyDetector.PianoNotes[MidiNotes[_noteIndex].Note].Play(MidiNotes[_noteIndex].Velocity,
+                        PianoKeyDetector.PianoNotes[MidiNotes[_noteIndex].NoteName].Play(MidiNotes[_noteIndex].Velocity,
                                                                                 MidiNotes[_noteIndex].Length,
                                                                                 PianoKeyDetector.MidiPlayer.GlobalSpeed * MIDISongs[_midiIndex].Speed);
                 }

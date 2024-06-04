@@ -79,7 +79,7 @@ public class MidiFileInspector
                         var t_note = (NoteOnEvent)midiEvent;
                         MidiNote noteOn = new MidiNote();
 
-                        noteOn.Note = t_note.NoteName;
+                        noteOn.NoteName = t_note.NoteName;
                         noteOn.NoteNumber = t_note.NoteNumber;
                         noteOn.EndTime = t_note.AbsoluteTime + t_note.NoteLength;
                         //noteOn.Channel = t_note.Channel;
@@ -264,7 +264,7 @@ public class MidiFileInspector
     /// </summary>
     /// <param name="currentNoteAbsTime">The absolute note time which will be converted.</param>
     /// <returns></returns>
-    private double GetRealtime(long currentNoteAbsTime)
+    public double GetRealtime(long currentNoteAbsTime)
     {
         var BPM = 120.0;   //As per the MIDI specification, until a tempo change is reached, 120BPM is assumed
         var reldelta = currentNoteAbsTime;   //The number of delta ticks between the delta time being converted and the tempo change immediately at or before it
@@ -327,7 +327,7 @@ public class MidiNote
 {
     public long StartTime;
     public int Channel;
-    public string Note;
+    public string NoteName;
     public int NoteNumber;
     public long EndTime;
 
@@ -344,7 +344,7 @@ public class MidiNote
     {
         StartTime = startTime;
         Channel = channel;
-        Note = note;
+        NoteName = note;
         Length = length;
         Velocity = velocity;
     }

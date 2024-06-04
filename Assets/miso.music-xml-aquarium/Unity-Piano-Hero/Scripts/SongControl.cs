@@ -42,11 +42,11 @@ public class SongControl : MonoBehaviour
 
         foreach (MidiNote n in curMidiNotes)
         {
-            if (PianoKeyCtrller.PianoNotes.ContainsKey(n.Note))
+            if (PianoKeyCtrller.PianoNotes.ContainsKey(n.NoteName))
             {
-                float xcoord = PianoKeyCtrller.PianoNotes[n.Note].gameObject.transform.position.x;
+                float xcoord = PianoKeyCtrller.PianoNotes[n.NoteName].gameObject.transform.position.x;
                 float ycoord = startPos + (n.StartTime / 60);
-                float zcoord = PianoKeyCtrller.PianoNotes[n.Note].gameObject.transform.position.z;
+                float zcoord = PianoKeyCtrller.PianoNotes[n.NoteName].gameObject.transform.position.z;
                 float len = (n.EndTime - n.StartTime) / 60;
 
                 if (len < 50 && len > 0)
