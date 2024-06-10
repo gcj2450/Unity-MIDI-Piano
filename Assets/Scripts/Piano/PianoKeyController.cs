@@ -70,7 +70,10 @@ public class PianoKeyController : MonoBehaviour
     public string Regex;
 
 	public Dictionary<string, PianoKey> PianoNotes = new Dictionary<string, PianoKey>();
-
+	/// <summary>
+	/// 从左到右的键名
+	/// </summary>
+	private List<string> KeyNames = new List<string>();
 	private readonly string[] _keyIndex = new string[12] { "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B" };
 
 	void Awake ()
@@ -93,10 +96,12 @@ public class PianoKeyController : MonoBehaviour
 				
 				keyAudioSource.clip = Notes[count];
 				string keyName = KeyString(count + Array.IndexOf(_keyIndex, StartKey));
-                //keyName: B8, pianoKey:PianoKey.087
-                Debug.Log($"keyName: {keyName}, pianoKey:{pianoKey.gameObject.name}");
+				//keyName: B8, pianoKey:PianoKey.087
+                //Debug.Log($"count:{count}, keyName: {keyName}, pianoKey:{pianoKey.gameObject.name}");
 				PianoNotes.Add(keyName, pianoKey);
-				pianoKey.PianoKeyController = this;
+				KeyNames.Add(keyName);
+
+                pianoKey.PianoKeyController = this;
 				
 				count++;
 			}
@@ -120,6 +125,32 @@ public class PianoKeyController : MonoBehaviour
 			SustainPedal.localRotation = Quaternion.Lerp(Quaternion.Euler(PedalReleasedAngle, 0, 0), Quaternion.Euler(PedalPressedAngle, 0, 0), _sustainPedalLerp);
 		else
 			SustainPedal.localRotation = Quaternion.Lerp(Quaternion.Euler(PedalPressedAngle, 0, 0), Quaternion.Euler(PedalReleasedAngle, 0, 0), _sustainPedalLerp);
+	}
+
+    /// <summary>
+    /// 根据钢琴从左到右0-87的键位索引, 获取键名: A1, A#1,C9……
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
+    public string GetKeyName(int id)
+	{
+        string keyName = KeyString(id + Array.IndexOf(_keyIndex, StartKey));
+		return keyName;
+    }
+
+	/// <summary>
+	/// 根据键名获取索引值
+	/// </summary>
+	/// <param name="_keyName"></param>
+	/// <returns></returns>
+	public int GetKeyIndex(string _keyName)
+	{
+		if (KeyNames.Contains(_keyName))
+		{
+			return KeyNames.IndexOf(_keyName);
+		}
+		else
+			return -1;
 	}
 
 	string KeyString (int count)

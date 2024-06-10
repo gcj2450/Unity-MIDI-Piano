@@ -17,6 +17,9 @@ using Formatting = Newtonsoft.Json.Formatting;
 
 namespace CustomMidiReader
 {
+    /// <summary>
+    /// 读取Midi文件存储为json格式
+    /// </summary>
     public class MidiReader : MonoBehaviour
     {
         public JsonSong jSong;

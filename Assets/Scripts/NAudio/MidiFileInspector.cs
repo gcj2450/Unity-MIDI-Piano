@@ -5,6 +5,17 @@ using System.Linq;
 using System.Collections.Generic;
 using NAudio.Midi;
 
+/*
+ * MIDI文件的时间格式通常有两种类型：
+Ticks per beat (PPQ - Pulses Per Quarter note)：
+这种格式使用每四分音符的ticks数来表示时间。
+AbsoluteTime表示自文件开始以来的ticks数。
+SMPTE (Society of Motion Picture and Television Engineers) timecode：
+这种格式使用帧和子帧来表示时间。
+要将AbsoluteTime转换为秒，首先需要了解MIDI文件的时间格式。如果MIDI文件是以PPQ格式存储的，你需要以下信息进行换算：
+Ticks per quarter note (PPQ)：可以从MIDI文件的头部（header chunk）中获取。
+Tempo (微秒/每四分音符)：可以从MIDI文件的SetTempo事件中获取。
+ */
 public class MidiFileInspector
 {
     public MidiFile MidiFile;
@@ -68,7 +79,7 @@ public class MidiFileInspector
                         var t_note = (NoteOnEvent)midiEvent;
                         MidiNote noteOn = new MidiNote();
 
-                        noteOn.Note = t_note.NoteName;
+                        noteOn.NoteName = t_note.NoteName;
                         noteOn.NoteNumber = t_note.NoteNumber;
                         noteOn.EndTime = t_note.AbsoluteTime + t_note.NoteLength;
                         //noteOn.Channel = t_note.Channel;
@@ -253,7 +264,7 @@ public class MidiFileInspector
     /// </summary>
     /// <param name="currentNoteAbsTime">The absolute note time which will be converted.</param>
     /// <returns></returns>
-    private double GetRealtime(long currentNoteAbsTime)
+    public double GetRealtime(long currentNoteAbsTime)
     {
         var BPM = 120.0;   //As per the MIDI specification, until a tempo change is reached, 120BPM is assumed
         var reldelta = currentNoteAbsTime;   //The number of delta ticks between the delta time being converted and the tempo change immediately at or before it
@@ -267,6 +278,37 @@ public class MidiFileInspector
         time += ((double)reldelta / MidiFile.DeltaTicksPerQuarterNote) * (60000.0 / BPM);
         return Math.Round(time / 1000.0, 5);
     }
+
+    ///// <summary>
+    ///// ChatGpt给出的解析时间的方法
+    ///// </summary>
+    //void CalculateNoteTimeInSeconds()
+    //{
+    //    int ticksPerQuarterNote = MidiFile.DeltaTicksPerQuarterNote;
+    //    int tempo = 500000; // 默认值为120 BPM
+
+    //    foreach (var track in MidiFile.Events)
+    //    {
+    //        foreach (var midiEvent in track)
+    //        {
+    //            if (midiEvent is NAudio.Midi.TempoEvent tempoEvent)
+    //            {
+    //                tempo = tempoEvent.MicrosecondsPerQuarterNote;
+    //                break;
+    //            }
+    //        }
+    //    }
+
+    //    foreach (var track in MidiFile.Events)
+    //    {
+    //        foreach (var midiEvent in track)
+    //        {
+    //            long absoluteTime = midiEvent.AbsoluteTime;
+    //            double seconds = (absoluteTime * tempo) / (ticksPerQuarterNote * 1000000.0);
+    //            Debug.Log($"Event at {absoluteTime} ticks is at {seconds} seconds");
+    //        }
+    //    }
+    //}
 
     /// <summary>
     /// Helper class needed for storing tempo events
@@ -285,7 +327,7 @@ public class MidiNote
 {
     public long StartTime;
     public int Channel;
-    public string Note;
+    public string NoteName;
     public int NoteNumber;
     public long EndTime;
 
@@ -302,7 +344,7 @@ public class MidiNote
     {
         StartTime = startTime;
         Channel = channel;
-        Note = note;
+        NoteName = note;
         Length = length;
         Velocity = velocity;
     }
