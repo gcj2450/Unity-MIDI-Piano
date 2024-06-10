@@ -1,0 +1,4 @@
+RhythmosEditor - Configuration
+
+LastRhythmosDatabaseFile: Assets/RhythmosEngine/Resources/RhythmosDatabase.xml
+MetronomeSound: none

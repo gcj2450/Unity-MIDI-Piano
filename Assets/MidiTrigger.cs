@@ -1,17 +1,40 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// 移动的过程中，碰到带有Note的物体，播放Note的音符
+/// </summary>
 public class MidiTrigger : MonoBehaviour
 {
     public PianoKeyController PianoKeyCtrller;
     bool isMove = false;
-    [Range(0.2f,10)]
-    public float speed = 1;
+    /// <summary>
+    /// 移动速度
+    /// </summary>
+    float speed = 1;
+
+    public MidiPlayerBoxMgr boxMgr;
+
+    /// <summary>
+    /// 移动方向
+    /// </summary>
+    Vector3 moveDir=new Vector3(1,0,0);
     // Start is called before the first frame update
     void Start()
     {
-        
+        speed = boxMgr.MoveSpeed;
+        switch (boxMgr.NoteMoveDir)
+        {
+            case NoteMoveDirection.Vertical:
+                moveDir = new Vector3(0, -1, 0);
+                break;
+            case NoteMoveDirection.Horizontal:
+                moveDir = new Vector3(1, 0, 0);
+                break;
+            default:
+                break;
+        }
+        transform.localPosition = boxMgr.startPos;
     }
 
     // Update is called once per frame
@@ -23,8 +46,8 @@ public class MidiTrigger : MonoBehaviour
         }
         if (isMove)
         {
-            transform.position += new Vector3(1, -1, 0) * Time.deltaTime * speed;
-        }   
+            transform.position += moveDir * Time.deltaTime * speed;
+        }
     }
 
     //void OnCollisionEnter(Collision collision)
@@ -37,8 +60,12 @@ public class MidiTrigger : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("OnTriggerEnter:"+other.gameObject.name);
-        MidiNote curNote = other.gameObject.GetComponent<NoteBoxModel>().curNote;
+        //Debug.Log("OnTriggerEnter:"+other.gameObject.name);
+        if (other.transform.parent==null||other.transform.parent.GetComponent<NoteBoxModel>()==null)
+        {
+            return;
+        }
+        MidiNote curNote = other.transform.parent.GetComponent<NoteBoxModel>().curNote;
         PianoKeyCtrller.PianoNotes[curNote.NoteName].Play
             (Color.white, curNote.Velocity, curNote.Length, 1);
     }

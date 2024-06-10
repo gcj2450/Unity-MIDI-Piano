@@ -327,10 +327,19 @@ public class MidiNote
 {
     public long StartTime;
     public int Channel;
+    /// <summary>
+    /// A1,E4这样的名称
+    /// </summary>
     public string NoteName;
+    /// <summary>
+    /// 52，36这样的数字
+    /// </summary>
     public int NoteNumber;
     public long EndTime;
 
+    /// <summary>
+    /// 以秒为单位的真实长度
+    /// </summary>
     public float Length;
     public int Velocity;
     public double Tempo;

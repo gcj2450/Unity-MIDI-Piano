@@ -3,15 +3,15 @@ using UnityEngine;
 
 public class NoteBoxModel : MonoBehaviour
 {
+    public MidiNote curNote;
 
-    private Transform t;
-    private MeshRenderer r;
+    //private Transform t;
+    //private MeshRenderer r;
 
     private float speed;
     private float halfLength;
     private bool hasHit = false;
     private float hitOffset = 0.5f;
-    public MidiNote curNote;
     double tempo = 0;
 
     public void SetNoteNumber(MidiNote _note,double _tempo)

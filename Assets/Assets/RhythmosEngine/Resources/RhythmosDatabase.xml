@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RhythmosDatabase>
+  <NoteList>
+    <NoteEntry>
+      <name>A2</name>
+      <color>RGBA(0.733, 0.786, 0.638, 1.000)</color>
+      <audioclip>Assets/PianoSound/Piano88/German Concert D 021 083.wav</audioclip>
+    </NoteEntry>
+    <NoteEntry>
+      <name>B2</name>
+      <color>RGBA(0.508, 0.712, 0.675, 1.000)</color>
+      <audioclip>Assets/PianoSound/Piano88/German Concert D 022 083.wav</audioclip>
+    </NoteEntry>
+    <NoteEntry>
+      <name>C1</name>
+      <color>RGBA(0.416, 0.712, 0.517, 1.000)</color>
+      <audioclip>Assets/PianoSound/Piano88/German Concert D 023 083.wav</audioclip>
+    </NoteEntry>
+    <NoteEntry>
+      <name>D1</name>
+      <color>RGBA(0.839, 0.534, 0.502, 1.000)</color>
+      <audioclip>Assets/PianoSound/Piano88/German Concert D 024 083.wav</audioclip>
+    </NoteEntry>
+    <NoteEntry>
+      <name>E1</name>
+      <color>RGBA(0.502, 0.775, 0.767, 1.000)</color>
+      <audioclip>Assets/PianoSound/Piano88/German Concert D 025 083.wav</audioclip>
+    </NoteEntry>
+  </NoteList>
+  <RhythmList>
+    <RhythmEntry>
+      <name>New Rhythm 1</name>
+      <bpm>80</bpm>
+      <RhythmSequence>
+        <Note>
+          <rest>False</rest>
+          <duration>1</duration>
+          <layoutIndex>1</layoutIndex>
+        </Note>
+        <Note>
+          <rest>False</rest>
+          <duration>0.5</duration>
+          <layoutIndex>2</layoutIndex>
+        </Note>
+      </RhythmSequence>
+    </RhythmEntry>
+    <RhythmEntry>
+      <name>New Rhythm 2</name>
+      <bpm>80</bpm>
+      <RhythmSequence>
+        <Note>
+          <rest>False</rest>
+          <duration>0.5</duration>
+          <layoutIndex>0</layoutIndex>
+        </Note>
+        <Note>
+          <rest>False</rest>
+          <duration>0.5</duration>
+          <layoutIndex>0</layoutIndex>
+        </Note>
+      </RhythmSequence>
+    </RhythmEntry>
+  </RhythmList>
+</RhythmosDatabase>

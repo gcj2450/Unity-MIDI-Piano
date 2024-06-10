@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010983611684}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010983611684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000010112733440}
+  - component: {fileID: 114000012688796336}
+  m_Layer: 0
+  m_Name: PlayerUtils
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010112733440
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010983611684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000012688796336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010983611684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d57adb5e5cb7084abb30557f89eefba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScreenPrefabs:
+  - {fileID: 111748, guid: aeecd4d650f5d5c4198efbf2791e233c, type: 2}
+  - {fileID: 111748, guid: f7af384474894c84c99bcf712cdc5d8f, type: 2}
+  - {fileID: 111748, guid: 91e0b25f31ed8c341814874a3d0a975d, type: 2}
+  - {fileID: 149308, guid: 8ab1b25dd39d010439524275cd88583e, type: 2}
+  - {fileID: 119214, guid: f172609ba2f0e5e43a01ffdd78ed207d, type: 2}
+  - {fileID: 115424, guid: 72a76b5c4a39b11428ad7d5be9796e99, type: 2}
+  - {fileID: 161180, guid: 61399da53e985d74596bd4d75345f757, type: 2}
+  - {fileID: 114870, guid: 277859218f95bc04089043d84ff209bc, type: 2}
+  - {fileID: 104858, guid: 4d63cdf33e116044097785ff9f99cead, type: 2}
+  - {fileID: 106796, guid: 0845db63228fdbd40ba8f1b0070cb550, type: 2}
+  - {fileID: 154816, guid: 2d66c8a2788cb1d40b3b4d655e08fe04, type: 2}
+  - {fileID: 101904, guid: 2a4ea782884dcff4f8c3d792447bc5d7, type: 2}
+  CurScreenType: 1
+  CurDivideMode: 2
+  CurFlipType: 2
+  curScreen: {fileID: 0}
+  tempScreenType: 0
+  tempDivideMode: 0
