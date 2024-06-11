@@ -18,6 +18,7 @@ public class NoteBoxModel : MonoBehaviour
     {
         curNote = _note;
         tempo = _tempo;
+        gameObject.name = $"{curNote.NoteNumber}_{curNote.NoteName}";
     }
 
     //void Start()

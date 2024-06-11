@@ -124,7 +124,7 @@ public class MidiPlayerBoxMgr : MonoBehaviour
 
                     noteObj.transform.localScale = new Vector3(1, len, 1);
                     noteObj.GetComponent<NoteBoxModel>().SetNoteNumber(mNote, tempo);
-                    noteObj.GetComponentInChildren<MeshRenderer>().material.color =new Color(xCoord/88,1,0);
+                    noteObj.GetComponentInChildren<MeshRenderer>().material.color = new Color(xCoord / 88, 1, 0);
                     break;
                 case NoteMoveDirection.Horizontal:
                     notePrefab = (GameObject)Resources.Load("HorizontalNote", typeof(GameObject));
@@ -138,7 +138,7 @@ public class MidiPlayerBoxMgr : MonoBehaviour
 
                     noteObj.transform.localScale = new Vector3(len, 1, 1);
                     noteObj.GetComponent<NoteBoxModel>().SetNoteNumber(mNote, tempo);
-                    noteObj.GetComponentInChildren<MeshRenderer>().material.color = new Color(1,yCoord / 88, 0); ;
+                    noteObj.GetComponentInChildren<MeshRenderer>().material.color = new Color(1, yCoord / 88, 0);
                     break;
             }
 
@@ -147,59 +147,59 @@ public class MidiPlayerBoxMgr : MonoBehaviour
     }
 
 
-    public GameObject cubePrefab; // 立方体预制件
-    /// <summary>
-    /// ChatGPT给出的解析方法
-    /// </summary>
-    /// <param name="midiFilePath"></param>
-    void StartLoadMidi(string midiFilePath)
-    {
-        if (File.Exists(midiFilePath))
-        {
-            // 读取MIDI文件
-            MidiFile midiFile = new MidiFile(midiFilePath, false);
+    //public GameObject cubePrefab; // 立方体预制件
+    ///// <summary>
+    ///// ChatGPT给出的解析方法
+    ///// </summary>
+    ///// <param name="midiFilePath"></param>
+    //void StartLoadMidi(string midiFilePath)
+    //{
+    //    if (File.Exists(midiFilePath))
+    //    {
+    //        // 读取MIDI文件
+    //        MidiFile midiFile = new MidiFile(midiFilePath, false);
 
-            // 获取PPQ和默认的tempo
-            int ticksPerQuarterNote = midiFile.DeltaTicksPerQuarterNote;
-            int tempo = 500000; // 默认值为120 BPM
-            Debug.Log($"midiFile.Events.Tracks: {midiFile.Events.Tracks}");
-            // 遍历所有轨道和事件，查找TempoEvent
-            foreach (var track in midiFile.Events)
-            {
-                Debug.Log($"track.Count: {track.Count}");
-                foreach (var midiEvent in track)
-                {
-                    if (midiEvent is TempoEvent tempoEvent)
-                    {
-                        tempo = tempoEvent.MicrosecondsPerQuarterNote;
-                        break;
-                    }
-                }
-            }
+    //        // 获取PPQ和默认的tempo
+    //        int ticksPerQuarterNote = midiFile.DeltaTicksPerQuarterNote;
+    //        int tempo = 500000; // 默认值为120 BPM
+    //        Debug.Log($"midiFile.Events.Tracks: {midiFile.Events.Tracks}");
+    //        // 遍历所有轨道和事件，查找TempoEvent
+    //        foreach (var track in midiFile.Events)
+    //        {
+    //            Debug.Log($"track.Count: {track.Count}");
+    //            foreach (var midiEvent in track)
+    //            {
+    //                if (midiEvent is TempoEvent tempoEvent)
+    //                {
+    //                    tempo = tempoEvent.MicrosecondsPerQuarterNote;
+    //                    break;
+    //                }
+    //            }
+    //        }
 
-            // 遍历所有音符事件
-            foreach (var track in midiFile.Events)
-            {
-                foreach (var midiEvent in track)
-                {
-                    if (midiEvent is NoteOnEvent noteOnEvent && noteOnEvent.Velocity > 0)
-                    {
-                        // 计算音符的开始时间和持续时间
-                        double startTime = (noteOnEvent.AbsoluteTime * tempo) / (ticksPerQuarterNote * 1000000.0);
-                        double duration = (noteOnEvent.NoteLength * tempo) / (ticksPerQuarterNote * 1000000.0);
-                        double endTime = duration + startTime;
+    //        // 遍历所有音符事件
+    //        foreach (var track in midiFile.Events)
+    //        {
+    //            foreach (var midiEvent in track)
+    //            {
+    //                if (midiEvent is NoteOnEvent noteOnEvent && noteOnEvent.Velocity > 0)
+    //                {
+    //                    // 计算音符的开始时间和持续时间
+    //                    double startTime = (noteOnEvent.AbsoluteTime * tempo) / (ticksPerQuarterNote * 1000000.0);
+    //                    double duration = (noteOnEvent.NoteLength * tempo) / (ticksPerQuarterNote * 1000000.0);
+    //                    double endTime = duration + startTime;
 
-                        // 生成立方体
-                        GameObject cube = Instantiate(cubePrefab, new Vector3((float)(startTime), -(float)endTime, PianoKeyCtrller.GetKeyIndex(noteOnEvent.NoteName)), Quaternion.identity);
-                        cube.transform.localScale = new Vector3((float)duration, 1, 1);
-                    }
-                }
-            }
-        }
-        else
-        {
-            Debug.LogError($"MIDI file not found at {midiFilePath}");
-        }
-    }
+    //                    // 生成立方体
+    //                    GameObject cube = Instantiate(cubePrefab, new Vector3((float)(startTime), -(float)endTime, PianoKeyCtrller.GetKeyIndex(noteOnEvent.NoteName)), Quaternion.identity);
+    //                    cube.transform.localScale = new Vector3((float)duration, 1, 1);
+    //                }
+    //            }
+    //        }
+    //    }
+    //    else
+    //    {
+    //        Debug.LogError($"MIDI file not found at {midiFilePath}");
+    //    }
+    //}
 
 }
