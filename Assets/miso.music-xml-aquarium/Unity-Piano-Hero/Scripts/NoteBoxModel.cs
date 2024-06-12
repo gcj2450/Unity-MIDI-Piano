@@ -7,18 +7,34 @@ public class NoteBoxModel : MonoBehaviour
 
     //private Transform t;
     //private MeshRenderer r;
-
     private float speed;
     private float halfLength;
     private bool hasHit = false;
     private float hitOffset = 0.5f;
     double tempo = 0;
-
-    public void SetNoteNumber(MidiNote _note,double _tempo)
+    /// <summary>
+    /// 在当前音乐中的索引值
+    /// </summary>
+    public int id = 0;
+    public Action<NoteBoxModel> onTriggerEnter;
+    public void SetNoteNumber(MidiNote _note,double _tempo,int _id,Action<NoteBoxModel> _onTriggerEnter)
     {
         curNote = _note;
         tempo = _tempo;
+        id = _id;
         gameObject.name = $"{curNote.NoteNumber}_{curNote.NoteName}";
+        onTriggerEnter = _onTriggerEnter;
+    }
+
+    /// <summary>
+    /// Fire Trigger Enter Event
+    /// </summary>
+    public void FireTriggerEnterEvent()
+    {
+        if (onTriggerEnter!=null)
+        {
+            onTriggerEnter(this);
+        }
     }
 
     //void Start()

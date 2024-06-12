@@ -50,6 +50,8 @@ public class MidiPlayerBoxMgr : MonoBehaviour
 
     private GameObject notePrefab;
 
+    List<NoteBoxModel> NoteObjects = new List<NoteBoxModel>();
+
     // Start is called before the first frame update
     void Start()
     {
@@ -66,6 +68,8 @@ public class MidiPlayerBoxMgr : MonoBehaviour
         }
     }
 
+    public GravitySource GravitySrc;
+    public GameObject SphereObj;
     void PlayMidi()
     {
         string _path = $"{Application.streamingAssetsPath}/MIDI/{SongFileNameWithExtension}";
@@ -77,6 +81,9 @@ public class MidiPlayerBoxMgr : MonoBehaviour
         tempo = _midi.GetTempo();
 
         LoadSongToGame(MidiNotes);
+        float xOffset = NoteObjects[0].transform.localScale.x * 0.5f * 5.7518f;
+        SphereObj.transform.localPosition = NoteObjects[0].transform.localPosition + new Vector3(xOffset, 5, 0);
+        GravitySrc.gameObject.SetActive(true);
     }
 
     /// <summary>
@@ -86,29 +93,30 @@ public class MidiPlayerBoxMgr : MonoBehaviour
     /// <param name="_speed"></param>
     public void LoadSongToGame(MidiNote[] _midiNotes)
     {
-        for (int i = 0; i < _midiNotes.Length; i++)
+        for (int id = 0; id < _midiNotes.Length; id++)
         {
-            MidiNote mNote = _midiNotes[i];
+            MidiNote mNote = _midiNotes[id];
             if (PianoKeyCtrller.PianoNotes.ContainsKey(mNote.NoteName))
             {
-                GenertateNoteObject(mNote);
+                GenertateNoteObject(mNote, id);
             }
 
         }
 
     }
 
-    void GenertateNoteObject(MidiNote mNote)
+    void GenertateNoteObject(MidiNote mNote, int _id)
     {
         float xCoord = 0;
         float yCoord = 0;
         float zCoord = 0;
         GameObject noteObj;
         float len = mNote.Length;
+        Vector3 pos;
         //这里的lenR=len;
         //double lenR = _midi.GetRealtime(mNote.EndTime) - _midi.GetRealtime(mNote.StartTime);
 
-        Debug.Log($"NoteName: {mNote.NoteName}, NoteNumber: {mNote.NoteNumber}");
+        //Debug.Log($"NoteName: {mNote.NoteName}, NoteNumber: {mNote.NoteNumber}");
         if (len < 50 && len > 0)
         {
             switch (NoteMoveDir)
@@ -119,12 +127,19 @@ public class MidiPlayerBoxMgr : MonoBehaviour
                     xCoord = PianoKeyCtrller.GetKeyIndex(mNote.NoteName);
                     yCoord = -(float)_midi.GetRealtime(mNote.StartTime) * MoveSpeed;
 
+                    pos = startPos + new Vector3(xCoord, yCoord, zCoord);
                     noteObj = Instantiate(
-                    notePrefab, startPos + new Vector3(xCoord, yCoord, zCoord), Quaternion.identity);
+                    notePrefab, pos, Quaternion.identity);
 
                     noteObj.transform.localScale = new Vector3(1, len, 1);
-                    noteObj.GetComponent<NoteBoxModel>().SetNoteNumber(mNote, tempo);
+                    noteObj.GetComponent<NoteBoxModel>().SetNoteNumber(mNote, tempo, _id, OnNoteTriggerEnter);
                     noteObj.GetComponentInChildren<MeshRenderer>().material.color = new Color(xCoord / 88, 1, 0);
+                    NoteObjects.Add(noteObj.GetComponent<NoteBoxModel>());
+                    //if (_id==0)
+                    //{
+                    //    GenerateSphere(pos + new Vector3(0, 1, 0));
+                    //}
+
                     break;
                 case NoteMoveDirection.Horizontal:
                     notePrefab = (GameObject)Resources.Load("HorizontalNote", typeof(GameObject));
@@ -132,19 +147,62 @@ public class MidiPlayerBoxMgr : MonoBehaviour
                     xCoord = (float)_midi.GetRealtime(mNote.StartTime) * MoveSpeed;
                     //y轴是音符在钢琴键上的索引
                     yCoord = PianoKeyCtrller.GetKeyIndex(mNote.NoteName);
-
+                    pos = startPos + new Vector3(xCoord, yCoord, zCoord);
                     noteObj = Instantiate(
-                    notePrefab, startPos + new Vector3(xCoord, yCoord, zCoord), Quaternion.identity);
+                    notePrefab, pos, Quaternion.identity);
 
                     noteObj.transform.localScale = new Vector3(len, 1, 1);
-                    noteObj.GetComponent<NoteBoxModel>().SetNoteNumber(mNote, tempo);
+                    noteObj.GetComponent<NoteBoxModel>().SetNoteNumber(mNote, tempo, _id, OnNoteTriggerEnter);
                     noteObj.GetComponentInChildren<MeshRenderer>().material.color = new Color(1, yCoord / 88, 0);
+                    NoteObjects.Add(noteObj.GetComponent<NoteBoxModel>());
+                    //if (_id == 0)
+                    //{
+                    //    GenerateSphere(pos + new Vector3(0, 1, 0));
+                    //}
+
                     break;
             }
 
         }
 
     }
+
+    private void OnNoteTriggerEnter(NoteBoxModel model)
+    {
+        //if (isRoll)
+        //{
+        //    other.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        //}
+        //else
+        {
+            SphereObj.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            int nextId = model.id + 1;
+            if (nextId<NoteObjects.Count-1)
+            {
+                //下一个音符的开始时间-当前音符的开始时间+下一个音符的时间长度一半
+                float timeDuration = (float)_midi.GetRealtime(NoteObjects[nextId].curNote.StartTime) - (float)_midi.GetRealtime(model.curNote.StartTime) + NoteObjects[nextId].curNote.Length * 0.5f;
+                float xOffset = NoteObjects[nextId].transform.localScale.x * 0.5f * 5.7518f;    //5.7518f是音符模型的基础长度
+                Vector3 throwForce = MoveUtils.CalculateBestThrowSpeed(SphereObj.transform.position, NoteObjects[nextId].transform.position+new Vector3(xOffset,1f,0), timeDuration);
+                SphereObj.GetComponent<Rigidbody>().AddForce(throwForce, ForceMode.VelocityChange);
+            }
+            else
+            {
+                float timeDuration = 2;
+                float xOffset = 20;    //5.7518f是音符模型的基础长度
+                Vector3 throwForce = MoveUtils.CalculateBestThrowSpeed(SphereObj.transform.position, SphereObj.transform.position + new Vector3(xOffset, 1f, 0), timeDuration);
+                SphereObj.GetComponent<Rigidbody>().AddForce(throwForce, ForceMode.VelocityChange);
+            }
+        }
+    }
+
+    //public GameObject SpherePrefab;
+    //GameObject SphereObj;
+    //void GenerateSphere(Vector3 pos)
+    //{
+    //    SphereObj = GameObject.Instantiate(SpherePrefab);
+    //    SphereObj.transform.localPosition = pos;
+    //    SphereObj.transform.localRotation = Quaternion.identity;
+    //}
 
 
     //public GameObject cubePrefab; // 立方体预制件
