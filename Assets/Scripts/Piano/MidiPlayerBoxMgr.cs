@@ -146,7 +146,7 @@ public class MidiPlayerBoxMgr : MonoBehaviour
                     //x轴是时间戳
                     xCoord = (float)_midi.GetRealtime(mNote.StartTime) * MoveSpeed;
                     //y轴是音符在钢琴键上的索引
-                    yCoord = PianoKeyCtrller.GetKeyIndex(mNote.NoteName);
+                    yCoord = 31;// PianoKeyCtrller.GetKeyIndex(mNote.NoteName);
                     pos = startPos + new Vector3(xCoord, yCoord, zCoord);
                     noteObj = Instantiate(
                     notePrefab, pos, Quaternion.identity);
@@ -193,6 +193,10 @@ public class MidiPlayerBoxMgr : MonoBehaviour
                 SphereObj.GetComponent<Rigidbody>().AddForce(throwForce, ForceMode.VelocityChange);
             }
         }
+
+        PianoKeyCtrller.PianoNotes[model.curNote.NoteName].Play
+            (Color.white, model.curNote.Velocity, model.curNote.Length, 1);
+
     }
 
     //public GameObject SpherePrefab;
